@@ -35,12 +35,12 @@
         <div class="column medium-6 flex intro__content">
 
             <div class="intro__text">
-                <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing
+                <div class="intro__text-content">Lorem ipsum dolor sit amet, consectetur adipiscing
                     elit, sed do eiusmod tempor incididunt ut labore et
                     dolore magna aliqua. Ut enim ad minim veniam, quis
                     nostrud exercitation minum labore tempor.
-                </blockquote>
-                <cite><strong>WE ARE</strong> ZEBRA</cite></div>
+                </div>
+                <div class="intro__text-content-author"><strong>WE ARE</strong> ZEBRA</div></div>
         </div>
 
     </section>
