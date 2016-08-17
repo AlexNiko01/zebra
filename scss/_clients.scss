@@ -1,0 +1,85 @@
+.clients {
+    overflow-x: hidden;
+    h3 {
+        text-transform: uppercase;
+    }
+    &__list {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    &__column {
+        margin-bottom: 20px;
+        padding: 0 10px;
+        cursor: pointer;
+    }
+    &__inner {
+        padding-bottom: 100%;
+        position: relative;
+        background-color: #000;
+    }
+    &__logo {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        max-width: 80%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.testimonials {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    &.shown {
+        z-index: 1;
+        opacity: 1;
+    }
+
+    &__inner {
+        position: absolute;
+        width: 100%;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    &__slider {
+        width: 100%;
+    }
+    &__slide {
+        background-color: #fff;
+        height: 600px;
+        max-height: 90vh;
+        @include flexbox;
+    }
+    &__caption {
+        width: 30%;
+        @include align-self(center);
+    }
+    &__thumbnail {
+        width: 70%;
+        &__holder {
+            height: 100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+    }
+}
+
+.slick-initialized .slick-slide.testimonials__slide {
+    @include flexbox;
+}
+h3.click-title{
+    text-transform: uppercase;
+    font-weight: normal;
+}

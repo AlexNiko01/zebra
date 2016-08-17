@@ -1,0 +1,127 @@
+.header {
+  //position: relative;
+  background-color: #000;
+  padding: 28px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99999;
+  &__container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+}
+
+.logo {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  @include breakpoint(large down) {
+    position: static;
+    transform: translate(0, 0);
+
+  }
+  @include breakpoint(small down) {
+    text-align: left;
+    display: inline-block;
+
+  }
+}
+
+
+.main-menu {
+  font-size: 0;
+  &-right {
+    text-align: right;
+    @include breakpoint(large down) {
+      text-align: left;
+    }
+
+  }
+  &-left{
+    @include breakpoint(large down) {
+      text-align: right;
+
+    }
+    @include  breakpoint(small down){
+      text-align: left;
+    }
+  }
+  &__item {
+    display: inline-block;
+    line-height: 1;
+    &:not(:last-child) {
+      padding-right: 34.5px;
+    }
+    @include  breakpoint(small down){
+      padding: 0 0 0 20px;
+      display: block;
+    }
+  }
+  &__link {
+    font-size: 14px;
+    line-height: 1;
+    color: #fff;
+    position: relative;
+    font-family: 'gotham_mediumregular',sans-serif;
+    &:before {
+      display: block;
+      content: '';
+      top: 120%;
+      left: 0;
+      position: absolute;
+      width: 0;
+      height: 2px;
+      background-color: #fff;
+      transition: width 0.1s linear;
+    }
+    &:hover, &:focus {
+      color: #fff;
+      &:before {
+        width: 100%;
+      }
+    }
+    @include  breakpoint(small down){
+      line-height:3;
+    }
+  }
+
+}
+
+.current-menu-item a {
+  color: #fff;
+  font-weight:bold;
+  &:before {
+    width: 100%;
+  }
+}
+
+.top-bar {
+  .toggle-topbar {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top:45px;
+    transform: translate(-50%, -50%);
+
+    @include breakpoint(medium) {
+      display: none;
+    }
+  }
+}
+.navigation{
+
+  @include  breakpoint(small down){
+    display: none;
+    margin-top:20px;
+  }
+  @include  breakpoint(large down){
+    margin-top:20px;
+  }
+}
+
+

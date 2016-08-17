@@ -1,0 +1,98 @@
+.single-office {
+    padding: 40px 0;
+    border-bottom: 2px solid #000;
+    h3, h4 {
+        line-height: 1;
+        text-transform: uppercase;
+    }
+    h4 {
+        font-size: 0.8em;
+        font-weight: 300;
+    }
+    > .row {
+        @include flexbox;
+    }
+    &:nth-child(odd) {
+        > .row, .single-office__gallery {
+            @include flex-direction(row-reverse);
+        }
+        .single-office__gallery__large {
+            margin-left: 0;
+            margin-right: 10px;
+        }
+    }
+    &__gallery {
+        @include flexbox;
+        &__large {
+            width: 70%;
+            margin-left: 10px;
+            .single-office__gallery__item {
+                height: 100%;
+            }
+        }
+        &__small {
+            width: 30%;
+            @include flexbox;
+            @include flex-direction(column);
+            @include justify-content(space-between);
+            .single-office__gallery__item {
+                height: calc(50% - 5px);
+            }
+        }
+        &__item {
+            background-position: center center;
+            background-repeat: no-repeat;
+            -webkit-background-size: cover;
+            background-size: cover;
+        }
+    }
+    &__description {
+        ul {
+            margin: 25px 0;
+            li {
+                font-size: 0.9em;
+                padding-left: 30px;
+                line-height: 1;
+                background-repeat: no-repeat;
+                background-position: left 3px;
+                &:not(:last-child) {
+                    margin-bottom: 20px;
+                }
+                &.address {background-image: url("../img/icons/map-marker.png")}
+                &.phone {background-image: url("../img/icons/phone.png")}
+                &.email {background-image: url("../img/icons/email.png")}
+                p {
+                    line-height: 1;
+                    margin: 0;
+                }
+                a {
+                    color: inherit;
+                }
+            }
+        }
+    }
+}
+
+.btn {
+    display: block;
+    text-align: center;
+    background-color: #000;
+    border: 2px solid #000;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 0.8em;
+    padding: 7px;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    &:hover {
+        background-color: #fff;
+        color: #000;
+    }
+}
+
+.offices-detailed {
+    display: none;
+}
