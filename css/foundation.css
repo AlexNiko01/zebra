@@ -6651,78 +6651,79 @@ ul {
 
 @font-face {
   font-family: 'gotham_boldregular';
-  src: url("/fonts/gotham-bold-webfont.eot");
-  src: url("/fonts/gotham-bold-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/gotham-bold-webfont.woff2") format("woff2"), url("/fonts/gotham-bold-webfont.woff") format("woff"), url("/fonts/gotham-bold-webfont.svg#gotham_boldregular") format("svg");
+  src: url("../fonts/gotham-bold-webfont.eot");
+  src: url("../fonts/gotham-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/gotham-bold-webfont.woff2") format("woff2"), url("../fonts/gotham-bold-webfont.woff") format("woff"), url("../fonts/gotham-bold-webfont.svg#gotham_boldregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'gotham_bookregular';
-  src: url("/fonts/gotham-book-webfont.eot");
-  src: url("/fonts/gotham-book-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/gotham-book-webfont.woff2") format("woff2"), url("/fonts/gotham-book-webfont.woff") format("woff"), url("/fonts/gotham-book-webfont.svg#gotham_bookregular") format("svg");
+  src: url("../fonts/gotham-book-webfont.eot");
+  src: url("../fonts/gotham-book-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/gotham-book-webfont.woff2") format("woff2"), url("../fonts/gotham-book-webfont.woff") format("woff"), url("../fonts/gotham-book-webfont.svg#gotham_bookregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'gotham_bookitalic';
-  src: url("/fonts/gotham-book-italic-webfont.eot");
-  src: url("/fonts/gotham-book-italic-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/gotham-book-italic-webfont.woff2") format("woff2"), url("/fonts/gotham-book-italic-webfont.woff") format("woff"), url("/fonts/gotham-book-italic-webfont.svg#gotham_bookitalic") format("svg");
+  src: url("../fonts/gotham-book-italic-webfont.eot");
+  src: url("../fonts/gotham-book-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/gotham-book-italic-webfont.woff2") format("woff2"), url("../fonts/gotham-book-italic-webfont.woff") format("woff"), url("../fonts/gotham-book-italic-webfont.svg#gotham_bookitalic") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'gotham_lightregular';
-  src: url("/fonts/gotham-light-webfont.eot");
-  src: url("/fonts/gotham-light-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/gotham-light-webfont.woff2") format("woff2"), url("/fonts/gotham-light-webfont.woff") format("woff"), url("/fonts/gotham-light-webfont.svg#gotham_lightregular") format("svg");
+  src: url("../../fonts/gotham-light-webfont.eot");
+  src: url("../../fonts/gotham-light-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/gotham-light-webfont.woff2") format("woff2"), url("../../fonts/gotham-light-webfont.woff") format("woff"), url("../../fonts/gotham-light-webfont.svg#gotham_lightregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'gotham_lightitalic';
-  src: url("/fonts/gotham-light-italic-webfont.eot");
-  src: url("/fonts/gotham-light-italic-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/gotham-light-italic-webfont.woff2") format("woff2"), url("/fonts/gotham-light-italic-webfont.woff") format("woff"), url("/fonts/gotham-light-italic-webfont.svg#gotham_lightitalic") format("svg");
+  src: url("../fonts/gotham-light-italic-webfont.eot");
+  src: url("../fonts/gotham-light-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/gotham-light-italic-webfont.woff2") format("woff2"), url("../fonts/gotham-light-italic-webfont.woff") format("woff"), url("../fonts/gotham-light-italic-webfont.svg#gotham_lightitalic") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'gotham_mediumregular';
-  src: url("/fonts/gotham-medium-webfont.eot");
-  src: url("/fonts/gotham-medium-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/gotham-medium-webfont.woff2") format("woff2"), url("/fonts/gotham-medium-webfont.woff") format("woff"), url("/fonts/gotham-medium-webfont.svg#gotham_mediumregular") format("svg");
+  src: url("../../fonts/gotham-medium-webfont.eot");
+  src: url("../../fonts/gotham-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/gotham-medium-webfont.woff2") format("woff2"), url("../../fonts/gotham-medium-webfont.woff") fomat("woff"), url("../../fonts/gotham-medium-webfont.svg#gotham_mediumregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'jaapokkiregular';
-  src: url("/fonts/jaapokki-regular-webfont.eot");
-  src: url("/fonts/jaapokki-regular-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/jaapokki-regular-webfont.woff2") format("woff2"), url("/fonts/jaapokki-regular-webfont.woff") format("woff"), url("/fonts/jaapokki-regular-webfont.svg#jaapokkiregular") format("svg");
+  src: url("../fonts/jaapokki-regular-webfont.eot");
+  src: url("../fonts/jaapokki-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/jaapokki-regular-webfont.woff2") format("woff2"), url("../fonts/jaapokki-regular-webfont.woff") format("woff"), url("../fonts/jaapokki-regular-webfont.svg#jaapokkiregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'open_sansbold';
-  src: url("/fonts/open-sans.bold-webfont.eot");
-  src: url("/fonts/open-sans.bold-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/open-sans.bold-webfont.woff2") format("woff2"), url("/fonts/open-sans.bold-webfont.woff") format("woff"), url("/fonts/open-sans.bold-webfont.svg#open_sansbold") format("svg");
+  src: url("../fonts/open-sans.bold-webfont.eot");
+  src: url("../fonts/open-sans.bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/open-sans.bold-webfont.woff2") format("woff2"), url("../fonts/open-sans.bold-webfont.woff") format("woff"), url("../fonts/open-sans.bold-webfont.svg#open_sansbold") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'open_sansregular';
-  src: url("/fonts/open-sans.regular-webfont.eot");
-  src: url("/fonts/open-sans.regular-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/open-sans.regular-webfont.woff2") format("woff2"), url("/fonts/open-sans.regular-webfont.woff") format("woff"), url("/fonts/open-sans.regular-webfont.svg#open_sansregular") format("svg");
+  src: url("../fonts/open-sans.regular-webfont.eot");
+  src: url("../fonts/open-sans.regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/open-sans.regular-webfont.woff2") format("woff2"), url("../fonts/open-sans.regular-webfont.woff") format("woff"), url("../fonts/open-sans.regular-webfont.svg#open_sansregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'open_sanssemibold';
-  src: url("/fonts/opensans-semibold-webfont.eot");
-  src: url("/fonts/opensans-semibold-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/opensans-semibold-webfont.woff2") format("woff2"), url("/fonts/opensans-semibold-webfont.woff") format("woff"), url("/fonts/opensans-semibold-webfont.svg#open_sanssemibold") format("svg");
+  src: url("../fonts/opensans-semibold-webfont.eot");
+  src: url("../fonts/opensans-semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-semibold-webfont.woff2") format("woff2"), url("../fonts/opensans-semibold-webfont.woff") format("woff"), url("../fonts/opensans-semibold-webfont.svg#open_sanssemibold") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 blockquote, blockquote p {
-  line-height: 1.6;
+  line-height: 1.3;
   color: inherit;
-  border-left: none; }
+  border-left: none;
+  padding: 0; }
 
 cite {
   display: block;
@@ -6801,7 +6802,7 @@ cite {
     top: 50%;
     left: 0;
     right: 0;
-    z-index: 999;
+    z-index: 1;
     width: 100%;
     text-align: center;
     font-weight: normal;
@@ -6860,18 +6861,23 @@ cite {
       .intro-video__close:focus {
         outline: none; }
   .intro__content {
+    display: -moz-flex;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: center;
-        justify-content: center;
+    -js-display: flex;
     -ms-flex-align: center;
-        align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    -moz-justify-content: center;
+    justify-content: center;
     height: 343px; }
   .intro__text {
     padding: 20px 75px;
     line-height: 1.35; }
     .intro__text-content-author {
-      position: relative; }
+      position: relative;
+      margin-top: 30px; }
       .intro__text-content-author:before {
         position: absolute;
         content: '--';
@@ -7056,19 +7062,9 @@ cite {
       outline: none; }
 
 .pp-post__logo {
-  background-repeat: no-repeat;
-  background-position: 50% calc(100% - 37px);
   position: absolute;
   right: 40px;
-  z-index: 9999999999999;
-  bottom: 40px;
-  text-transform: uppercase;
-  padding: 225px 44px 0 40px;
-  width: 200px;
-  text-align: center;
-  color: #fff;
-  font-size: 14px;
-  font-family: 'gotham_mediumregular', sans-serif; }
+  bottom: 40px; }
 
 .pp-post__img {
   position: relative;
@@ -7291,13 +7287,19 @@ cite {
 
 .clients {
   overflow-x: hidden; }
+  .clients__company {
+    font-family: 'gotham_mediumregular', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20px; }
+  .clients__content {
+    line-height: 1; }
   .clients__click-title {
     text-transform: uppercase;
     font-size: 15px;
-    font-family: 'gotham_lightregular',sans-serif;
+    font-family: 'gotham_lightregular', sans-serif;
     margin: 14px 0 20px; }
   .clients__click-sub-title {
-    font-family: 'gotham_boldregular',sans-serif; }
+    font-family: 'gotham_boldregular', sans-serif; }
   .clients__list {
     margin-left: -10px;
     margin-right: -10px; }
@@ -7308,13 +7310,44 @@ cite {
   .clients__inner {
     padding-bottom: 100%;
     position: relative;
-    background-color: #000; }
+    background-color: #000;
+    overflow: hidden; }
   .clients__logo {
     position: absolute;
     top: 50%;
     left: 50%;
     max-width: 80%;
     transform: translate(-50%, -50%); }
+  .clients__hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -js-display: flex;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    -moz-justify-content: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    transition: all 0.3s linear; }
+
+.clients__inner:hover .clients__hover {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -o-transform: translateY(0);
+  transition: all 0.3s linear; }
 
 .testimonials {
   position: fixed;
@@ -7331,31 +7364,42 @@ cite {
     opacity: 1; }
   .testimonials__inner {
     position: absolute;
-    width: 100%;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%); }
+    transform: translate(-50%, -50%);
+    max-width: 95%;
+    width: 1200px; }
   .testimonials__slider {
     width: 100%; }
   .testimonials__slide {
-    background-color: #fff;
-    height: 600px;
-    max-height: 90vh;
-    display: -moz-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -js-display: flex; }
+    background-color: #fff; }
   .testimonials__caption {
-    width: 30%;
-    -ms-flex-item-align: center;
-    align-self: center; }
-  .testimonials__thumbnail {
-    width: 70%; }
-    .testimonials__thumbnail__holder {
-      height: 100%;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center center; }
+    position: relative;
+    padding: 40px 50px;
+    font-size: 16px;
+    line-height: 1.15;
+    font-family: 'gotham_bookitalic', sans-serif; }
+    .testimonials__caption__content {
+      text-align: justify;
+      position: relative; }
+      .testimonials__caption__content:before, .testimonials__caption__content:after {
+        position: absolute; }
+      .testimonials__caption__content:before {
+        content: '"';
+        left: 50px;
+        top: 7px; }
+      .testimonials__caption__content:after {
+        content: '"'; }
+    .testimonials__caption__author:before {
+      content: '';
+      height: 2px;
+      width: 100%;
+      background-color: #000; }
+  .testimonials__thumbnail__holder {
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; }
 
 .slick-initialized .slick-slide.testimonials__slide {
   display: -moz-flex;
@@ -7366,6 +7410,10 @@ cite {
 h3.click-title {
   text-transform: uppercase;
   font-weight: normal; }
+
+@media all and (max-width: 1024px) {
+  .testimonials__caption {
+    font-size: 13px; } }
 
 .single-office {
   padding: 40px 0;
@@ -7454,6 +7502,40 @@ h3.click-title {
 
 .offices-detailed {
   display: none; }
+
+.article {
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  padding: 10px 50px;
+  overflow-x: hidden;
+  height: 100%;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -js-display: flex;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-align: center;
+  -moz-align-items: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  -moz-justify-content: center;
+  justify-content: center; }
+  .article__item {
+    position: relative; }
+    .article__item:after {
+      content: '--';
+      position: absolute;
+      bottom: -24px;
+      left: 50%;
+      display: block;
+      transform: translate(-50%, 0); }
+  .article__name {
+    font-family: 'gotham_mediumregular',sans-serif;
+    margin-bottom: 0; }
 
 footer {
   background-color: #d4d4d4;

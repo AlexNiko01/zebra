@@ -1,0 +1,30 @@
+.article{
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  padding: 10px 50px;
+  overflow-x: hidden;
+  height: 100%;
+  @include flexbox();
+  @include flex-direction(column);
+  @include align-items(center);
+  @include justify-content(center);
+  &__item{
+    position: relative;
+    &:after{
+      content: '--';
+      position: absolute;
+      bottom: -24px;
+      left:50%;
+      display: block;
+      -webkit-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
+      transform: translate(-50%, 0);
+    }
+  }
+  &__name{
+    font-family: 'gotham_mediumregular',sans-serif;
+    margin-bottom:0;
+  }
+}
