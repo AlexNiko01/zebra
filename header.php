@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head lang="en">
-    <title>S-start</title>
+    <title>ZebraWorldWide</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content=""/>
@@ -57,18 +57,17 @@
                             </a>
                         </li>
                         <li class="main-menu__item">
-                            <a href="#" id="show-search" class="main-menu__link">
-                                <i class="fa fa-search" aria-hidden="true"></i>
+                            <a href="#" id="show-search" class="main-menu__link main-menu__link--search">
+                               search
                             </a>
                             <div class="header__search-form">
-
                                 <form method="get" id="searchform" action="">
                                     <div class="row collapse">
                                         <div class="small-8 columns">
                                             <input type="search" name="search" id="search" placeholder="Search on ZebraWorldWide">
                                         </div>
                                         <div class="small-4 columns">
-                                            <input type="submit" name="submit" id="searchsubmit" value="Submit">
+                                            <input type="submit" name="s" id="searchsubmit" value="Search">
                                         </div>
                                     </div>
                                 </form>

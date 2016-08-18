@@ -6557,6 +6557,21 @@ table.hover tr:nth-of-type(even):hover {
     @media screen and (max-width: 39.9375em) {
       .main-menu__link {
         line-height: 3; } }
+    .main-menu__link--search {
+      position: relative;
+      color: transparent; }
+      .main-menu__link--search:after {
+        position: absolute;
+        top: 9px;
+        left: 0;
+        font-family: FontAwesome, sans-serif;
+        content: "\f002";
+        color: #fff;
+        transform: translate(-50%, -50%); }
+      .main-menu__link--search:hover, .main-menu__link--search:focus {
+        color: transparent; }
+        .main-menu__link--search:hover:before, .main-menu__link--search:focus:before {
+          display: none; }
 
 .current-menu-item a {
   color: #fff;
@@ -6588,6 +6603,14 @@ table.hover tr:nth-of-type(even):hover {
   margin-right: 0;
   margin-bottom: 0; }
 
+.header__search-form {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 300px;
+  z-index: 99; }
+
 .search-form {
   position: absolute;
   right: -10px;
@@ -6595,16 +6618,21 @@ table.hover tr:nth-of-type(even):hover {
   height: 40px;
   transform: translate(0, -50%); }
 
-input[type='submit'] {
-  background-color: #fff;
-  font-family: "Work Sans", sans-serif;
-  line-height: 1;
+.header__search-form input[type='submit'] {
   padding: 10px 20px;
-  border: none;
   outline: none;
   color: #000;
   transition: all 0.3s ease;
-  height: 2.3125rem; }
+  font-size: 17px;
+  height: 39px;
+  font-family: 'gotham_mediumregular', sans-serif;
+  background-color: #999;
+  border: 1px solid #999; }
+
+.header__search-form input[type="search"] {
+  height: 39px;
+  line-height: 39px;
+  border: 1px solid #999; }
 
 body {
   color: #000;
@@ -7389,7 +7417,8 @@ footer {
 .footer-menu__item {
   float: left;
   padding-left: 15px;
-  padding-right: 15px; }
+  padding-right: 15px;
+  text-align: left; }
 
 .footer-menu__link {
   font-size: 15px;
@@ -7429,9 +7458,11 @@ footer {
   margin-top: 40px;
   font-size: 15px; }
 
-.footer-sub-menu__link {
-  font-size: 13px;
-  font-family: 'gotham_lightregular',sans-serif; }
+.footer-sub-menu {
+  text-align: left; }
+  .footer-sub-menu__link {
+    font-size: 13px;
+    font-family: 'gotham_lightregular',sans-serif; }
 
 @media screen and (max-width: 780px) {
   .footer-menu {

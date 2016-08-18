@@ -27,22 +27,7 @@
                     <li class="footer-menu__item"><a href="#" class="footer-menu__link">
                             services</a>
                         <ul class="footer-sub-menu">
-                            <li class="footer-sub-menu__item"><a href="#"
-                                                                 class="footer-sub-menu__link">Testimonials</a></li>
-                        </ul>
-                    </li>
-                    <li class="footer-menu__item"><a href="#" class="footer-menu__link">
-                            work</a>
-                        <ul class="footer-sub-menu">
-                            <li class="footer-sub-menu__item"><a href="#" class="footer-sub-menu__link">Case
-                                    studies</a></li>
-                            <li class="footer-sub-menu__item"><a href="#" class="footer-sub-menu__link">Show
-                                    reels</a></li>
-                        </ul>
-                    </li>
-                    <li class="footer-menu__item"><a href="#" class="footer-menu__link">
-                            clients</a>
-                        <ul class="footer-sub-menu">
+
                             <li class="footer-sub-menu__item">
                                 <a href="#" class="footer-sub-menu__link">Strategy</a>
                             </li>
@@ -64,19 +49,34 @@
                         </ul>
                     </li>
                     <li class="footer-menu__item"><a href="#" class="footer-menu__link">
-                            culture</a>
+                            clients</a>
+                        <ul class="footer-sub-menu">
+                            <li class="footer-sub-menu__item"><a href="#"
+                                                                 class="footer-sub-menu__link">Testimonials</a></li>
+                        </ul>
+                    </li>
+                    <li class="footer-menu__item"><a href="#" class="footer-menu__link">
+                            jobs</a>
+                        <ul class="footer-sub-menu">
+                            <li class="footer-sub-menu__item"><a href="#" class="footer-sub-menu__link">Careesr</a></li>
+
+                        </ul>
+                    </li>
+
+                    <li class="footer-menu__item"><a href="#" class="footer-menu__link">
+                            jornal</a>
                         <ul class="footer-sub-menu">
                             <li class="footer-sub-menu__item">
                                 <a href="#" class="footer-sub-menu__link">Blog/News</a>
                             </li>
                             <li class="footer-sub-menu__item">
-                                <a href="#" class="footer-sub-menu__link">Social feeds</a>
+                                <a href="#" class="footer-sub-menu__link">Social</a>
                             </li>
                         </ul>
                     </li>
                     <li class="footer-menu__item">
                         <a href="#" class="footer-menu__link">
-                            contact</a>
+                            offices</a>
                         <ul class="footer-sub-menu">
                             <li class="footer-sub-menu__item">
                                 <a href="#" class="footer-sub-menu__link">London</a></li>
@@ -116,7 +116,7 @@
                 </li>
 
             </ul>
-            <p class="copy-r">R
+            <p class="copy-r">
                 &copy; - Zebra Worldwide (UK) Ltd
             </p>
             <nav>
