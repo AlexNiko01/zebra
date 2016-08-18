@@ -7,16 +7,16 @@
                 <div class="main-slider__img" style="background-image: url(/img/slide.png)"></div>
             </div>
             <div class="main-slider__slide">
-                <div class="main-slider__img" style="background-image: url(/img/slide.png)">></div>
+                <div class="main-slider__img" style="background-image: url(/img/slide.png)"></div>
             </div>
             <div class="main-slider__slide">
-                <div class="main-slider__img" style="background-image: url(/img/slide.png)">></div>
+                <div class="main-slider__img" style="background-image: url(/img/slide.png)"></div>
             </div>
             <div class="main-slider__slide">
-                <div class="main-slider__img" style="background-image: url(/img/slide.png)">></div>
+                <div class="main-slider__img" style="background-image: url(/img/slide.png)"></div>
             </div>
             <div class="main-slider__slide">
-                <div class="main-slider__img" style="background-image: url(/img/slide.png)">></div>
+                <div class="main-slider__img" style="background-image: url(/img/slide.png)"></div>
             </div>
         </div>
     </section>
@@ -238,12 +238,12 @@
             <?php for ($i = 0; $i < 25; $i++) : ?>
             <div class="works-slider__item">
                 <div class="row small-collapse pp-post">
-                    <div class="column medium-4">
+                    <div class="column large-4 medium-6 small-12 pp-post__info-parent">
                         <div class="pp-post__info">
                             <div class="text-center">
                                 <h4 class="pp-post__title-group">
-                                    <strong><span class="pp-post__title">WALLS</span></strong>//<span
-                                        class="pp-post__category">Cornetto</span>
+                                    <span class="pp-post__title">WALLS </span>//<span
+                                        class="pp-post__category"> Cornetto</span>
                                 </h4>
                             </div>
 
@@ -253,26 +253,26 @@
                                     company, Ryobi. Created and adapted
                                     for use across Europe we produced
                                     two language versions of the spot
-                                    simultaneously – working with separate
+                                    simultaneously - working with separate
                                     Finnish and American casts.</p>
                                 <p>Edited and finished by Zebra Post the
                                     TVC has run across Europe extensively,
-                                    performing brilliantly for Ryobi… we
-                                    are now back in production with our
-                                    loveable DIY characters for a sequel…
+                                    performing brilliantly for Ryobi we
+                                    are now back in production with ...our
+                                    loveable DIY characters for a seque...
                                     watch this space.</p>
                             </div>
                             <div class="pp-post__client">
-                                <strong>Client:</strong>Walls
-                                <span class="pp-post__client-container"></span>
+                                Client:
+                                <span class="pp-post__client-container">Walls</span>
                             </div>
                             <div class="pp-post__project">
-                                <strong>Project:</strong>TVC
-                                <span class="pp-post__project-container"></span>
+                                Project:
+                                <span class="pp-post__project-container">TVC</span>
                             </div>
                         </div>
                     </div>
-                    <div class="column medium-8">
+                    <div class="column large-8 medium-6 small-12 pp-post__img-parent">
                         <div class="pp-post__img" style="background-image: url('img/1.png')"></div>
                     </div>
                 </div>

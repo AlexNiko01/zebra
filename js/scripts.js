@@ -18,7 +18,7 @@
         );
         // works home page slider
         var works_slider = $('.works-slider');
-        if(works_slider.length > 0) {
+        if (works_slider.length > 0) {
             works_slider.slick({
                 arrows: true,
                 dots: false,
@@ -28,13 +28,16 @@
         }
         //home-tiles pop-up
         body.on('click', '.tiles__item', function () {
-            $('.pop-up').addClass('pp-active').removeClass('before-load');
-
+            $('.pop-up').addClass('pp-active');
         });
-        body.on('click', '.pop-up', function () {
-            $(this).removeClass('pp-active');
-            $('.pop-up__close').removeClass('pp-active');
+        body.on('click', '.pop-up', function (e) {
+            if (!$(e.target).closest('.pop-up__inner').length > 0) {
+                $(this).removeClass('pp-active');
 
+            }
+        });
+        body.on('click', '.pop-up__close', function (e) {
+            $('.pop-up').removeClass('pp-active')
         });
         //video play
         var iframe = $('#player1')[0];
@@ -76,7 +79,13 @@
                 testimonial_slider.slick('slickGoTo', $(this).index());
             });
         }
+        // search form
+        $('#btn-search').on('click', function(e) {
 
+            e.preventDefault();
+            $('#search').animate({width: 'toggle'}).focus();
+
+        });
     });
     $(window).resize(function () {
         $('.navigation').removeAttr('style');

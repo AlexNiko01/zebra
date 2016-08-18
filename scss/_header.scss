@@ -1,5 +1,4 @@
 .header {
-  //position: relative;
   background-color: #000;
   padding: 28px 0;
   position: fixed;
@@ -32,7 +31,6 @@
   }
 }
 
-
 .main-menu {
   font-size: 0;
   &-right {
@@ -42,12 +40,12 @@
     }
 
   }
-  &-left{
+  &-left {
     @include breakpoint(large down) {
       text-align: right;
 
     }
-    @include  breakpoint(small down){
+    @include breakpoint(small down) {
       text-align: left;
     }
   }
@@ -57,7 +55,7 @@
     &:not(:last-child) {
       padding-right: 34.5px;
     }
-    @include  breakpoint(small down){
+    @include breakpoint(small down) {
       padding: 0 0 0 20px;
       display: block;
     }
@@ -67,7 +65,7 @@
     line-height: 1;
     color: #fff;
     position: relative;
-    font-family: 'gotham_mediumregular',sans-serif;
+    font-family: 'gotham_mediumregular', sans-serif;
     &:before {
       display: block;
       content: '';
@@ -85,8 +83,8 @@
         width: 100%;
       }
     }
-    @include  breakpoint(small down){
-      line-height:3;
+    @include breakpoint(small down) {
+      line-height: 3;
     }
   }
 
@@ -94,7 +92,7 @@
 
 .current-menu-item a {
   color: #fff;
-  font-weight:bold;
+  font-weight: bold;
   &:before {
     width: 100%;
   }
@@ -105,7 +103,7 @@
     display: block;
     position: absolute;
     right: 20px;
-    top:45px;
+    top: 45px;
     transform: translate(-50%, -50%);
 
     @include breakpoint(medium) {
@@ -113,15 +111,46 @@
     }
   }
 }
-.navigation{
 
-  @include  breakpoint(small down){
+.navigation {
+
+  @include breakpoint(small down) {
     display: none;
-    margin-top:20px;
+    margin-top: 20px;
   }
-  @include  breakpoint(large down){
-    margin-top:20px;
+  @include breakpoint(large down) {
+    margin-top: 20px;
   }
 }
 
 
+.top-bar input {
+  max-width: 200px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+
+.search-form{
+  position: absolute;
+  right: -10px;
+  top: 50%;
+  height: 40px;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+ input[type='submit']{
+  background-color: #fff;
+  font-family: "Work Sans", sans-serif;
+  line-height: 1;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  color: #000;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  height: 2.3125rem;
+}

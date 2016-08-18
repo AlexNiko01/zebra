@@ -26,31 +26,60 @@
                     <ul class="main-menu main-menu-left clearfix">
                         <li class="main-menu__item current-menu-item"><a href="index.php" class="main-menu__link">
                                 Home
-                            </a></li>
+                            </a>
+                        </li>
                         <li class="main-menu__item"><a href="about.php" class="main-menu__link">
                                 About
-                            </a></li>
+                            </a>
+                        </li>
                         <li class="main-menu__item"><a href="services.php" class="main-menu__link">
                                 Services
-                            </a></li>
+                            </a>
+                        </li>
                         <li class="main-menu__item"><a href="clients.php" class="main-menu__link">
                                 Clients
-                            </a></li>
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="column small-12 medium-5 large-5">
                     <ul class="main-menu main-menu-right clearfix">
+                        <li class="main-menu__item"><a href="jobs.php" class="main-menu__link">
+                                Jobs
+                            </a>
+                        </li>
                         <li class="main-menu__item"><a href="journal.php" class="main-menu__link">
                                 Journal
-                            </a></li>
+                            </a>
+                        </li>
                         <li class="main-menu__item"><a href="offices.php" class="main-menu__link">
                                 Offices
-                            </a></li>
+                            </a>
+                        </li>
+                        <li class="main-menu__item">
+                            <a href="#" id="show-search" class="main-menu__link">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </a>
+                            <div class="header__search-form">
+
+                                <form method="get" id="searchform" action="">
+                                    <div class="row collapse">
+                                        <div class="small-8 columns">
+                                            <input type="search" name="search" id="search" placeholder="Search on ZebraWorldWide">
+                                        </div>
+                                        <div class="small-4 columns">
+                                            <input type="submit" name="submit" id="searchsubmit" value="Submit">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </div>
             <div class="toggle-topbar menu-icon"><a href="#"><span></span></a></div>
         </nav>
+
     </div>
 
 
