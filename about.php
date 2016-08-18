@@ -23,54 +23,123 @@
     <section class="zebras-story">
         <div class="row">
             <div class="column small-12 medium-6">
-                <p>Lorem upsum dolor sit amet consectetur?
-                    Luke: Adipiscing elit, set do eismod.
-                    <br>
-                    <br>
-                    Lorem upsum dolor sit amet consectetur?
-                    Nic: Lorem elit sit do ipsum dolor sit amet, consectetur
-                    adipiscing elit, sed do eiusmod es amet temp du tempor
-                    incididunt ut labore et dolore magna aliqua.
-                    <br>
-                    <br>
-                    Lorem upsum dolor sit amet consectetur?
-                    Luke: Lorem ipsum dolor dolore mag sit amet, consectetur
-                    adipiscing elit tempor incidunt.
-                    Nic: Sed do eiusmod.
-                    <br>
-                    <br>
-                    Lorem upsum dolor?
-                    Nic: Lorem ipsum dolor sit amet.
-                    Luke: Sed do eiusmod.
-                    <br>
-                    <br>
-                    Lorem upsum dolor sit amet consectetur?
-                    Luke: Lorem ipsum dolor domor sit amet, consectetur
-                    adipiscing elit, sed sit amet do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua.</p>
+                <div class="point">
+                    <div class="point__header">
+                        Lorem upsum dolor sit amet consectetur?
+                    </div>
+                    <div class="point__group">
+                        <div class="point__author">Luke:</div>
+                        <div class="point__quote"> Adipiscing elit, set do eismod.</div>
+                    </div>
+
+                </div>
+                <div class="point">
+                    <div class="point__header">
+                        Lorem upsum dolor sit amet consectetur?
+                    </div>
+                    <div class="point__group">
+                        <div class="point__author">Nic:</div>
+                        <div class="point__quote"> Lorem elit sit do ipsum dolor sit amet,
+                            consectetur
+                            adipiscing elit, sed do eiusmod es amet temp du tempor
+                            incididunt ut labore et dolore magna aliqua.
+                        </div>
+                    </div>
+                </div>
+                <div class="point">
+                    <div class="point__header"> Lorem upsum dolor sit amet consectetur?
+                    </div>
+                    <div class="point__group">
+                        <div class="point__author">Luke:</div>
+                        <div class="point__quote"> Lorem ipsum dolor dolore mag sit amet, consectetur
+                            adipiscing elit tempor incidunt.
+                        </div>
+                    </div>
+                    <div class="point__group">
+                        <div class="point__author">Nic:</div>
+                        <div class="point__quote">
+                            Sed do eiusmod.
+                        </div>
+                    </div>
+                </div>
+                <div class="point">
+                    <div class="point__header"> Lorem upsum dolor sit amet consectetur?
+                    </div>
+                    <div class="point__group">
+                        <div class="point__author">Nic:</div>
+                        <div class="point__quote">Lorem ipsum dolor sit amet.</div>
+                    </div>
+                    <div class="point__group">
+                        <div class="point__author">Luke:</div>
+                        <div class="point__quote">Sed do eiusmod.</div>
+                    </div>
+                </div>
+                <div class="point">
+                    <div class="point__header">
+                        Lorem upsum dolor sit amet consectetur?
+                    </div>
+                    <div class="point__group">
+                        <div class="point__author">Luke:</div>
+                        <div class="point__quote">Lorem ipsum dolor domor sit amet, consectetur
+                            adipiscing elit, sed sit amet do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua.
+                        </div>
+                    </div>
+                </div>
+
             </div>
+
+
             <div class="column small-12 medium-6">
-                <p>Lorem upsum dolor sit amet consectetur?
-                    Luke: Lorem ipsum dolor sit magna amet, consectetur
-                    adipiscing elit tempor incidunt.
-                    Nic: Sed do eiusmod.
-                    <br>
-                    <br>
-                    Lorem upsum dolor?
-                    Nic: Lorem ipsum dolor sit amet.
-                    Luke: Sed do eiusmod.
-                    <br>
-                    <br>
-                    Lorem upsum dolor sit amet consectetur?
-                    Luke: Lorem ipsum dolor sit eiusmod amet, consectetur
-                    adipiscing elit, sed do dolore labore et eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua.
-                    <br>
-                    <br>
-                    Lorem upsum dolor sit amet consectetur?
-                    Luke: Lorem ipsum dolor do sed sit amet, consectetur
-                    adipiscing.
-                </p>
+
+                <div class="point">
+                    <div class="point__header">
+                        Lorem upsum dolor sit amet consectetur?
+                    </div>
+                    <div class="point__group">
+                        <div class="point__author">Luke:</div>
+                        <div class="point__quote">Lorem ipsum dolor domor sit amet, consectetur
+                            adipiscing elit, sed sit amet do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua.
+                        </div>
+                    </div>
+                </div>
+                <div class="point">
+                    <div class="point__header"> Lorem upsum dolor sit amet consectetur?
+                    </div>
+                    <div class="point__group">
+                        <div class="point__author">Nic:</div>
+                        <div class="point__quote">Lorem ipsum dolor sit amet.</div>
+                    </div>
+                    <div class="point__group">
+                        <div class="point__author">Luke:</div>
+                        <div class="point__quote">Sed do eiusmod.</div>
+                    </div>
+                </div>
+
+                <div class="point">
+                    <div class="point__header">
+                        Lorem upsum dolor sit amet consectetur?
+                    </div>
+                    <div class="point__group">
+                        <div class="point__author">Luke</div>
+                        <div class="point__quote">Lorem ipsum dolor do sed sit amet, consectetur
+                            adipiscing.</div>
+                    </div>
+                </div>
+
+                <div class="point">
+                    <div class="point__header">
+                        Lorem upsum dolor sit amet consectetur?
+                    </div>
+                    <div class="point__group">
+                        <div class="point__author">Luke:</div>
+                        <div class="point__quote">Lorem ipsum dolor domor sit amet, consectetur
+                            adipiscing elit, sed sit amet do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua.
+                        </div>
+                    </div>
+                </div>
                 <div class="text-center">
                     <cite class="zebras-story__autor">NIC & LUKE</cite>
                 </div>
@@ -84,7 +153,8 @@
                 <div class="about-slider__hover">
                     <div class="about-slider__name">WADE RIDGWAY</div>
                     <div class="about-slider__job-title">Chief Technical Officer
-                        London</div>
+                        London
+                    </div>
                 </div>
             </div>
             <div style="background-image: url(img/portrait1.png)" class="about-slider__img"></div>
@@ -121,24 +191,27 @@
                 <div class="career__item">
                     <div class="row">
                         <div class="column small-12 medium-6">
-                            Lorem  do dolor amet ipsum dolor sit amet, consectetur
-                            adipiscing dolor sed do tmeport limpsum elit, sed do temport it eiusmod es amet temp du tempor
-                            incididunt ut labore sed temp du tempor do eiusmod et dolore magna aliqua.Lorem elit sit do ipsum dolor sit amet, consectetur
+                            Lorem do dolor amet ipsum dolor sit amet, consectetur
+                            adipiscing dolor sed do tmeport limpsum elit, sed do temport it eiusmod es amet temp du
+                            tempor
+                            incididunt ut labore sed temp du tempor do eiusmod et dolore magna aliqua.Lorem elit sit do
+                            ipsum dolor sit amet, consectetur
                             adipiscing elit, sed sed do do eiusmod es amet temp du tempor
                             incididunt ut labore et dolore magna aliqua.
                         </div>
                         <div class="column small-12 medium-6">
-                            Lorem  do dolor amet ipsum dolor sit amet, consectetur
-                            adipiscing dolor sed do tmeport limpsum elit, sed do temport it eiusmod es amet temp du tempor
+                            Lorem do dolor amet ipsum dolor sit amet, consectetur
+                            adipiscing dolor sed do tmeport limpsum elit, sed do temport it eiusmod es amet temp du
+                            tempor
                             incididunt ut labore sed temp du tempor do eiusmod et.
                         </div>
                     </div>
 
                 </div>
-                </div>
-
-
             </div>
+
+
+        </div>
 
         </div>
     </section>

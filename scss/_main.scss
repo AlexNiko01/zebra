@@ -145,17 +145,19 @@ blockquote, blockquote p {
 
 cite {
   display: block;
-  font-size: 25px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: 'gotham_boldregular', sans-serif;
   color: inherit;
-  font-style: normal;
   position: relative;
   font-weight: normal;
+  font-style: normal;
   &:before {
     position: absolute;
     top: -8px;
     left: 50%;
     transform: translate(-50%, -50%);
-
+    content: '--';
   }
 }
 
@@ -264,6 +266,8 @@ cite {
       z-index: 10;
       top: 50%;
       left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
       color: #fff;
       height: 90px;

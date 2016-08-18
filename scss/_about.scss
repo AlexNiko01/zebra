@@ -1,19 +1,35 @@
-.zebras-story{
+.zebras-story {
   padding: 60px 0 80px;
+  font-family: 'gotham_bookitalic', sans-serif;
+  font-size: 18px;
+  position: relative;
+  &__autor {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'gotham_boldregular', sans-serif;
+    position: absolute;
+    right:25%;
+    bottom:80px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
 }
 
-.career{
-  &__titles, &__item{
-    border-bottom:2px solid #000;
-    padding-bottom:30px;
+.career {
+  padding-top:70px;
+  &__titles, &__item {
+    border-bottom: 2px solid #000;
+    padding-bottom: 30px;
   }
-  &__item{
-    padding-top:20px;
+  &__item {
+    padding-top: 20px;
   }
- }
-.about-slider{
+}
+
+.about-slider {
   background-color: #000;
-  &__img{
+  &__img {
     height: 272px;
     background-size: cover;
     background-position: 50% 50%;
@@ -21,11 +37,11 @@
     margin: 10px 5px;
     overflow: hidden;
   }
-  &__hover{
+  &__hover {
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,.8);
-    color:#fff;
+    background-color: rgba(0, 0, 0, .8);
+    color: #fff;
     @include flexbox();
     @include flex-direction(column);
     @include justify-content(center);
@@ -43,7 +59,8 @@
 
   }
 }
-.about-slider__img:hover .about-slider__hover{
+
+.about-slider__img:hover .about-slider__hover {
   opacity: 1;
   -webkit-transform: translateY(0);
   -moz-transform: translateY(0);
@@ -53,4 +70,27 @@
   -ms-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
   transition: all 0.3s linear;
+}
+
+.point {
+  margin-bottom: 20px;
+  &__header {
+    font-family: 'gotham_mediumregular', sans-serif;
+
+  }
+
+  &__group {
+    font-size: 0;
+  }
+  &__author {
+    font-family: 'gotham_bookregular', sans-serif;
+    display: inline-block;
+    font-size: 18px;
+    margin-right: 5px;
+  }
+  &__quote {
+    display: inline;
+    font-size: 18px;
+
+  }
 }

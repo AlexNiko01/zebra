@@ -6726,16 +6726,19 @@ blockquote, blockquote p {
 
 cite {
   display: block;
-  font-size: 25px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: 'gotham_boldregular', sans-serif;
   color: inherit;
-  font-style: normal;
   position: relative;
-  font-weight: normal; }
+  font-weight: normal;
+  font-style: normal; }
   cite:before {
     position: absolute;
     top: -8px;
     left: 50%;
-    transform: translate(-50%, -50%); }
+    transform: translate(-50%, -50%);
+    content: '--'; }
 
 .slick-slide:focus {
   outline: none; }
@@ -7190,14 +7193,26 @@ cite {
     width: 50%; } }
 
 .zebras-story {
-  padding: 60px 0 80px; }
+  padding: 60px 0 80px;
+  font-family: 'gotham_bookitalic', sans-serif;
+  font-size: 18px;
+  position: relative; }
+  .zebras-story__autor {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'gotham_boldregular', sans-serif;
+    position: absolute;
+    right: 25%;
+    bottom: 80px;
+    transform: translate(-50%, -50%); }
 
-.career__titles, .career__item {
-  border-bottom: 2px solid #000;
-  padding-bottom: 30px; }
-
-.career__item {
-  padding-top: 20px; }
+.career {
+  padding-top: 70px; }
+  .career__titles, .career__item {
+    border-bottom: 2px solid #000;
+    padding-bottom: 30px; }
+  .career__item {
+    padding-top: 20px; }
 
 .about-slider {
   background-color: #000; }
@@ -7237,6 +7252,21 @@ cite {
   -moz-transform: translateY(0);
   -o-transform: translateY(0);
   transition: all 0.3s linear; }
+
+.point {
+  margin-bottom: 20px; }
+  .point__header {
+    font-family: 'gotham_mediumregular', sans-serif; }
+  .point__group {
+    font-size: 0; }
+  .point__author {
+    font-family: 'gotham_bookregular', sans-serif;
+    display: inline-block;
+    font-size: 18px;
+    margin-right: 5px; }
+  .point__quote {
+    display: inline;
+    font-size: 18px; }
 
 .clients {
   overflow-x: hidden; }

@@ -64,7 +64,7 @@
                     </li>
 
                     <li class="footer-menu__item"><a href="#" class="footer-menu__link">
-                            jornal</a>
+                            journal</a>
                         <ul class="footer-sub-menu">
                             <li class="footer-sub-menu__item">
                                 <a href="#" class="footer-sub-menu__link">Blog/News</a>
