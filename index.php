@@ -273,7 +273,11 @@
                         </div>
                     </div>
                     <div class="column large-8 medium-6 small-12 pp-post__img-parent">
-                        <div class="pp-post__img" style="background-image: url('img/1.png')"></div>
+                        <div class="pp-post__img" style="background-image: url('img/1.png')">
+                            <div class="pp-post__logo" style="background-image: url('img/walls-logo.png')">Wall's</div>
+
+                        </div>
+
                     </div>
                 </div>
 

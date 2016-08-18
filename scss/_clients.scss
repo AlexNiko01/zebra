@@ -1,7 +1,13 @@
 .clients {
     overflow-x: hidden;
-    h3 {
+    &__click-title {
         text-transform: uppercase;
+        font-size:15px;
+        font-family: 'gotham_lightregular',sans-serif;
+        margin: 14px 0 20px;
+    }
+    &__click-sub-title{
+        font-family: 'gotham_boldregular',sans-serif;
     }
     &__list {
         margin-left: -10px;
@@ -22,6 +28,8 @@
         top: 50%;
         left: 50%;
         max-width: 80%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
     }
 }

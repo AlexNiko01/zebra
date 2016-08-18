@@ -62,6 +62,26 @@
             dots: false,
             slidesToShow: 5,
             slidesToScroll: 1,
+            responsive: [
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 3,
+                    }
+                },
+                {
+                    breakpoint: 980,
+                    settings: {
+                        slidesToShow: 2,
+                    }
+                },
+                {
+                    breakpoint: 520,
+                    settings: {
+                        slidesToShow: 1,
+                    }
+                },
+            ]
         });
         //Clients page slider
         var testimonial_slider = $('.testimonials__slider');
@@ -80,7 +100,7 @@
             });
         }
         // search form
-        $('.main-menu__link--search').on('click', function(e) {
+        $('.main-menu__link--search').on('click', function (e) {
 
             e.preventDefault();
             $('.header__search-form').slideToggle();

@@ -547,13 +547,30 @@ cite {
 }
 
 .pp-post {
+  &__logo{
+    background-repeat: no-repeat;
+    background-position: 50% calc(100% - 37px);
+    position: absolute;
+    right: 40px;
+    z-index: 9999999999999;
+    bottom: 40px;
+    text-transform: uppercase;
+    padding: 225px 44px 0 40px;
+    width: 200px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'gotham_mediumregular', sans-serif;
+  }
 
   &__img {
+    position: relative;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     height: 100%;
     background-color: #000;
+
   }
   &__info {
     padding: 60px 40px;
@@ -667,6 +684,7 @@ cite {
       position: absolute;
       height: 100%;
     }
+
   }
   .slick-prev:before, .slick-next:before{
     color: #000;

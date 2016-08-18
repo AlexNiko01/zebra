@@ -144,7 +144,6 @@
                     <cite class="zebras-story__autor">NIC & LUKE</cite>
                 </div>
             </div>
-
         </div>
     </section>
     <section class="about-slider">

@@ -12,20 +12,20 @@
                     <div class="main-slider__img" style="background-image: url(/img/clslider.png)"></div>
                 </div>
                 <div class="main-slider__slide">
-                    <div class="main-slider__img" style="background-image: url(/img/clslider.png)">></div>
+                    <div class="main-slider__img" style="background-image: url(/img/clslider.png)"></div>
                 </div>
                 <div class="main-slider__slide">
-                    <div class="main-slider__img" style="background-image: url(/img/clslider.png)">></div>
+                    <div class="main-slider__img" style="background-image: url(/img/clslider.png)"></div>
                 </div>
                 <div class="main-slider__slide">
-                    <div class="main-slider__img" style="background-image: url(/img/clslider.png)">></div>
+                    <div class="main-slider__img" style="background-image: url(/img/clslider.png)"></div>
                 </div>
             </div>
         </section>
         <section class="clients">
             <div class="row">
-                <div class="column text-center">
-                    <h3 class="click-title">Clients // Click for a testimonial <i class="fa fa-chevron-down" aria-hidden="true"></i></h3>
+                <span class="column text-center">
+                    <h5 class="clients__click-title"><span class="clients__click-sub-title">Clients</span> // Click for a testimonial <i class="fa fa-chevron-down" aria-hidden="true"></i></h5>
                 </div>
             </div>
 
@@ -33,7 +33,7 @@
                 <?php for ($i = 0; $i < 36; $i++) : ?>
                     <div class="column large-2 medium-4 small-6 clients__column">
                         <div class="clients__inner">
-                            <img src="img/clients/client_logo.png" alt="" class="clients__logo">
+                            <img src="img/client_logo.png" alt="" class="clients__logo">
                         </div>
                     </div>
                 <?php endfor; ?>

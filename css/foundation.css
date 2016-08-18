@@ -7055,7 +7055,23 @@ cite {
     .pop-up__close:focus {
       outline: none; }
 
+.pp-post__logo {
+  background-repeat: no-repeat;
+  background-position: 50% calc(100% - 37px);
+  position: absolute;
+  right: 40px;
+  z-index: 9999999999999;
+  bottom: 40px;
+  text-transform: uppercase;
+  padding: 225px 44px 0 40px;
+  width: 200px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  font-family: 'gotham_mediumregular', sans-serif; }
+
 .pp-post__img {
+  position: relative;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -7201,18 +7217,23 @@ cite {
     text-transform: uppercase;
     font-size: 20px;
     font-family: 'gotham_boldregular', sans-serif;
-    position: absolute;
-    right: 25%;
-    bottom: 80px;
-    transform: translate(-50%, -50%); }
+    margin-top: 100px; }
 
 .career {
+  font-family: 'gotham_bookregular', sans-serif;
   padding-top: 70px; }
   .career__titles, .career__item {
     border-bottom: 2px solid #000;
     padding-bottom: 30px; }
   .career__item {
-    padding-top: 20px; }
+    padding-top: 20px;
+    text-align: justify; }
+  .career__title {
+    font-family: 'gotham_mediumregular', sans-serif;
+    font-size: 35px; }
+  .career__sub-title {
+    font-family: 'gotham_bookregular', sans-serif;
+    font-size: 25px; }
 
 .about-slider {
   background-color: #000; }
@@ -7270,8 +7291,13 @@ cite {
 
 .clients {
   overflow-x: hidden; }
-  .clients h3 {
-    text-transform: uppercase; }
+  .clients__click-title {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'gotham_lightregular',sans-serif;
+    margin: 14px 0 20px; }
+  .clients__click-sub-title {
+    font-family: 'gotham_boldregular',sans-serif; }
   .clients__list {
     margin-left: -10px;
     margin-right: -10px; }
