@@ -2,7 +2,7 @@ footer {
   background-color: #d4d4d4;
   padding: 34px 0;
   a {
-    color: #000;
+    color: #12110c;
     &:hover, &:focus {
       color: #303030;
 
@@ -33,7 +33,7 @@ footer {
     font-weight: bold;
     display: block;
     padding-bottom: 10px;
-    font-family: 'open_sansregular',sans-serif;
+    font-family: 'open_sansregular', sans-serif;
     &:hover, &:focus {
       color: #303030;
 
@@ -51,7 +51,7 @@ footer {
     }
   }
   &__link {
-    color: #000;
+    color: #12110c;
     &:hover, &:focus {
       color: #303030;
     }
@@ -68,7 +68,7 @@ footer {
   }
   &__link {
     font-size: 15px;
-    font-family: 'open_sansregular',sans-serif;
+    font-family: 'open_sansregular', sans-serif;
     &:hover, &:focus {
       color: #303030;
     }
@@ -80,12 +80,12 @@ footer {
   font-size: 15px;
 }
 
-.footer-sub-menu {
-  text-align: left;
-  &__link {
-    font-size: 13px;
-    font-family: 'gotham_lightregular',sans-serif;  }
-}
+//.footer-sub-menu {
+//  text-align: left;
+//  &__link {
+//    font-size: 13px;
+//    font-family: 'gotham_lightregular',sans-serif;  }
+//}
 
 @media screen and (max-width: 780px) {
   .footer-menu {
@@ -112,4 +112,56 @@ footer {
     display: block;
   }
 
+}
+
+.footer-menu .current-menu-item a {
+  color: #12110c !important;
+}
+
+.footer-menu .footer-sub-menu .footer-menu__link {
+  font-size: 13px;
+  font-family: 'gotham_lightregular', sans-serif;
+}
+
+.footer-menu .footer-sub-menu {
+  text-align: left;
+}
+
+.footer-menu > .footer-menu__item > .footer-menu__link {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+  padding-bottom: 10px;
+  font-family: 'open_sansregular', sans-serif;
+}
+
+.footer-menu > .footer-menu__item > .footer-menu__link:hover,
+.footer-menu > .footer-menu__item > .footer-menu__link:focus {
+  color: #303030;
+}
+
+.footer-menu > .footer-menu__item {
+  float: left;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: left;
+}
+.footer-menu .footer-sub-menu .footer-menu__link {
+  font-size: 13px;
+  font-family: 'gotham_lightregular', sans-serif;
+  text-transform: none;
+}
+.footer-sub-menu > .footer-menu__item {
+  float: none;
+  padding: 0;
+}
+
+@media screen and (max-width: 430px) {
+  .footer-menu > .footer-menu__item {
+    width: 100%;
+  }
+  .footer-menu > .footer-menu__item:not(:last-child) {
+    padding-bottom: 35px;
+  }
 }

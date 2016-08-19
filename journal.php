@@ -125,6 +125,9 @@
                 </div>
             </div>
         </section>
+        <section class="in-touch" style="visibility: visible; animation-name: fadeInUp;">
+            <a href="#" class="button">GET IN TOUCH</a>
+        </section>
     </main>
     <div class="publication-pop-up">
         <div class="publication-pop-up__inner">
