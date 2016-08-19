@@ -4,19 +4,19 @@
         <h3 class="slider-parent__title">Helping brands & agencies to create brilliant content</h3>
         <div class="main-slider">
             <div class="main-slider__slide">
-                <div class="main-slider__img" style="background-image: url(/img/slide.png)"></div>
+                <div class="main-slider__img" style="background-image: url(img/slide.png)"></div>
             </div>
             <div class="main-slider__slide">
-                <div class="main-slider__img" style="background-image: url(/img/slide.png)"></div>
+                <div class="main-slider__img" style="background-image: url(img/slide.png)"></div>
             </div>
             <div class="main-slider__slide">
-                <div class="main-slider__img" style="background-image: url(/img/slide.png)"></div>
+                <div class="main-slider__img" style="background-image: url(img/slide.png)"></div>
             </div>
             <div class="main-slider__slide">
-                <div class="main-slider__img" style="background-image: url(/img/slide.png)"></div>
+                <div class="main-slider__img" style="background-image: url(img/slide.png)"></div>
             </div>
             <div class="main-slider__slide">
-                <div class="main-slider__img" style="background-image: url(/img/slide.png)"></div>
+                <div class="main-slider__img" style="background-image: url(img/slide.png)"></div>
             </div>
         </div>
     </section>
@@ -47,7 +47,7 @@
     <section class="tiles">
         <div class="grid wow fadeInUp">
             <div class="col-37 tiles__column tiles__item">
-                <div class="tiles__img" style="background-image: url('/img/1.png')">
+                <div class="tiles__img" style="background-image: url('img/1.png')">
                 </div>
                 <div class="tiles__caption">work</div>
                 <div class="tiles__hover">
@@ -66,16 +66,16 @@
 
                 </div>
                 <div class="col-50 tiles__column tiles__item height-small">
-                    <div class="tiles__img" style="background-image: url('/img/2.png')"></div>
+                    <div class="tiles__img" style="background-image: url('img/2.png')"></div>
 
                 </div>
                 <div class="col-50 tiles__column tiles__item height-small">
-                    <div class="tiles__img" style="background-image: url('/img/3.png')"></div>
+                    <div class="tiles__img" style="background-image: url('img/3.png')"></div>
 
                 </div>
             </div>
             <div class="col-37 tiles__column tiles__item">
-                <div class="tiles__img" style="background-image: url('/img/4.png')"></div>
+                <div class="tiles__img" style="background-image: url('img/4.png')"></div>
                 <div class="tiles__caption">clients</div>
             </div>
         </div>
@@ -88,15 +88,15 @@
                     </div>
                 </div>
                 <div class="col-50 tiles__column tiles__item height-small">
-                    <div class="tiles__img" style="background-image: url('/img/5.png')"></div>
+                    <div class="tiles__img" style="background-image: url('img/5.png')"></div>
                 </div>
                 <div class="col-50 tiles__column tiles__item height-small">
-                    <div class="tiles__img" style="background-image: url('/img/6.png')"></div>
+                    <div class="tiles__img" style="background-image: url('img/6.png')"></div>
 
                 </div>
             </div>
             <div class="col-25 tiles__column tiles__item">
-                <div class="tiles__img" style="background-image: url('/img/7.png')"></div>
+                <div class="tiles__img" style="background-image: url('img/7.png')"></div>
                 <div class="tiles__caption">CULTURE</div>
 
             </div>
@@ -104,11 +104,11 @@
             <div class="col-50 tiles__column">
                 <div class="col-75 tiles__column">
                     <div class="col-35 tiles__column  tiles__item height-small">
-                        <div class="tiles__img" style="background-image: url('/img/8.png')"></div>
+                        <div class="tiles__img" style="background-image: url('img/8.png')"></div>
 
                     </div>
                     <div class="col-65 tiles__column  tiles__item height-small">
-                        <div class="tiles__img" style="background-image: url('/img/9.png')"></div>
+                        <div class="tiles__img" style="background-image: url('img/9.png')"></div>
 
                     </div>
                     <div class="col-65 tiles__column  tiles__item height-small">
@@ -119,13 +119,13 @@
                     </div>
 
                     <div class="col-35 tiles__column  tiles__item height-small">
-                        <div class="tiles__img" style="background-image: url('/img/10.png')"></div>
+                        <div class="tiles__img" style="background-image: url('img/10.png')"></div>
 
                     </div>
 
                 </div>
                 <div class="col-25 tiles__column tiles__item">
-                    <div class="tiles__img" style="background-image: url('/img/11.png')"></div>
+                    <div class="tiles__img" style="background-image: url('img/11.png')"></div>
 
                 </div>
 
@@ -135,7 +135,7 @@
         <div class="grid wow fadeInUp">
             <div class="col-37 tiles__column">
                 <div class="col-33 tiles__column tiles__item">
-                    <div class="tiles__img" style="background-image: url('/img/12.png')"></div>
+                    <div class="tiles__img" style="background-image: url('img/12.png')"></div>
                 </div>
                 <div class="col-66 tiles__column">
                     <div class="col-100 tiles__column tiles__item height-small">
@@ -146,22 +146,22 @@
 
                     </div>
                     <div class="col-50 tiles__column tiles__item height-small">
-                        <div class="tiles__img" style="background-image: url('/img/13.png')"></div>
+                        <div class="tiles__img" style="background-image: url('img/13.png')"></div>
 
                     </div>
                     <div class="col-50 tiles__column tiles__item height-small">
-                        <div class="tiles__img" style="background-image: url('/img/14.png')"></div>
+                        <div class="tiles__img" style="background-image: url('img/14.png')"></div>
 
                     </div>
                 </div>
             </div>
             <div class="col-26 tiles__column tiles__item">
-                <div class="tiles__img" style="background-image: url('/img/15.png')"></div>
+                <div class="tiles__img" style="background-image: url('img/15.png')"></div>
                 <div class="tiles__caption">ABOUT</div>
 
             </div>
             <div class="col-37 tiles__column tiles__item">
-                <div class="tiles__img" style="background-image: url('/img/16.png')"></div>
+                <div class="tiles__img" style="background-image: url('img/16.png')"></div>
                 <div class="tiles__hover">
                     <div class="tiles__hover-content">
                         <h4 class="tiles__post-title">WALLS</h4>
@@ -173,18 +173,18 @@
         <div class="grid wow fadeInUp">
             <div class="col-37 tiles__column">
                 <div class="col-66 tiles__column tiles__item">
-                    <div class="tiles__img" style="background-image: url('/img/17.png')"></div>
+                    <div class="tiles__img" style="background-image: url('img/17.png')"></div>
 
                 </div>
                 <div class="col-33 tiles__column tiles__item">
-                    <div class="tiles__img" style="background-image: url('/img/18.png')"></div>
+                    <div class="tiles__img" style="background-image: url('img/18.png')"></div>
 
                 </div>
 
             </div>
             <div class="col-37 tiles__column">
                 <div class="col-35 tiles__column  tiles__item height-small">
-                    <div class="tiles__img" style="background-image: url('/img/19.png')"></div>
+                    <div class="tiles__img" style="background-image: url('img/19.png')"></div>
 
                 </div>
                 <div class="col-65 tiles__column  tiles__item height-small">
@@ -194,24 +194,24 @@
                     </div>
                 </div>
                 <div class="col-65 tiles__column  tiles__item height-small">
-                    <div class="tiles__img" style="background-image: url('/img/20.png')"></div>
+                    <div class="tiles__img" style="background-image: url('img/20.png')"></div>
 
                 </div>
                 <div class="col-35 tiles__column  tiles__item height-small">
-                    <div class="tiles__img" style="background-image: url('/img/21.png')"></div>
+                    <div class="tiles__img" style="background-image: url('img/21.png')"></div>
 
                 </div>
             </div>
             <div class="col-26 tiles__column tiles__item">
-                <div class="tiles__img" style="background-image: url('/img/22.png')"></div>
+                <div class="tiles__img" style="background-image: url('img/22.png')"></div>
             </div>
         </div>
         <div class="grid wow fadeInUp">
             <div class="col-37 tiles__column tiles__item">
-                <div class="tiles__img" style="background-image: url('/img/23.png')"></div>
+                <div class="tiles__img" style="background-image: url('img/23.png')"></div>
             </div>
             <div class="col-37 tiles__column tiles__item">
-                <div class="tiles__img" style="background-image: url('/img/24.png')"></div>
+                <div class="tiles__img" style="background-image: url('img/24.png')"></div>
                 <div class="tiles__caption">contact</div>
             </div>
             <div class="col-26 tiles__column tiles__item">
@@ -222,7 +222,7 @@
                     </div>
                 </div>
                 <div class="col-100 tiles__column  tiles__item height-small">
-                    <div class="tiles__img" style="background-image: url('/img/25.png')"></div>
+                    <div class="tiles__img" style="background-image: url('img/25.png')"></div>
                 </div>
             </div>
 

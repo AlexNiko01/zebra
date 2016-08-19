@@ -4,19 +4,19 @@
             Global content production & marketing efficiency network</h3>
         <div class="main-slider">
             <div class="main-slider__slide">
-                <div class="main-slider__img" style="background-image: url(/img/slide2.png)"></div>
+                <div class="main-slider__img" style="background-image: url(img/slide2.png)"></div>
             </div>
             <div class="main-slider__slide">
-                <div class="main-slider__img" style="background-image: url(/img/slide2.png)"></div>
+                <div class="main-slider__img" style="background-image: url(img/slide2.png)"></div>
             </div>
             <div class="main-slider__slide">
-                <div class="main-slider__img" style="background-image: url(/img/slide2.png)"></div>
+                <div class="main-slider__img" style="background-image: url(img/slide2.png)"></div>
             </div>
             <div class="main-slider__slide">
-                <div class="main-slider__img" style="background-image: url(/img/slide2.png)"></div>
+                <div class="main-slider__img" style="background-image: url(img/slide2.png)"></div>
             </div>
             <div class="main-slider__slide">
-                <div class="main-slider__img" style="background-image: url(/img/slide2.png)"></div>
+                <div class="main-slider__img" style="background-image: url(img/slide2.png)"></div>
             </div>
         </div>
     </section>

@@ -6,19 +6,19 @@
             <h3 class="slider-parent__title">We work with some fantastic brands</h3>
             <div class="main-slider">
                 <div class="main-slider__slide">
-                    <div class="main-slider__img" style="background-image: url(/img/clslider.png)"></div>
+                    <div class="main-slider__img" style="background-image: url(img/clslider.png)"></div>
                 </div>
                 <div class="main-slider__slide">
-                    <div class="main-slider__img" style="background-image: url(/img/clslider.png)"></div>
+                    <div class="main-slider__img" style="background-image: url(img/clslider.png)"></div>
                 </div>
                 <div class="main-slider__slide">
-                    <div class="main-slider__img" style="background-image: url(/img/clslider.png)"></div>
+                    <div class="main-slider__img" style="background-image: url(img/clslider.png)"></div>
                 </div>
                 <div class="main-slider__slide">
-                    <div class="main-slider__img" style="background-image: url(/img/clslider.png)"></div>
+                    <div class="main-slider__img" style="background-image: url(img/clslider.png)"></div>
                 </div>
                 <div class="main-slider__slide">
-                    <div class="main-slider__img" style="background-image: url(/img/clslider.png)"></div>
+                    <div class="main-slider__img" style="background-image: url(img/clslider.png)"></div>
                 </div>
             </div>
         </section>

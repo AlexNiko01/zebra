@@ -5,19 +5,19 @@
                 #WEAREZEBRA</h3>
             <div class="main-slider">
                 <div class="main-slider__slide">
-                    <div class="main-slider__img" style="background-image: url(/img/_MG_0356.jpg)"></div>
+                    <div class="main-slider__img" style="background-image: url(img/_MG_0356.jpg)"></div>
                 </div>
                 <div class="main-slider__slide">
-                    <div class="main-slider__img" style="background-image: url(/img/_MG_0356.jpg)"></div>
+                    <div class="main-slider__img" style="background-image: url(img/_MG_0356.jpg)"></div>
                 </div>
                 <div class="main-slider__slide">
-                    <div class="main-slider__img" style="background-image: url(/img/_MG_0356.jpg)"></div>
+                    <div class="main-slider__img" style="background-image: url(img/_MG_0356.jpg)"></div>
                 </div>
                 <div class="main-slider__slide">
-                    <div class="main-slider__img" style="background-image: url(/img/_MG_0356.jpg)"></div>
+                    <div class="main-slider__img" style="background-image: url(img/_MG_0356.jpg)"></div>
                 </div>
                 <div class="main-slider__slide">
-                    <div class="main-slider__img" style="background-image: url(/img/_MG_0356.jpg)"></div>
+                    <div class="main-slider__img" style="background-image: url(img/_MG_0356.jpg)"></div>
                 </div>
             </div>
         </section>
@@ -31,7 +31,7 @@
             </div>
             <div class="grid">
                 <div class="col-37 tiles__column tiles__item see-post-content">
-                    <div class="tiles__img" style="background-image: url('/img/j1.png')"></div>
+                    <div class="tiles__img" style="background-image: url('img/j1.png')"></div>
                 </div>
                 <div class="col-26 tiles__column  tiles__item">
                     <div class="article">
@@ -45,19 +45,19 @@
                 </div>
                 <div class="col-37 tiles__column tiles__item see-post-content">
 
-                    <div class="tiles__img" style="background-image: url('/img/j2.png')"></div>
+                    <div class="tiles__img" style="background-image: url('img/j2.png')"></div>
 
                 </div>
             </div>
             <div class="grid">
                 <div class="col-26 tiles__column tiles__item see-post-content">
 
-                    <div class="tiles__img" style="background-image: url('/img/j3.png')"></div>
+                    <div class="tiles__img" style="background-image: url('img/j3.png')"></div>
 
                 </div>
                 <div class="col-37 tiles__column tiles__item see-post-content">
 
-                    <div class="tiles__img" style="background-image: url('/img/j4.png')"></div>
+                    <div class="tiles__img" style="background-image: url('img/j4.png')"></div>
 
 
                 </div>
@@ -74,7 +74,7 @@
             </div>
             <div class="grid">
                 <div class="col-37 tiles__column tiles__item see-post-content">
-                    <div class="tiles__img" style="background-image: url('/img/j5.png')"></div>
+                    <div class="tiles__img" style="background-image: url('img/j5.png')"></div>
                 </div>
                 <div class="col-26 tiles__column  tiles__item">
                     <div class="article">
@@ -85,16 +85,16 @@
                 </div>
                 <div class="col-37 tiles__column tiles__item see-post-content">
 
-                    <div class="tiles__img" style="background-image: url('/img/j6.png')"></div>
+                    <div class="tiles__img" style="background-image: url('img/j6.png')"></div>
 
                 </div>
             </div>
             <div class="grid">
                 <div class="col-25 tiles__column tiles__item see-post-content">
-                    <div class="tiles__img" style="background-image: url('/img/j7.png')"></div>
+                    <div class="tiles__img" style="background-image: url('img/j7.png')"></div>
                 </div>
                 <div class="col-25 tiles__column tiles__item see-post-content">
-                    <div class="tiles__img" style="background-image: url('/img/j8.png')"></div>
+                    <div class="tiles__img" style="background-image: url('img/j8.png')"></div>
                 </div>
                 <div class="col-25 tiles__column tiles__item">
                     <div class="article">
@@ -115,18 +115,20 @@
             </div>
             <div class="grid">
                 <div class="col-37 tiles__column tiles__item see-post-content">
-                    <div class="tiles__img" style="background-image: url('/img/j9.png')"></div>
+                    <div class="tiles__img" style="background-image: url('img/j9.png')"></div>
                 </div>
                 <div class="col-37 tiles__column tiles__item see-post-content">
-                    <div class="tiles__img" style="background-image: url('/img/j10.png')"></div>
+                    <div class="tiles__img" style="background-image: url('img/j10.png')"></div>
                 </div>
                 <div class="col-26 tiles__column tiles__item see-post-content">
-                    <div class="tiles__img" style="background-image: url('/img/j11.png')"></div>
+                    <div class="tiles__img" style="background-image: url('img/j11.png')"></div>
                 </div>
             </div>
         </section>
-        <section class="in-touch" style="visibility: visible; animation-name: fadeInUp;">
-            <a href="#" class="button">GET IN TOUCH</a>
+        <section class="in-touch">
+            <div class="text-center">
+                <a href="#" class="button">GET IN TOUCH</a>
+            </div>
         </section>
     </main>
     <div class="publication-pop-up">

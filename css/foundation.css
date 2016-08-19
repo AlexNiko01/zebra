@@ -6748,7 +6748,9 @@ cite {
   height: 412px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 50% 12%; }
+  background-position: 50% 50%; }
+  .main-slider__img--services {
+    background-position: 50% 100%; }
 
 .slick-dots {
   position: absolute;
@@ -6766,8 +6768,7 @@ cite {
   width: 12px;
   height: 12px;
   margin: 0 6px;
-  padding: 0;
-  cursor: pointer; }
+  padding: 0; }
 
 .slick-dots li button {
   font-size: 0;
@@ -6776,7 +6777,6 @@ cite {
   width: 14px;
   height: 14px;
   padding: 5px;
-  cursor: pointer;
   color: transparent;
   outline: none;
   background: #cdcdcd;
@@ -6838,8 +6838,7 @@ cite {
       border-radius: 50%;
       border: 2px solid #fff;
       padding-top: 16px;
-      padding-left: 10px;
-      cursor: pointer; }
+      padding-left: 10px; }
       .intro-video__play .fa {
         vertical-align: top; }
       .intro-video__play:hover {
@@ -6973,7 +6972,6 @@ cite {
     left: 5px;
     bottom: 5px;
     right: 5px;
-    cursor: pointer;
     background-color: rgba(92, 201, 236, 0.7);
     opacity: 0;
     content: '';
@@ -7115,7 +7113,6 @@ cite {
   margin-top: -10px;
   transform: translate(0, -50%);
   padding: 0;
-  cursor: pointer;
   color: transparent;
   border: none;
   outline: none;
@@ -7541,6 +7538,9 @@ h3.click-title {
 .offices-detailed {
   display: none; }
 
+.see-our-story {
+  padding: 77px 0; }
+
 .article {
   background-color: #000;
   color: #fff;
@@ -7652,6 +7652,53 @@ h3.click-title {
   padding: 77px 0;
   text-align: center;
   background-color: #fff; }
+
+.services-content {
+  padding: 70px 0;
+  text-align: justify; }
+
+.see-production {
+  padding: 70px 0; }
+
+.production {
+  overflow-x: hidden; }
+
+.product {
+  position: relative; }
+  .product__hover {
+    top: calc(100% - 5px);
+    left: 5px;
+    bottom: 5px;
+    right: 5px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: all 0.3s linear; }
+  .product:hover .product__hover {
+    position: absolute;
+    top: 5px;
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 0.3s linear; }
+  .product__content {
+    height: 100%;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -js-display: flex;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    -moz-align-items: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    -moz-justify-content: center;
+    justify-content: center;
+    color: #fff; }
 
 footer {
   background-color: #d4d4d4;

@@ -3,22 +3,22 @@
 
     <main role="main">
         <section class="slider-parent">
-            <h3 class="slider-parent__title">Helping brands & agencies to create brilliant content</h3>
+            <h3 class="slider-parent__title">Global content production & marketing efficiency network</h3>
             <div class="main-slider">
                 <div class="main-slider__slide">
-                    <div class="main-slider__img"></div>
+                    <div class="main-slider__img" style="background-image: url(img/of-s.png)"></div>
                 </div>
                 <div class="main-slider__slide">
-                    <div class="main-slider__img"></div>
+                    <div class="main-slider__img" style="background-image: url(img/of-s.png)"></div>
                 </div>
                 <div class="main-slider__slide">
-                    <div class="main-slider__img"></div>
+                    <div class="main-slider__img" style="background-image: url(img/of-s.png)"></div>
                 </div>
                 <div class="main-slider__slide">
-                    <div class="main-slider__img"></div>
+                    <div class="main-slider__img" style="background-image: url(img/of-s.png)"></div>
                 </div>
                 <div class="main-slider__slide">
-                    <div class="main-slider__img"></div>
+                    <div class="main-slider__img" style="background-image: url(img/of-s.png)"></div>
                 </div>
             </div>
         </section>
@@ -69,6 +69,12 @@
                         </article>
                     <?php endfor; ?>
                 </div>
+            </div>
+        </section>
+        <section class="see-our-story">
+            <div class="text-center">
+                <a href="#" class="button">OUR STORY</a>
+
             </div>
         </section>
         <div class="offices-detailed">
