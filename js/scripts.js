@@ -123,7 +123,7 @@
             });
             $('.see-post-content').on('click', function () {
                 $('.publication-pop-up').addClass('pp-active');
-                publication.slick('slickGoTo', $(this).index());
+                publication_slider.slick('slickGoTo', $(this).index());
             });
         }
         

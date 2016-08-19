@@ -55,11 +55,11 @@ ul {
 
 @font-face {
   font-family: 'gotham_lightregular';
-  src: url('../../fonts/gotham-light-webfont.eot');
-  src: url('../../fonts/gotham-light-webfont.eot?#iefix') format('embedded-opentype'),
-  url('../../fonts/gotham-light-webfont.woff2') format('woff2'),
-  url('../../fonts/gotham-light-webfont.woff') format('woff'),
-  url('../../fonts/gotham-light-webfont.svg#gotham_lightregular') format('svg');
+  src: url('../fonts/gotham-light-webfont.eot');
+  src: url('../fonts/gotham-light-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/gotham-light-webfont.woff2') format('woff2'),
+  url('../fonts/gotham-light-webfont.woff') format('woff'),
+  url('../fonts/gotham-light-webfont.svg#gotham_lightregular') format('svg');
   font-weight: normal;
   font-style: normal;
 
@@ -79,11 +79,11 @@ ul {
 
 @font-face {
   font-family: 'gotham_mediumregular';
-  src: url('../../fonts/gotham-medium-webfont.eot');
-  src: url('../../fonts/gotham-medium-webfont.eot?#iefix') format('embedded-opentype'),
-  url('../../fonts/gotham-medium-webfont.woff2') format('woff2'),
-  url('../../fonts/gotham-medium-webfont.woff') fomat('woff'),
-  url('../../fonts/gotham-medium-webfont.svg#gotham_mediumregular') format('svg');
+  src: url('../fonts/gotham-medium-webfont.eot');
+  src: url('../fonts/gotham-medium-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/gotham-medium-webfont.woff2') format('woff2'),
+  url('../fonts/gotham-medium-webfont.woff') fomat('woff'),
+  url('../fonts/gotham-medium-webfont.svg#gotham_mediumregular') format('svg');
   font-weight: normal;
   font-style: normal;
 
@@ -249,6 +249,7 @@ cite {
   text-align: center;
   font-size: 20px;
   margin-bottom: 11px;
+  margin-top: 11px;
   &-video {
     position: relative;
     &__prev {
@@ -569,6 +570,7 @@ cite {
     background-position: 50% 50%;
     height: 100%;
     background-color: #000;
+    width: 101%;
 
   }
   &__info {

@@ -20,8 +20,11 @@
 .career {
   font-family: 'gotham_bookregular', sans-serif;
   padding-top:70px;
-  &__titles, &__item {
+  &__item {
     border-bottom: 2px solid #000;
+    padding-bottom: 30px;
+  }
+  &__titles{
     padding-bottom: 30px;
   }
   &__item {

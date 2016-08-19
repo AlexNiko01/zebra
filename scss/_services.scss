@@ -1,6 +1,8 @@
 .services-content {
   padding: 70px 0;
   text-align: justify;
+  font-family: 'gotham_bookregular', sans-serif;
+  font-size:18px
 }
 
 .see-production {
@@ -12,23 +14,18 @@
 }
 
 .product {
-  position: relative;
 
   &__hover {
-    top: calc(100% - 5px);
+    text-align: center;
+    position: absolute;
+    top:100%;
     left: 5px;
     bottom: 5px;
     right: 5px;
-    width: 100%;
-    height: 100%;
     background-color: rgba(0, 0, 0, .8);
     color: #fff;
     opacity: 0;
-    -webkit-transform: translateY(100%);
-    -moz-transform: translateY(100%);
-    -o-transform: translateY(100%);
-    transform: translateY(100%);
-    -webkit-transition: all 0.3s linear;
+     -webkit-transition: all 0.3s linear;
     -moz-transition: all 0.3s linear;
     -ms-transition: all 0.3s linear;
     -o-transition: all 0.3s linear;
@@ -36,13 +33,8 @@
 
   }
   &:hover .product__hover {
-    position: absolute;
     top: 5px;
     opacity: 1;
-    -webkit-transform: translateY(0);
-    -moz-transform: translateY(0);
-    -o-transform: translateY(0);
-    transform: translateY(0);
     -webkit-transition: all 0.3s linear;
     -moz-transition: all 0.3s linear;
     -ms-transition: all 0.3s linear;
@@ -56,5 +48,14 @@
     @include align-items(center);
     @include justify-content(center);
     color: #fff;
+  }
+  &__title{
+    font-family: 'gotham_boldregular', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+  }
+  &__sub-title{
+    font-family: 'gotham_lightregular', sans-serif;
+    font-size: 20px;
   }
 }
