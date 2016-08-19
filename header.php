@@ -22,7 +22,7 @@
         </div>
         <nav class="top-bar">
             <div class="row navigation">
-                <div class="column small-12 medium-7 large-7">
+                <div class="column small-12 medium-6 large-6">
                     <ul class="main-menu main-menu-left clearfix">
                         <li class="main-menu__item current-menu-item"><a href="index.php" class="main-menu__link">
                                 Home
@@ -42,7 +42,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="column small-12 medium-5 large-5">
+                <div class="column small-12 medium-6 large-6">
                     <ul class="main-menu main-menu-right clearfix">
                         <li class="main-menu__item"><a href="jobs.php" class="main-menu__link">
                                 Jobs
