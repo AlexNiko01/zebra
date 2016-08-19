@@ -53,7 +53,7 @@
                         <?php for ($i = 0; $i < 36; $i++) : ?>
                             <div class="testimonials__slide">
                                 <div class="row small-collapse">
-                                    <div class="column large-4 medium-6 small-12">
+                                    <div class="column large-4 medium-6 small-12 centered">
                                         <div class="testimonials__caption">
                                             <blockquote class="testimonials__caption__content">
                                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi culpa

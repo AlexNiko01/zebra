@@ -7033,14 +7033,15 @@ cite {
     color: #fff; }
 
 .pop-up {
-  visibility: hidden;
+  z-index: -1;
+  opacity: 0;
   position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  z-index: -99999;
-  background-color: rgba(0, 0, 0, 0.4); }
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: all 0.3s linear; }
   .pop-up__inner {
     position: absolute;
     max-width: 95%;
@@ -7099,8 +7100,8 @@ cite {
   font-family: 'gotham_lightregular', sans-serif; }
 
 .pop-up.pp-active {
-  visibility: visible;
-  z-index: 99999; }
+  z-index: 99999999999;
+  opacity: 1; }
 
 .slick-prev, .slick-next {
   font-size: 0;
@@ -7203,6 +7204,22 @@ cite {
     width: 50%; }
   .col-26 {
     width: 50%; } }
+
+.works-slider__item {
+  height: 670px; }
+
+.pp-post {
+  height: 100%;
+  background-color: #fff; }
+  .pp-post__info-parent {
+    -ms-flex-item-align: center;
+    align-self: center; }
+
+@media all and (max-width: 640px) {
+  .works-slider__item {
+    height: auto; }
+  .pp-post__info {
+    padding: 60px 30px; } }
 
 .zebras-story {
   padding: 60px 0 80px;
@@ -7360,7 +7377,7 @@ cite {
   background-color: rgba(0, 0, 0, 0.4);
   transition: all 0.3s linear; }
   .testimonials.shown {
-    z-index: 1;
+    z-index: 99999999999;
     opacity: 1; }
   .testimonials__inner {
     position: absolute;
@@ -7372,7 +7389,14 @@ cite {
   .testimonials__slider {
     width: 100%; }
   .testimonials__slide {
-    background-color: #fff; }
+    background-color: #fff;
+    height: 670px;
+    max-height: 100%; }
+    .testimonials__slide > .row {
+      height: 100%; }
+    .testimonials__slide .centered {
+      -ms-flex-item-align: center;
+      align-self: center; }
   .testimonials__caption {
     position: relative;
     padding: 40px 50px;
@@ -7414,6 +7438,20 @@ h3.click-title {
 @media all and (max-width: 1024px) {
   .testimonials__caption {
     font-size: 13px; } }
+
+@media all and (max-width: 640px) {
+  .testimonials__slide {
+    height: auto; }
+  .testimonials__caption {
+    padding: 60px 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 9999; }
+  .testimonials__thumbnail {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; } }
 
 .single-office {
   padding: 40px 0;
@@ -7524,6 +7562,8 @@ h3.click-title {
   -ms-flex-pack: center;
   -moz-justify-content: center;
   justify-content: center; }
+  .article-large {
+    font-size: 20px; }
   .article__item {
     position: relative; }
     .article__item:after {
@@ -7536,6 +7576,77 @@ h3.click-title {
   .article__name {
     font-family: 'gotham_mediumregular',sans-serif;
     margin-bottom: 0; }
+
+.publication {
+  height: 100%;
+  background-color: #fff;
+  font-size: 14px;
+  font-family: 'gotham_bookregular',sans-serif;
+  padding: 70px; }
+  .publication__location {
+    font-size: 27px;
+    font-family: 'gotham_mediumregular',sans-serif;
+    line-height: 1;
+    margin-bottom: 0; }
+  .publication__name, .publication__date, .publication__autor {
+    font-size: 16px; }
+  .publication__date, .publication__autor {
+    font-family: 'gotham_lightitalic',sans-serif; }
+  .publication p {
+    margin-bottom: 10px;
+    text-align: justify;
+    line-height: 1.3; }
+  .publication__pictures {
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -js-display: flex;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    -moz-justify-content: center;
+    justify-content: center;
+    height: 100%; }
+
+.publication__img + .publication__img {
+  margin-top: 21px; }
+
+.publication-slider__slide {
+  height: 827px; }
+
+.publication-pop-up {
+  z-index: -1;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: all 0.3s linear; }
+  .publication-pop-up.pp-active {
+    z-index: 99999999999;
+    opacity: 1; }
+  .publication-pop-up__inner {
+    position: absolute;
+    max-width: 95%;
+    width: 1280px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .publication-pop-up__close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 42px;
+    background-color: #000;
+    color: #fff;
+    padding: 3px 18px 11px;
+    vertical-align: middle;
+    line-height: 1; }
+    .publication-pop-up__close:focus {
+      outline: none; }
 
 footer {
   background-color: #d4d4d4;

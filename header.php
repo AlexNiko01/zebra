@@ -60,18 +60,6 @@
                             <a href="#" id="show-search" class="main-menu__link main-menu__link--search">
                                search
                             </a>
-                            <div class="header__search-form">
-                                <form method="get" id="searchform" action="">
-                                    <div class="row collapse">
-                                        <div class="small-8 columns">
-                                            <input type="search" name="search" id="search" placeholder="Search on ZebraWorldWide">
-                                        </div>
-                                        <div class="small-4 columns">
-                                            <input type="submit" name="s" id="searchsubmit" value="Search">
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
                         </li>
                     </ul>
                 </div>
@@ -79,6 +67,18 @@
             <div class="toggle-topbar menu-icon"><a href="#"><span></span></a></div>
         </nav>
 
+        <div class="header__search-form">
+            <form method="get" id="searchform" action="">
+                <div class="row collapse">
+                    <div class="small-8 columns">
+                        <input type="search" name="search" id="search" placeholder="Search on ZebraWorldWide">
+                    </div>
+                    <div class="small-4 columns">
+                        <input type="submit" name="s" id="searchsubmit" value="Search">
+                    </div>
+                </div>
+            </form>
+        </div>
     </div>
 
 

@@ -517,14 +517,19 @@ cite {
 }
 
 .pop-up {
-  visibility: hidden;
+  z-index: -1;
+  opacity: 0;
   position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  z-index: -99999;
   background-color: rgba(0, 0, 0, .4);
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 
   &__inner {
     position: absolute;
@@ -604,8 +609,8 @@ cite {
 }
 
 .pop-up.pp-active {
-  visibility: visible;
-  z-index: 99999;
+  z-index: 99999999999;
+  opacity: 1;
 }
 .slick-prev, .slick-next {
   font-size: 0;
@@ -753,5 +758,26 @@ cite {
   }
 }
 
+.works-slider {
+  &__item {
+    height: 670px;
+  }
+}
+.pp-post {
+  height: 100%;
+  background-color: #fff;
+  &__info-parent {
+    @include align-self(center);
+  }
+}
 
-
+@media all and (max-width: 640px) {
+  .works-slider {
+    &__item {
+      height: auto;
+    }
+  }
+  .pp-post__info {
+    padding: 60px 30px;
+  }
+}

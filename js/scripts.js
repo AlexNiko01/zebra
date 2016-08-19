@@ -23,6 +23,8 @@
                 arrows: true,
                 dots: false,
                 slidesToShow: 1,
+                fade: true,
+                cssEase: 'linear'
 
             });
         }
@@ -30,14 +32,16 @@
         body.on('click', '.tiles__item', function () {
             $('.pop-up').addClass('pp-active');
         });
-        body.on('click', '.pop-up', function (e) {
-            if (!$(e.target).closest('.pop-up__inner').length > 0) {
+        body.on('click', '.pop-up, .publication-pop-up, .testimonials', function (e) {
+            if (!$(e.target).closest('.pop-up__inner, .publication-pop-up__inner, .testimonials__inner').length > 0) {
                 $(this).removeClass('pp-active');
+                $(this).removeClass('shown');
 
             }
         });
-        body.on('click', '.pop-up__close', function (e) {
-            $('.pop-up').removeClass('pp-active')
+        body.on('click', '.pop-up__close,.publication-pop-up__close', function (e) {
+            $('.pop-up, .publication-pop-up').removeClass('pp-active')
+            $('.testimonials.shown').removeClass('shown')
         });
         //video play
         var iframe = $('#player1')[0];
@@ -106,6 +110,25 @@
             $('.header__search-form').slideToggle();
 
         });
+        //journal pop-up
+        var publication_slider = $('.publication-slider');
+        if (publication_slider.length > 0) {
+            publication_slider.slick({
+                dots: false,
+                arrows: true,
+                infinite: false,
+                speed: 500,
+                fade: true,
+                cssEase: 'linear'
+            });
+            $('.see-post-content').on('click', function () {
+                $('.publication-pop-up').addClass('pp-active');
+                publication.slick('slickGoTo', $(this).index());
+            });
+        }
+        
+        
+        
     });
     $(window).resize(function () {
         $('.navigation').removeAttr('style');

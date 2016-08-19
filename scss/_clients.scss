@@ -91,7 +91,7 @@
   -o-transition: all 0.3s linear;
   transition: all 0.3s linear;
   &.shown {
-    z-index: 1;
+    z-index: 99999999999;
     opacity: 1;
   }
 
@@ -110,8 +110,14 @@
   }
   &__slide {
     background-color: #fff;
-
-
+    height: 670px;
+    max-height: 100%;
+    > .row {
+      height: 100%;
+    }
+    .centered {
+      @include align-self(center);
+    }
   }
   &__caption {
     position: relative;
@@ -127,7 +133,6 @@
       &:after {
         position: absolute;
       }
-
 
       &:before {
         content: '"';
@@ -174,12 +179,23 @@ h3.click-title {
   }
 }
 
-//@media all and (max-width: 640px) {
-//
-//  .testimonials__caption{
-//    width: 100%;
-//  }
-//  .testimonials__thumbnail{
-//    width: 100%;
-//  }
-//}
+@media all and (max-width: 640px) {
+
+  .testimonials {
+    &__slide {
+      height: auto;
+    }
+    &__caption {
+      padding: 60px 40px;
+      background-color: rgba(255, 255, 255, 0.8);
+      z-index: 9999;
+    }
+    &__thumbnail {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
