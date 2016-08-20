@@ -1,6 +1,10 @@
 .single-office {
   padding: 40px 0;
   border-bottom: 2px solid #000;
+  h3{
+    font-family: 'gotham_mediumregular', sans-serif;
+    font-size: 30px;
+  }
   h3, h4 {
     line-height: 1;
     text-transform: uppercase;
@@ -47,6 +51,8 @@
     }
   }
   &__description {
+    font-family: 'gotham_bookregular', sans-serif;
+    font-size: 18px;
     ul {
       margin: 25px 0;
       li {
@@ -184,4 +190,7 @@
       margin: 0;
     }
   }
+}
+address{
+  font-style: normal;
 }

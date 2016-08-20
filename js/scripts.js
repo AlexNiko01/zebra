@@ -159,8 +159,23 @@
         body.on('click','#see-contacts',function (e) {
             e.preventDefault();
             $('.pop-up').addClass('pp-active');
-        })
+        });
 
+        $('input[type=file]').on('change', function () {
+            var val = $(this).val();
+            var info_container = $('.main-contact-form__attachment-input');
+            if(info_container.length > 0) {
+                if(!info_container.data('placeholder')) {
+                    info_container.data('placeholder', info_container.text());
+                }
+                if(val.length > 0) {
+                    var file_parts = val.split('\\');
+                    info_container.text(file_parts[file_parts.length-1]);
+                } else {
+                    info_container.text(info_container.data('placeholder'));
+                }
+            }
+        });
 
     });
     $(window).resize(function () {

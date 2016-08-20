@@ -195,12 +195,12 @@
                         <label>
                             <input name="email" type="email" placeholder="Email*">
                         </label>
-                        <div class="row small-collpse ">
+                        <div class="row small-collpse main-contact-form__attachment">
                             <div class="column small-8">
-                                <div class="main-contact-form__attachment"></div>
+                                <div class="main-contact-form__attachment-input">Attachment</div>
                             </div>
                             <div class="column small-4">
-                                <label>Upload
+                                <label class="main-contact-form__file">Upload
                                     <input name="attachment" type="file">
                                 </label>
                             </div>
