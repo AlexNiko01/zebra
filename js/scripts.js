@@ -126,7 +126,10 @@
             });
             $('.clients__column').on('click', function () {
                 $('.testimonials').addClass('shown');
-                testimonial_slider.slick('slickGoTo', $(this).index());
+                var id = $(this).data('id');
+                if(id && testimonial_slider.length > 0){
+                    testimonial_slider.slick('slickGoTo', $('#'+id).index());
+                }
             });
         }
         // search form

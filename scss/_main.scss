@@ -241,11 +241,11 @@ cite {
     font-weight: normal;
     font-family: 'gotham_mediumregular', sans-serif;
     font-size: 25px;
-    -webkit-transform: translate(0,-50%);
-    -moz-transform: translate(0,-50%);
-    -ms-transform: translate(0,-50%);
-    -o-transform: translate(0,-50%);
-    transform: translate(0,-50%);
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    transform: translate(0, -50%);
   }
 }
 
@@ -286,7 +286,6 @@ cite {
       border: 2px solid #fff;
       padding-top: 16px;
       padding-left: 10px;
-
 
       .fa {
         vertical-align: top;
@@ -330,8 +329,8 @@ cite {
         &:before {
           position: absolute;
           content: '--';
-          top:-20px;
-          left:50%;
+          top: -20px;
+          left: 50%;
           display: block;
           font-weight: bold;
         }
@@ -565,7 +564,7 @@ cite {
 }
 
 .pp-post {
-  &__logo{
+  &__logo {
     position: absolute;
     right: 40px;
     bottom: 40px;
@@ -602,19 +601,19 @@ cite {
   }
   &__title,
   &__client,
-  &__project{
+  &__project {
     font-family: 'gotham_mediumregular', sans-serif;
   }
   &__client,
-  &__project{
-    font-size: 18px;  }
+  &__project {
+    font-size: 18px;
+  }
   &__category,
   &__client-container,
-  &__project-container{
+  &__project-container {
     font-family: 'gotham_lightregular', sans-serif;
 
   }
-
 
 }
 
@@ -622,6 +621,7 @@ cite {
   z-index: 99999999999;
   opacity: 1;
 }
+
 .slick-prev, .slick-next {
   font-size: 0;
   line-height: 0;
@@ -641,12 +641,15 @@ cite {
   outline: none;
   background: transparent;
 }
-.slick-next{
+
+.slick-next {
   right: 10px;
 }
-.slick-prev{
-  left:10px;
+
+.slick-prev {
+  left: 10px;
 }
+
 .slick-prev:before, .slick-next:before {
   font-family: FontAwesome, sans-serif;
   font-size: 30px;
@@ -656,50 +659,50 @@ cite {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 .slick-prev:before {
   content: "\f053";
 }
+
 .slick-next:before {
   content: "\f054";
 }
 
-
-@media all and (max-width: 1124px){
+@media all and (max-width: 1124px) {
   .pp-post__info {
     padding: 40px 40px;
     font-size: 14px;
   }
-  .intro__text{
+  .intro__text {
     font-size: 18px;
     line-height: 1.5;
     padding: 20px 45px;
   }
 
 }
-@media all and (max-width: 640px){
+
+@media all and (max-width: 640px) {
   .pp-post__info {
     padding: 20px 30px;
     font-size: 13px;
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0, 0, 0, 0);
   }
-  .pp-post{
+  .pp-post {
     position: relative;
-    &__info-parent{
+    &__info-parent {
       z-index: 9;
-      background-color: rgba(255,255,255,.6);
+      background-color: rgba(255, 255, 255, .6);
     }
-    &__img-parent{
+    &__img-parent {
       position: absolute;
       height: 100%;
     }
 
   }
-  .slick-prev:before, .slick-next:before{
+  .slick-prev:before, .slick-next:before {
     color: #000;
   }
 }
-
-
 
 @media all and (max-width: 1024px) {
   .grid {
@@ -772,6 +775,7 @@ cite {
     height: 670px;
   }
 }
+
 .pp-post {
   height: 100%;
   background-color: #fff;
@@ -788,5 +792,40 @@ cite {
   }
   .pp-post__info {
     padding: 60px 30px;
+  }
+}
+
+.red {
+  background-color: rgba(191, 69, 67, .6);
+}
+
+.d-blue {
+  background-color: rgba(7, 50, 221, 0.7);
+}
+
+.l-blue {
+  background-color: rgba(28, 255, 242, 0.7);
+}
+
+.green {
+  background-color: rgba(31, 180, 65, 0.7);
+}
+
+.yellow {
+  background-color: rgba(255, 210, 0, 0.7);
+}
+
+.pink {
+  background-color: rgba(255, 114, 235, 0.7);
+}
+
+.orange {
+  background-color: rgba(254, 104, 13, 0.7);
+}
+
+a{
+  color:#000;
+  &:hover,&:focus{
+    color: #303030;
   }
 }

@@ -114,9 +114,9 @@
 <div class="pop-up">
     <div class="pop-up__inner contacts">
         <div class="row">
-            <div class="career__titles column">
-                <h3 class="career__title">BECOME A ZEBRA</h3>
-                <h4 class="career__sub-title">CAREER OPPORTUNITIES</h4>
+            <div class="career__titles column border-bottom">
+                <h3 class="career__title">CONTACT US</h3>
+                <h4 class="career__sub-title">FOR FURTHER INFORMATION</h4>
             </div>
         </div>
         <div class="row">
@@ -184,14 +184,44 @@
                         kiev-info@zebra-worldwide.com
                     </a>
                 </div>
-                <div class="column small-12 medium-6">
+            </div>
+            <div class="column small-12 medium-6">
+                <div class="main-contact-form">
+                    <form method="post" action="index.php">
+                        <label>
+                            <input name="name" type="text" placeholder="Name*">
+                        </label>
 
+                        <label>
+                            <input name="email" type="email" placeholder="Email*">
+                        </label>
+                        <div class="row small-collpse ">
+                            <div class="column small-8">
+                                <div class="main-contact-form__attachment"></div>
+                            </div>
+                            <div class="column small-4">
+                                <label>Upload
+                                    <input name="attachment" type="file">
+                                </label>
+                            </div>
+                        </div>
+
+                        <label>
+                            <input name="text" type="text" placeholder="Subject">
+                        </label>
+                        <label>
+                            <textarea name="message" placeholder="Type Here"></textarea>
+                        </label>
+                        <input id="submit" name="submit" type="submit" value="Submit">
+
+                    </form>
                 </div>
+
             </div>
         </div>
+
         <button class="pop-up__close">x</button>
     </div>
-
-
-    <?php include('footer.php'); ?>
+</div>
+<?php include('footer.php'); ?>
 

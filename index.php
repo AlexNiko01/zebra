@@ -47,7 +47,7 @@
     <section class="tiles">
         <div class="grid wow fadeInUp">
             <div class="col-37 tiles__column tiles__item"  data-id="post_1">
-                <div class="tiles__img" style="background-image: url('img/1.png')">
+                <div class="tiles__img red" style="background-image: url('img/1.png')">
                 </div>
                 <div class="tiles__caption">work</div>
                 <div class="tiles__hover">
@@ -66,16 +66,16 @@
 
                 </div>
                 <div class="col-50 tiles__column tiles__item height-small"  data-id="post_2">
-                    <div class="tiles__img" style="background-image: url('img/2.png')"></div>
+                    <div class="tiles__img d-blue" style="background-image: url('img/2.png')"></div>
 
                 </div>
                 <div class="col-50 tiles__column tiles__item height-small"  data-id="post_3">
-                    <div class="tiles__img" style="background-image: url('img/3.png')"></div>
+                    <div class="tiles__img l-blue" style="background-image: url('img/3.png')"></div>
 
                 </div>
             </div>
             <div class="col-37 tiles__column tiles__item">
-                <div class="tiles__img" style="background-image: url('img/4.png')"></div>
+                <div class="tiles__img green" style="background-image: url('img/4.png')"></div>
                 <div class="tiles__caption">clients</div>
             </div>
         </div>
