@@ -30,7 +30,7 @@
                 </div>
             </div>
             <div class="grid">
-                <div class="col-37 tiles__column tiles__item see-post-content">
+                <div class="col-37 tiles__column tiles__item see-post-content" data-id="post_1">
                     <div class="tiles__img" style="background-image: url('img/j1.png')"></div>
                 </div>
                 <div class="col-26 tiles__column  tiles__item">
@@ -43,7 +43,7 @@
                         <p class="article__nick-name">@ZebraWorldwide</p>
                     </div>
                 </div>
-                <div class="col-37 tiles__column tiles__item see-post-content">
+                <div class="col-37 tiles__column tiles__item see-post-content"  data-id="post_2">
 
                     <div class="tiles__img" style="background-image: url('img/j2.png')"></div>
 
@@ -135,7 +135,7 @@
         <div class="publication-pop-up__inner">
             <div class="publication-slider">
                 <?php for ($i = 0; $i < 11; $i++) : ?>
-                    <div class="publication-slider__slide">
+                    <div class="publication-slider__slide" id="post_<?php echo $i ?>">
                         <div class="row publication">
                             <div class="column large-6 medium-6 small-12">
                                 <div class="publication__soc-n"></div>

@@ -77,51 +77,6 @@
 
             </div>
         </section>
-        <div class="offices-detailed">
-            <div class="offices-detailed__container">
-                <?php for ( $i = 0; $i < 4; $i ++ ) : ?>
-                    <div class="single-office so-detailed" id="office-<?php echo $i ?>">
-                        <h2 class="so-detailed__title">London Studio <span class="close-detailed">X</span></h2>
-                        <div class="so-detailed__container">
-                            <h3>Photo Studio</h3>
-                            <h4>6 Little Portland Street, London, W1W 7JE</h4>
-
-                            <div class="row">
-                                <div class="column large-5 medium-5 small-12 so-detailed__content">
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto
-                                        cumque, delectus ducimus earum enim, eos esse illum molestias neque nostrum
-                                        quaerat repellendus similique temporibus ut veniam voluptatem voluptatum?
-                                        Ad?
-                                    </p>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto
-                                        cumque, delectus ducimus earum enim Lorem ipsum dolor sit amet, consectetur
-                                        adipisicing elit. Accusamus architecto cumque, delectus ducimus earum enim
-                                    </p>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto
-                                        cumque, delectus ducimus earum enim
-                                    </p>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto
-                                        cumque, delectus ducimus earum enim, eos esse illum molestias neque nostrum
-                                        quaerat
-                                    </p>
-                                    <div class="so-detailed__contact-info">
-
-                                    </div>
-                                </div>
-                                <div class="column large-7 medium-7 small-12 so-detailed__gallery">
-                                    <?php for ( $i = 0; $i < 6; $i ++ ) : ?>
-                                    <?php endfor; ?>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                <?php endfor; ?>
-            </div>
-        </div>
     </main>
 
 

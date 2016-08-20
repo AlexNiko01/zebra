@@ -46,7 +46,7 @@
     </section>
     <section class="tiles">
         <div class="grid wow fadeInUp">
-            <div class="col-37 tiles__column tiles__item">
+            <div class="col-37 tiles__column tiles__item"  data-id="post_1">
                 <div class="tiles__img" style="background-image: url('img/1.png')">
                 </div>
                 <div class="tiles__caption">work</div>
@@ -65,11 +65,11 @@
                     </div>
 
                 </div>
-                <div class="col-50 tiles__column tiles__item height-small">
+                <div class="col-50 tiles__column tiles__item height-small"  data-id="post_2">
                     <div class="tiles__img" style="background-image: url('img/2.png')"></div>
 
                 </div>
-                <div class="col-50 tiles__column tiles__item height-small">
+                <div class="col-50 tiles__column tiles__item height-small"  data-id="post_3">
                     <div class="tiles__img" style="background-image: url('img/3.png')"></div>
 
                 </div>
@@ -81,7 +81,7 @@
         </div>
         <div class="grid wow fadeInUp">
             <div class="col-25 tiles__column">
-                <div class="col-100 tiles__column tiles__item height-small">
+                <div class="col-100 tiles__column height-small">
                     <div class="tiles__content">
                         <span class="tiles__pre">content</span>
                         <h3 class="tiles__title">creative</h3>
@@ -111,7 +111,7 @@
                         <div class="tiles__img" style="background-image: url('img/9.png')"></div>
 
                     </div>
-                    <div class="col-65 tiles__column  tiles__item height-small">
+                    <div class="col-65 tiles__column height-small">
                         <div class="tiles__content">
                             <span class="tiles__pre">production</span>
                             <h3 class="tiles__title">creative</h3>
@@ -134,18 +134,18 @@
         </div>
         <div class="grid wow fadeInUp">
             <div class="col-37 tiles__column">
-                <div class="col-33 tiles__column tiles__item">
+                <div class="col-33 tiles__column tiles__item ">
                     <div class="tiles__img" style="background-image: url('img/12.png')"></div>
                 </div>
                 <div class="col-66 tiles__column">
-                    <div class="col-100 tiles__column tiles__item height-small">
+                    <div class="col-100 tiles__column height-small">
                         <div class="tiles__content">
                             <span class="tiles__pre">content</span>
                             <h3 class="tiles__title">localisation</h3>
                         </div>
 
                     </div>
-                    <div class="col-50 tiles__column tiles__item height-small">
+                    <div class="col-50 tiles__column tiles__item height-small ">
                         <div class="tiles__img" style="background-image: url('img/13.png')"></div>
 
                     </div>
@@ -187,7 +187,7 @@
                     <div class="tiles__img" style="background-image: url('img/19.png')"></div>
 
                 </div>
-                <div class="col-65 tiles__column  tiles__item height-small">
+                <div class="col-65 tiles__column height-small">
                     <div class="tiles__content">
                         <span class="tiles__pre">content</span>
                         <h3 class="tiles__title">creative</h3>
@@ -214,8 +214,8 @@
                 <div class="tiles__img" style="background-image: url('img/24.png')"></div>
                 <div class="tiles__caption">contact</div>
             </div>
-            <div class="col-26 tiles__column tiles__item">
-                <div class="col-100 tiles__column  tiles__item height-small">
+            <div class="col-26 tiles__column">
+                <div class="col-100 tiles__column height-small">
                     <div class="tiles__content">
                         <span class="tiles__pre">content</span>
                         <h3 class="tiles__title">support</h3>
@@ -236,7 +236,7 @@
     <div class="pop-up__inner">
         <div class="works-slider">
             <?php for ($i = 0; $i < 25; $i++) : ?>
-            <div class="works-slider__item">
+            <div class="works-slider__item" id="post_<?php echo $i ?>">
                 <div class="row small-collapse pp-post">
                     <div class="column large-4 medium-6 small-12 pp-post__info-parent">
                         <div class="pp-post__info">
@@ -273,7 +273,7 @@
                         </div>
                     </div>
                     <div class="column large-8 medium-6 small-12 pp-post__img-parent">
-                        <div class="pp-post__img" style="background-image: url('img/1.png')">
+                        <div class="pp-post__img" style="background-image: url('img/1.png')" >
                             <img class="pp-post__logo" src="img/walls-logo.png">
                         </div>
                     </div>

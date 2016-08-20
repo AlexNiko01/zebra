@@ -6749,8 +6749,6 @@ cite {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%; }
-  .main-slider__img--services {
-    background-position: 50% 100%; }
 
 .slick-dots {
   position: absolute;
@@ -6796,7 +6794,8 @@ cite {
 .slider-parent {
   position: relative;
   color: #fff;
-  font-size: 25px; }
+  font-size: 25px;
+  margin-top: 70px; }
   .slider-parent__title {
     position: absolute;
     top: 50%;
@@ -6807,7 +6806,8 @@ cite {
     text-align: center;
     font-weight: normal;
     font-family: 'gotham_mediumregular', sans-serif;
-    font-size: 25px; }
+    font-size: 25px;
+    transform: translate(0, -50%); }
 
 .intro {
   text-align: center;
@@ -7235,13 +7235,14 @@ cite {
   font-family: 'gotham_bookregular', sans-serif;
   padding-top: 70px; }
   .career__item {
-    border-bottom: 2px solid #000;
-    padding-bottom: 30px; }
-  .career__titles {
-    padding-bottom: 30px; }
-  .career__item {
+    border-top: 1px solid #12110c;
+    padding-bottom: 30px;
     padding-top: 20px;
     text-align: justify; }
+    .career__item:last-child {
+      border-bottom: 1px solid #12110c; }
+  .career__titles {
+    padding-bottom: 30px; }
   .career__title {
     font-family: 'gotham_mediumregular', sans-serif;
     font-size: 35px; }
@@ -7469,11 +7470,11 @@ h3.click-title {
     display: -ms-flexbox;
     display: flex;
     -js-display: flex; }
-  .single-office:nth-child(odd) > .row, .single-office:nth-child(odd) .single-office__gallery {
+  .single-office:nth-child(odd):not(.single-office-full) > .row, .single-office:nth-child(odd):not(.single-office-full) .single-office__gallery {
     -moz-flex-direction: row-reverse;
     -ms-flex-direction: row-reverse;
     flex-direction: row-reverse; }
-  .single-office:nth-child(odd) .single-office__gallery__large {
+  .single-office:nth-child(odd):not(.single-office-full) .single-office__gallery__large {
     margin-left: 0;
     margin-right: 10px; }
   .single-office__gallery {
@@ -7525,6 +7526,8 @@ h3.click-title {
         margin: 0; }
       .single-office__description ul li a {
         color: inherit; }
+  .single-office-full {
+    border: none; }
 
 .btn {
   display: block;
@@ -7545,6 +7548,60 @@ h3.click-title {
 
 .see-our-story {
   padding: 77px 0; }
+
+.slider-parent__thumbnail {
+  height: 412px;
+  overflow: hidden;
+  position: relative; }
+  .slider-parent__thumbnail__holder {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; }
+
+.offices__gallery {
+  overflow: hidden;
+  margin-bottom: 10px; }
+  .offices__gallery .row {
+    max-width: none;
+    margin-left: -15px;
+    margin-right: -15px; }
+  .offices__gallery__item {
+    margin-top: 30px; }
+  .offices__gallery__img-holder {
+    padding-bottom: 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; }
+
+.office-extra {
+  padding: 50px 0 70px;
+  border-bottom: 1px solid #000; }
+  .office-extra__title, .office-extra__sub-title {
+    width: 100%; }
+  .office-extra__sub-title {
+    margin-bottom: 40px; }
+  .office-extra .offices__gallery__item {
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 0 5px; }
+  .office-extra__contact {
+    font-size: 0.9em;
+    padding-left: 40px;
+    line-height: 1;
+    background-repeat: no-repeat;
+    background-position: left 3px; }
+    .office-extra__contact.icon-photo {
+      background-image: url("../img/icons/photo.png"); }
+    .office-extra__contact.icon-video {
+      background-image: url("../img/icons/video.png"); }
+    .office-extra__contact p {
+      margin: 0; }
 
 .articles {
   overflow: hidden; }
@@ -7722,7 +7779,42 @@ h3.click-title {
 
 .jobs-content {
   font-family: 'gotham_bookregular', sans-serif;
-  padding-top: 70px; }
+  padding-top: 70px;
+  font-size: 18px; }
+
+.position {
+  font-family: 'gotham_mediumregular', sans-serif;
+  line-height: 1; }
+
+.office-name {
+  line-height: 1; }
+
+.position-description {
+  padding-top: 30px;
+  line-height: 1.3; }
+  .position-description__full {
+    display: none; }
+  .position-description__view-more {
+    position: relative;
+    text-transform: uppercase;
+    color: #000;
+    font-family: 'gotham_boldregular',sans-serif;
+    font-size: 13px; }
+    .position-description__view-more:hover, .position-description__view-more:focus {
+      color: #232323; }
+    .position-description__view-more:after {
+      height: 1px;
+      display: block;
+      width: 100%;
+      position: absolute;
+      background-color: #000;
+      content: '';
+      bottom: -5px;
+      left: 0;
+      transform: translate(0, -50%); }
+
+.contacts {
+  background-color: #fff; }
 
 footer {
   background-color: #d4d4d4;

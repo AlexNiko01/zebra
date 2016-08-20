@@ -12,7 +12,7 @@
   > .row {
     @include flexbox;
   }
-  &:nth-child(odd) {
+  &:nth-child(odd):not(#{&}-full)  {
     > .row, .single-office__gallery {
       @include flex-direction(row-reverse);
     }
@@ -77,6 +77,9 @@
       }
     }
   }
+  &-full {
+    border: none;
+  }
 }
 
 .btn {
@@ -105,4 +108,80 @@
 
 .see-our-story {
   padding: 77px 0;
+}
+
+.slider-parent {
+  &__thumbnail {
+    height: 412px;
+    overflow: hidden;
+    position: relative;
+    &__holder {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+  }
+}
+
+.offices {
+  &__gallery {
+    overflow: hidden;
+    margin-bottom: 10px;
+    .row {
+      max-width: none;
+      margin-left: -15px;
+      margin-right: -15px;
+    }
+    &__item {
+      margin-top: 30px;
+    }
+    &__img-holder {
+      padding-bottom: 70%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+  }
+}
+
+.office-extra {
+  padding: 50px 0 70px;
+  border-bottom: 1px solid #000;
+  &__title, &__sub-title {
+    width: 100%;
+  }
+  &__sub-title {
+    margin-bottom: 40px;
+  }
+  .offices__gallery__item {
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 0 5px;
+  }
+  &__contact {
+    font-size: 0.9em;
+    padding-left: 40px;
+    line-height: 1;
+    background-repeat: no-repeat;
+    background-position: left 3px;
+    &.icon-photo {
+      background-image: url("../img/icons/photo.png");
+    }
+    &.icon-video {
+      background-image: url("../img/icons/video.png");
+    }
+    p {
+      margin: 0;
+    }
+  }
 }

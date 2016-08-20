@@ -172,9 +172,7 @@ cite {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    &--services{
-      background-position: 50% 100%;
-    }
+
   }
 
 }
@@ -230,6 +228,7 @@ cite {
   position: relative;
   color: #fff;
   font-size: 25px;
+  margin-top: 70px;
 
   &__title {
     position: absolute;
@@ -242,6 +241,11 @@ cite {
     font-weight: normal;
     font-family: 'gotham_mediumregular', sans-serif;
     font-size: 25px;
+    -webkit-transform: translate(0,-50%);
+    -moz-transform: translate(0,-50%);
+    -ms-transform: translate(0,-50%);
+    -o-transform: translate(0,-50%);
+    transform: translate(0,-50%);
   }
 }
 
@@ -271,7 +275,9 @@ cite {
       top: 50%;
       left: 50%;
       -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
       color: #fff;
       height: 90px;
@@ -280,6 +286,8 @@ cite {
       border: 2px solid #fff;
       padding-top: 16px;
       padding-left: 10px;
+
+
       .fa {
         vertical-align: top;
       }

@@ -35,44 +35,163 @@
                 <h3 class="career__title">BECOME A ZEBRA</h3>
                 <h4 class="career__sub-title">CAREER OPPORTUNITIES</h4>
             </div>
-            <div class="career__item row">
-                <div class="column small-4">
-                    WORLDWIDE
-                    Talent
+            <div class="career__item">
+                <div class="row">
+                    <div class="column small-12 medium-4">
+                        <h5 class="office-name">WORLDWIDE</h5>
+                        <h3 class="position">Talent</h3>
+                    </div>
+                    <div class="column small-12 medium-8 position-description">
+                        <p>We're always on the look out for talented Zebras to join our herd. Check out
+                            the opportunities available or simply send your CV to careers@zebra-
+                            worldwide.com and tell us why you think you'd be an amazing fit.</p>
+                    </div>
                 </div>
-                <div class="column small-8">We're always on the look out for talented Zebras to join our herd. Check out
-                    the opportunities available or simply send your CV to careers@zebra-
-                    worldwide.com and tell us why you think you'd be an amazing fit.
-                </div>
-                
             </div>
-            <div class="career__item row">
-                <div class="column small-4">
-                    LONDON
-                    Finance Coordinator
+            <div class="career__item">
+                <div class="row">
+                    <div class="column small-12 medium-4">
+                        <h5 class="office-name">LONDON</h5>
+                        <h3 class="position">Finance Coordinator</h3>
+                    </div>
+                    <div class="column small-12 medium-8 position-description">
+                        <p>Lorem elit sit do magna consector du ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do labore es eiusmod es amet temp du tempor
+                            incididunt ut labore et dolore magna aliqua.</p>
+                        <div class="position-description__full">
+                            <p>Lorem elit sit do magna consector du ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do labore es eiusmod es amet temp du tempor
+                                incididunt ut labore et dolore magna aliqua.</p>
+                            <p>Lorem elit sit do magna consector du ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do labore es eiusmod es amet temp du tempor
+                                incididunt ut labore et dolore magna aliqua.</p>
+                            <p>Lorem elit sit do magna consector du ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do labore es eiusmod es amet temp du tempor
+                                incididunt ut labore et dolore magna aliqua.</p>
+                            <p>Lorem elit sit do magna consector du ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do labore es eiusmod es amet temp du tempor
+                                incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <a href="#" class="position-description__view-more">view-more...</a>
+                    </div>
                 </div>
-                <div class="column small-8">Lorem elit sit do magna consector du ipsum dolor sit amet, consectetur
-                    adipiscing elit, sed do labore es eiusmod es amet temp du tempor
-                    incididunt ut labore et dolore magna aliqua.
+            </div>
+            <div class="career__item">
+                <div class="row">
+                    <div class="column small-12 medium-4">
+                        <h5 class="office-name">CAPE TOWN</h5>
+                        <h3 class="position">Editor</h3>
+                    </div>
+                    <div class="column small-12 medium-8  position-description">
+                        <p>Lorem elit sit do magna consector du ipsum dolor position-description sit amet, consectetur
+                            adipiscing elit, sed do labore es eiusmod es amet temp du tempor
+                            incididunt ut labore et dolore magna aliqua.</p>
+                        <div class="position-description__full">
+                            <p>Lorem elit sit do magna consector du ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do labore es eiusmod es amet temp du tempor
+                                incididunt ut labore et dolore magna aliqua.</p>
+                            <p>Lorem elit sit do magna consector du ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do labore es eiusmod es amet temp du tempor
+                                incididunt ut labore et dolore magna aliqua.</p>
+                            <p>Lorem elit sit do magna consector du ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do labore es eiusmod es amet temp du tempor
+                                incididunt ut labore et dolore magna aliqua.</p>
+                            <p>Lorem elit sit do magna consector du ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do labore es eiusmod es amet temp du tempor
+                                incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <a href="#" class="position-description__view-more">view-more...</a>
+                    </div>
                 </div>
 
-            </div>
-            <div class="career__item row">
-                <div class="column small-4">
-                    CAPE TOWN
-                    Editor
-                </div>
-                <div class="column small-8">Lorem elit sit do magna consector du ipsum dolor sit amet, consectetur
-                    adipiscing elit, sed do labore es eiusmod es amet temp du tempor
-                    incididunt ut labore et dolore magna aliqua.
-                </div>
 
             </div>
     </section>
     <section class="discover">
-        <a href="#" class="button">APPLY FOR A ROLE</a>
+        <a href="#" class="button" id="see-contacts">APPLY FOR A ROLE</a>
     </section>
 </main>
+<div class="pop-up">
+    <div class="pop-up__inner contacts">
+        <div class="row">
+            <div class="career__titles column">
+                <h3 class="career__title">BECOME A ZEBRA</h3>
+                <h4 class="career__sub-title">CAREER OPPORTUNITIES</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column small-12 medium-6">
+                <p>To talk to us about any of our services or products, please
+                    get in touch with your local office, or use the general
+                    enquiry form to the right.</p>
+                <div class="contact">
+                    <h4 class="contact__title">
+                        BUSINESS ENQUIRIES
+                    </h4>
+                    <a href="mailto:dan.h@zebra-worldwide.com" class="contact__email">
+                        dan.h@zebra-worldwide.com
+                    </a>
+                </div>
+                <div class="contact">
+                    <h4 class="contact__title">
+                        JOB OPPORTUNITIES
+                    </h4>
+                    <a href="mailto:careers@zebra-worldwide.com" class="contact__email">
+                        careers@zebra-worldwide.com
+                    </a>
+                </div>
+                <div class="contact">
+                    <h4 class="contact__title">
+                        LONDON (HEAD OFFICE)
+                    </h4>
+                    <a href="tel:4405603846737" class="contact__tel">
+                        +44 (0)560 384 6737
+                    </a>
+                    <a href="mailto:london-info@zebra-worldwide.com" class="contact__email">
+                        london-info@zebra-worldwide.com
+                    </a>
+                </div>
+                <div class="contact">
+                    <h4 class="contact__title">
+                        CAPE TOWN
+                    </h4>
+                    <a href="tel:270877422640" class="contact__tel">
+                        +27 (0)87 742 2640
+                    </a>
+                    <a href="mailto:capetown-info@zebra-worldwide.com" class="contact__email">
+                        capetown-info@zebra-worldwide.com
+                    </a>
+                </div>
+                <div class="contact">
+                    <h4 class="contact__title">
+                        SYDNEY
+                    </h4>
+                    <a href="tel:610477623550" class="contact__tel">
+                        +61 (0)477 623 550
+                    </a>
+                    <a href="mailto:syney-info@zebra-worldwide.com" class="contact__email">
+                        syney-info@zebra-worldwide.com
+                    </a>
+                </div>
+                <div class="contact">
+                    <h4 class="contact__title">
+                        KIEV
+                    </h4>
+                    <a href="tel:+380443324990" class="contact__tel">
+                        +38 (0)44 332 49 90
+                    </a>
+                    <a href="mailto:kiev-info@zebra-worldwide.com" class="contact__email">
+                        kiev-info@zebra-worldwide.com
+                    </a>
+                </div>
+                <div class="column small-12 medium-6">
 
-<?php include('footer.php'); ?>
+                </div>
+            </div>
+        </div>
+        <button class="pop-up__close">x</button>
+    </div>
+
+
+    <?php include('footer.php'); ?>
 

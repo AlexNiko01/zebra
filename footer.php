@@ -129,7 +129,7 @@
                     </li>
                     <li id="menu-item-81" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-81 footer-menu__item"><a href="http://zwwk.zebra-worldwide.com/offices/" class="footer-menu__link ">Offices</a>
                         <ul class="footer-sub-menu">
-                            <li id="menu-item-84" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-84 footer-menu__item"><a href="http://zwwk.zebra-worldwide.com/offices/london/" class="footer-menu__link ">London</a></li>
+                            <li id="menu-item-84" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-84 footer-menu__item"><a href="single_offices.php" class="footer-menu__link ">London</a></li>
                             <li id="menu-item-82" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-82 footer-menu__item"><a href="http://zwwk.zebra-worldwide.com/offices/cape-town/" class="footer-menu__link ">Cape Town</a></li>
                             <li id="menu-item-83" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-83 footer-menu__item"><a href="http://zwwk.zebra-worldwide.com/offices/kiev/" class="footer-menu__link ">Kiev</a></li>
                             <li id="menu-item-85" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-85 footer-menu__item"><a href="http://zwwk.zebra-worldwide.com/offices/sydney/" class="footer-menu__link ">Sydney</a></li>
