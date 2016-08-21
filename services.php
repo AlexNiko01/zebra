@@ -2,7 +2,7 @@
 
     <main>
         <section class="slider-parent">
-            <h3 class="slider-parent__title">
+            <h3 class="slider-parent__title slider-parent__title--large">
                 Creative</h3>
             <div class="main-slider">
                 <div class="main-slider__slide">
@@ -30,16 +30,20 @@
         <section class="services-content">
             <div class="row">
                 <div class="column small-6">
-                    Our business was founded in creativity - starting out as a TV production company we now produce
-                    content for use in all media channels and all markets. We work closely with creative agencies,
-                    understanding the importance of emotional connections and great storytelling. We also work directly
-                    with brands to create powerful, cost-effective internal and customer-facing communications.
+                    <p>   Our business was founded in creativity - starting out as a TV production company we now produce
+                        content for use in all media channels and all markets. We work closely with creative agencies,
+                        understanding the importance of emotional connections and great storytelling. We also work directly
+                        with brands to create powerful, cost-effective internal and customer-facing communications.</p>
+
                 </div>
                 <div class="column small-6">
-                    As an agile network we deliver creative production services through our owned and partner production
-                    companies and our huge roster of individual directors, producers, photographers, retouchers,
-                    illustrators, graphic designers, and audio artists. When you work with Zebra Worldwide, you access a
-                    virtual global network of creative production talent - delivered as a single managed service.
+                    <p>
+                        As an agile network we deliver creative production services through our owned and partner production
+                        companies and our huge roster of individual directors, producers, photographers, retouchers,
+                        illustrators, graphic designers, and audio artists. When you work with Zebra Worldwide, you access a
+                        virtual global network of creative production talent - delivered as a single managed service.
+                    </p>
+
                 </div>
             </div>
         </section>

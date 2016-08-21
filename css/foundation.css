@@ -6848,6 +6848,8 @@ cite {
     font-size: 24px;
     letter-spacing: 0.5px;
     transform: translate(0, -50%); }
+    .slider-parent__title--large {
+      font-size: 81px; }
   @media screen and (max-width: 39.9375em) {
     .slider-parent {
       margin-top: 0; } }
@@ -6932,8 +6934,8 @@ cite {
 
 .grid {
   height: 353px;
-  margin-right: -5px;
-  margin-left: -5px; }
+  margin-right: -6.6245px;
+  margin-left: -6.6245px; }
   .grid:before, .grid:after {
     display: table;
     content: ''; }
@@ -7314,11 +7316,12 @@ a {
 .career {
   font-family: 'gotham_bookregular', sans-serif;
   padding-top: 76px;
-  font-size: 18px;
-  line-height: 1.65; }
+  font-size: 18px; }
+  .career p {
+    line-height: 1.65; }
   .career__item {
     border-top: 1px solid #12110c;
-    padding-bottom: 40px;
+    padding-bottom: 26px;
     padding-top: 27px;
     text-align: justify; }
     .career__item:last-child {
@@ -7338,7 +7341,8 @@ a {
     max-width: 79.85714rem; }
 
 .about-slider {
-  background-color: #000; }
+  background-color: #000;
+  overflow-x: hidden; }
   .about-slider__img {
     height: 272px;
     background-size: cover;
@@ -7368,6 +7372,9 @@ a {
     -moz-transform: translateY(100%);
     -o-transform: translateY(100%);
     transition: all 0.3s linear; }
+  .about-slider .slick-list {
+    margin-left: -5px;
+    margin-right: -5px; }
 
 .about-slider__img:hover .about-slider__hover {
   opacity: 1;
@@ -7833,16 +7840,22 @@ address {
   background-color: #fff; }
 
 .services-content {
-  padding: 70px 0;
+  padding: 66px 0 45px;
   text-align: justify;
   font-family: 'gotham_bookregular', sans-serif;
   font-size: 18px; }
+  .services-content .row {
+    max-width: 79.85714rem; }
+  .services-content p {
+    line-height: 1.23; }
 
 .see-production {
   padding: 70px 0; }
 
 .production {
   overflow-x: hidden; }
+  .production .grid {
+    height: 316px; }
 
 .product__hover {
   text-align: center;

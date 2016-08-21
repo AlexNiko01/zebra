@@ -191,19 +191,20 @@
                 <div class="career__item">
                     <div class="row">
                         <div class="column small-12 medium-6">
-                            Lorem do dolor amet ipsum dolor sit amet, consectetur
-                            adipiscing dolor sed do tmeport limpsum elit, sed do temport it eiusmod es amet temp du
-                            tempor
-                            incididunt ut labore sed temp du tempor do eiusmod et dolore magna aliqua.Lorem elit sit do
-                            ipsum dolor sit amet, consectetur
-                            adipiscing elit, sed sed do do eiusmod es amet temp du tempor
-                            incididunt ut labore et dolore magna aliqua.
+                            <p>Lorem do dolor amet ipsum dolor sit amet, consectetur
+                                adipiscing dolor sed do tmeport limpsum elit, sed do temport it eiusmod es amet temp du
+                                tempor
+                                incididunt ut labore sed temp du tempor do eiusmod et dolore magna aliqua.Lorem elit sit do
+                                ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed sed do do eiusmod es amet temp du tempor
+                                incididunt ut labore et dolore magna aliqua.</p>
                         </div>
                         <div class="column small-12 medium-6">
-                            Lorem do dolor amet ipsum dolor sit amet, consectetur
-                            adipiscing dolor sed do tmeport limpsum elit, sed do temport it eiusmod es amet temp du
-                            tempor
-                            incididunt ut labore sed temp du tempor do eiusmod et.
+                            <p>Lorem do dolor amet ipsum dolor sit amet, consectetur
+                                adipiscing dolor sed do tmeport limpsum elit, sed do temport it eiusmod es amet temp du
+                                tempor
+                                incididunt ut labore sed temp du tempor do eiusmod et.</p>
+                            
                         </div>
                     </div>
 

@@ -26,10 +26,12 @@
   font-family: 'gotham_bookregular', sans-serif;
   padding-top: 76px;
   font-size: 18px;
-  line-height: 1.65;
+  p{
+    line-height: 1.65;
+  }
   &__item {
     border-top: 1px solid #12110c;
-    padding-bottom: 40px;
+    padding-bottom: 26px;
     padding-top: 27px;
     text-align: justify;
     &:last-child {
@@ -58,6 +60,8 @@
 
 .about-slider {
   background-color: #000;
+  overflow-x: hidden;
+
   &__img {
     height: 272px;
     background-size: cover;
@@ -86,6 +90,10 @@
     -o-transition: all 0.3s linear;
     transition: all 0.3s linear;
 
+  }
+  .slick-list{
+    margin-left: -5px;
+    margin-right: -5px;
   }
 }
 

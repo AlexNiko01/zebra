@@ -247,6 +247,9 @@ cite {
     -ms-transform: translate(0, -50%);
     -o-transform: translate(0, -50%);
     transform: translate(0, -50%);
+    &--large{
+      font-size:81px;
+    }
   }
   @include breakpoint(small down){
     margin-top:0;
@@ -352,8 +355,8 @@ cite {
 
 .grid {
   height: 353px;
-  margin-right: -5px;
-  margin-left: -5px;
+  margin-right: -6.6245px;
+  margin-left: -6.6245px;
   &:before,
   &:after {
     display: table;
