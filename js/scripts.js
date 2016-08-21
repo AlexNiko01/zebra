@@ -156,7 +156,7 @@
             }
         });
 
-        body.on('click','#see-contacts',function (e) {
+        body.on('click','#see-contacts, #see-contact-form',function (e) {
             e.preventDefault();
             $('.pop-up').addClass('pp-active');
         });
