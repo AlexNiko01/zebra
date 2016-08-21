@@ -159,7 +159,7 @@
             <div style="background-image: url(img/portrait1.png)" class="about-slider__img"></div>
         </div>
         <div class="about-slider__slide">
-            <div style="background-image: url(img/portrait1.png)" class="about-slider__img"></div>
+            <div style="  background-image: url(img/portrait1.png)" class="about-slider__img"></div>
             <div style="background-image: url(img/portrait1.png)" class="about-slider__img"></div>
         </div>
         <div class="about-slider__slide">

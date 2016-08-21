@@ -1788,8 +1788,8 @@ td {
 
 p {
   font-size: inherit;
-  line-height: 1.6;
-  margin-bottom: 30px;
+  line-height: 1.3;
+  margin-bottom: 1rem;
   text-rendering: optimizeLegibility; }
 
 em,
@@ -1849,13 +1849,13 @@ h6 {
 
 @media screen and (min-width: 40em) {
   h1 {
-    font-size: 5rem; }
+    font-size: 1.42857rem; }
   h2 {
-    font-size: 3.21429rem; }
+    font-size: 1.28571rem; }
   h3 {
-    font-size: 2.14286rem; }
+    font-size: 1.5rem; }
   h4 {
-    font-size: 1.78571rem; }
+    font-size: 1.28571rem; }
   h5 {
     font-size: 1.42857rem; }
   h6 {
@@ -1884,8 +1884,8 @@ hr {
 ul,
 ol,
 dl {
-  line-height: 1.6;
-  margin-bottom: 30px;
+  line-height: 1.3;
+  margin-bottom: 1rem;
   list-style-position: outside; }
 
 li {
@@ -1909,11 +1909,11 @@ dl {
     font-weight: bold; }
 
 blockquote {
-  margin: 0 0 30px;
+  margin: 0 0 1rem;
   padding: 0.64286rem 1.42857rem 0 1.35714rem;
   border-left: 1px solid #cacaca; }
   blockquote, blockquote p {
-    line-height: 1.6;
+    line-height: 1.3;
     color: #8a8a8a; }
 
 cite {
@@ -6619,12 +6619,12 @@ table.hover tr:nth-of-type(even):hover {
   transform: translate(0, -50%); }
 
 .header__search-form input[type='submit'] {
-  padding: 10px 20px;
   outline: none;
   color: #000;
   transition: all 0.3s ease;
   font-size: 17px;
   height: 39px;
+  line-height: 39px;
   font-family: 'gotham_mediumregular', sans-serif;
   background-color: #999;
   border: 1px solid #999; }
@@ -6687,7 +6687,7 @@ ul {
 @font-face {
   font-family: 'gotham_mediumregular';
   src: url("../fonts/gotham-medium-webfont.eot");
-  src: url("../fonts/gotham-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/gotham-medium-webfont.woff2") format("woff2"), url("../fonts/gotham-medium-webfont.woff") fomat("woff"), url("../fonts/gotham-medium-webfont.svg#gotham_mediumregular") format("svg");
+  src: url("../fonts/gotham-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/gotham-medium-webfont.woff2") format("woff2"), url("../fonts/gotham-medium-webfont.woff") format("woff"), url("../fonts/gotham-medium-webfont.svg#gotham_mediumregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -7541,7 +7541,6 @@ h3.click-title {
     .single-office__description ul {
       margin: 25px 0; }
       .single-office__description ul li {
-        font-size: 0.9em;
         padding-left: 30px;
         line-height: 1;
         background-repeat: no-repeat;
@@ -7559,6 +7558,8 @@ h3.click-title {
           margin: 0; }
         .single-office__description ul li a {
           color: inherit; }
+    .single-office__description h4 {
+      font-size: 18px; }
   .single-office-full {
     border: none; }
 
@@ -7597,34 +7598,47 @@ h3.click-title {
     background-repeat: no-repeat;
     background-position: center center; }
 
-.offices__gallery {
-  overflow: hidden;
-  margin-bottom: 10px; }
-  .offices__gallery .row {
-    max-width: none;
-    margin-left: -15px;
-    margin-right: -15px; }
-  .offices__gallery__item {
-    margin-top: 30px; }
-  .offices__gallery__img-holder {
-    padding-bottom: 70%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center; }
+.offices {
+  font-family: 'gotham_bookregular', sans-serif;
+  font-size: 18px; }
+  .offices__gallery {
+    overflow: hidden;
+    margin-bottom: 10px; }
+    .offices__gallery .row {
+      max-width: none;
+      margin-left: -15px;
+      margin-right: -15px; }
+    .offices__gallery__item {
+      margin-top: 30px; }
+    .offices__gallery__img-holder {
+      padding-bottom: 70%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center; }
 
 .office-extra {
   padding: 50px 0 70px;
-  border-bottom: 1px solid #000; }
+  border-bottom: 1px solid #000;
+  font-size: 16px;
+  line-height: 1;
+  text-align: justify; }
   .office-extra__title, .office-extra__sub-title {
-    width: 100%; }
+    width: 100%;
+    line-height: 1; }
+  .office-extra__title {
+    font-size: 30px; }
   .office-extra__sub-title {
-    margin-bottom: 40px; }
+    margin-bottom: 40px;
+    font-size: 18px; }
   .office-extra .offices__gallery__item {
     margin-top: 0;
     margin-bottom: 10px;
     padding: 0 5px; }
+  .office-extra p {
+    line-height: 1.15;
+    margin-bottom: 16px; }
   .office-extra__contact {
-    font-size: 0.9em;
+    font-size: 18px;
     padding-left: 40px;
     line-height: 1;
     background-repeat: no-repeat;
@@ -7634,7 +7648,8 @@ h3.click-title {
     .office-extra__contact.icon-video {
       background-image: url("../img/icons/video.png"); }
     .office-extra__contact p {
-      margin: 0; }
+      line-height: 1.15;
+      margin-bottom: 0; }
 
 address {
   font-style: normal; }
@@ -7900,7 +7915,7 @@ address {
   height: 61px;
   line-height: 61px; }
 
-[type='submit'],
+.main-contact-form [type='submit'],
 .main-contact-form__file {
   background-color: #000;
   color: #fff;
@@ -7911,7 +7926,7 @@ address {
   height: 61px;
   line-height: 61px;
   text-align: center; }
-  [type='submit']:hover, [type='submit']:focus,
+  .main-contact-form [type='submit']:hover, .main-contact-form [type='submit']:focus,
   .main-contact-form__file:hover,
   .main-contact-form__file:focus {
     background-color: #fff;

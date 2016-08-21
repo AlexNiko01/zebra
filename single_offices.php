@@ -36,25 +36,21 @@
                             </div>
                             <div class="column large-7 medium-7 small-12 single-office__content">
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet corporis,
-                                    hic
-                                    maiores minus nobis porro quia repudiandae sed, sint sunt vero voluptatibus? Eaque
-                                    id
-                                    quae quidem reprehenderit similique tempora.
+                                    Lorem do dolor amet ipsum dolor sit amet, consectetur
+                                    adipiscing dolor sed do tmeport dolor amet si tempor amet limpsum elit, sed do
+                                    temport it eiusmod es amet temp du tempor
+                                    incididunt ut labore sed temp du tempor do eiusmod et dolore magna aliqua.Lorem elit
+                                    sit do ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed sed do do eiusmod es amet temp du tempor
+                                    incididunt ut.
+
                                 </p>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet corporis,
-                                    hic
-                                    maiores minus nobis porro quia repudiandae sed, sint sunt vero voluptatibus? Eaque
-                                    id
-                                    quae quidem reprehenderit similique tempora.
-                                </p>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet corporis,
-                                    hic
-                                    maiores minus nobis porro quia repudiandae sed, sint sunt vero voluptatibus? Eaque
-                                    id
-                                    quae quidem reprehenderit similique tempora.
+                                    Labore et dolore magna aliqua. es amet temp du tempor
+                                    incididunt ut labore sed temp du tempor do eiusmod et dolore magna aliqua. Lorem
+                                    elit sit do ipsum eiusmod amet temp dolor sit amet, consectetur
+                                    adipiscing elit, sed sed do do eiusmod es amet temp du tempor
+                                    incididunt ut labore et dolore magna aliqua.
                                 </p>
                             </div>
                         </div>
@@ -136,11 +132,11 @@
                             <p>Stripey Horse is an independent production company that dips
                                 its hoof into that messy thing called human nature, whether
                                 that be a scripted drama, a glossy commercial production or an
-                                insightful documentary looking at life through someone else’s
+                                insightful documentary looking at life through someone else's
                                 lens - we like to make programmes and content that inspire us. </p>
                             <p>Producing both commercial and television content, everything
                                 we create has a fascinating story at the heart of it. </p>
-                            <p>Stripey’s history, through Zebra Worldwide, is in the commercial
+                            <p>Stripey's history, through Zebra Worldwide, is in the commercial
                                 world creating beautiful content for global brands and advertising
                                 agencies. Producing commercial work alongside developing
                                 longer form content for television and non-traditional platforms.</p>
@@ -171,7 +167,7 @@
 
         <section class="see-our-story">
             <div class="text-center">
-                <a href="#" class="button">OUR STORY</a>
+                <a href="#" class="button">GET IN TOUCH</a>
 
             </div>
         </section>

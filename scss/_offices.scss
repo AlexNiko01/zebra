@@ -1,7 +1,7 @@
 .single-office {
   padding: 40px 0;
   border-bottom: 2px solid #000;
-  h3{
+  h3 {
     font-family: 'gotham_mediumregular', sans-serif;
     font-size: 30px;
   }
@@ -16,7 +16,7 @@
   > .row {
     @include flexbox;
   }
-  &:nth-child(odd):not(#{&}-full)  {
+  &:nth-child(odd):not(#{&}-full) {
     > .row, .single-office__gallery {
       @include flex-direction(row-reverse);
     }
@@ -56,7 +56,6 @@
     ul {
       margin: 25px 0;
       li {
-        font-size: 0.9em;
         padding-left: 30px;
         line-height: 1;
         background-repeat: no-repeat;
@@ -81,6 +80,9 @@
           color: inherit;
         }
       }
+    }
+    h4{
+      font-size: 18px;
     }
   }
   &-full {
@@ -140,6 +142,9 @@
 }
 
 .offices {
+  font-family: 'gotham_bookregular', sans-serif;
+  font-size: 18px;
+
   &__gallery {
     overflow: hidden;
     margin-bottom: 10px;
@@ -163,19 +168,34 @@
 .office-extra {
   padding: 50px 0 70px;
   border-bottom: 1px solid #000;
+  font-size: 16px;
+  line-height:1;
+  text-align: justify;
+
   &__title, &__sub-title {
     width: 100%;
+    line-height:1;
+  }
+  &__title {
+    font-size: 30px;
+
   }
   &__sub-title {
     margin-bottom: 40px;
+    font-size: 18px;
+
   }
   .offices__gallery__item {
     margin-top: 0;
     margin-bottom: 10px;
     padding: 0 5px;
   }
+  p {
+    line-height: 1.15;
+    margin-bottom: 16px;
+  }
   &__contact {
-    font-size: 0.9em;
+    font-size: 18px;
     padding-left: 40px;
     line-height: 1;
     background-repeat: no-repeat;
@@ -187,10 +207,14 @@
       background-image: url("../img/icons/video.png");
     }
     p {
-      margin: 0;
+      line-height: 1.15;
+      margin-bottom: 0;
     }
   }
+
 }
-address{
+
+address {
   font-style: normal;
 }
+
