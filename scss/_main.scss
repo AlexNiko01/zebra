@@ -1,6 +1,6 @@
 body {
   color: #000;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 ul, li {
@@ -168,7 +168,7 @@ cite {
 
 .main-slider {
   &__img {
-    height: 412px;
+    height: 413px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -247,6 +247,9 @@ cite {
     -ms-transform: translate(0, -50%);
     -o-transform: translate(0, -50%);
     transform: translate(0, -50%);
+  }
+  @include breakpoint(small down){
+    margin-top:0;
   }
 }
 
@@ -499,6 +502,8 @@ cite {
   }
   &__title {
     font-size: 50px;
+    line-height: 1;
+    font-family: 'gotham_lightregular', sans-serif;
   }
 
 }
@@ -512,7 +517,7 @@ cite {
 }
 
 .discover {
-  padding: 71px 0 77px;
+  padding: 71px 0 78px;
   text-align: center;
   background-color: #fff;
 }

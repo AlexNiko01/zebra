@@ -1,6 +1,9 @@
 .single-office {
   padding: 40px 0;
   border-bottom: 2px solid #000;
+  &__content{
+    text-align: justify;
+  }
   h3 {
     font-family: 'gotham_mediumregular', sans-serif;
     font-size: 30px;
@@ -49,6 +52,7 @@
       -webkit-background-size: cover;
       background-size: cover;
     }
+
   }
   &__description {
     font-family: 'gotham_bookregular', sans-serif;

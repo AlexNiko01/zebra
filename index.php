@@ -113,8 +113,8 @@
                     </div>
                     <div class="col-65 tiles__column height-small">
                         <div class="tiles__content">
-                            <span class="tiles__pre">production</span>
-                            <h3 class="tiles__title">creative</h3>
+                            <span class="tiles__pre">CONTENT</span>
+                            <h3 class="tiles__title">production</h3>
                         </div>
                     </div>
 
@@ -190,7 +190,7 @@
                 <div class="col-65 tiles__column height-small">
                     <div class="tiles__content">
                         <span class="tiles__pre">content</span>
-                        <h3 class="tiles__title">creative</h3>
+                        <h3 class="tiles__title">technology</h3>
                     </div>
                 </div>
                 <div class="col-65 tiles__column  tiles__item height-small">

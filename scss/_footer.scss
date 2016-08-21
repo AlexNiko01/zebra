@@ -41,9 +41,10 @@ footer {
 
 .socials {
   font-size: 0;
+  padding-top:8px;
   &__item {
-    font-size: 28px;
     display: inline-block;
+    font-size: 33px;
     &:not(:last-child) {
       padding-right: 38px;
     }
@@ -74,8 +75,9 @@ footer {
 }
 
 .copy-r {
-  margin-top: 40px;
   font-size: 15px;
+  margin-bottom: 23px;
+  margin-top: 22px;
 }
 
 //.footer-sub-menu {
@@ -143,12 +145,21 @@ footer {
   float: none;
   padding: 0;
 }
-
+footer .column.small-12.large-4.medium-12{
+  padding-right: 50px;
+}
 
 @media screen and (max-width: 1090px) {
-  .footer-menu > .footer-menu__item{
-    padding-left: 12px;
-    padding-right: 12px;
+
+  .footer-menu > .footer-menu__item:not(:first-child){
+    padding-left: 15px;
+  }
+
+  .socials__item:not(:last-child) {
+    padding-right: 15px;
+  }
+  footer .column.small-12.large-4.medium-12{
+    padding-right: 15px;
   }
 }
 

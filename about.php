@@ -123,8 +123,10 @@
                     </div>
                     <div class="point__group">
                         <div class="point__author">Luke</div>
-                        <div class="point__quote">Lorem ipsum dolor do sed sit amet, consectetur
-                            adipiscing.</div>
+                        <div class="point__quote">Lorem ipsum dolor sit eiusmod  amet, consectetur
+                            adipiscing elit, sed do dolore labore et eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua.
+                        </div>
                     </div>
                 </div>
 
@@ -135,8 +137,7 @@
                     <div class="point__group">
                         <div class="point__author">Luke:</div>
                         <div class="point__quote">Lorem ipsum dolor domor sit amet, consectetur
-                            adipiscing elit, sed sit amet do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua.
+                            adipiscing.
                         </div>
                     </div>
                 </div>

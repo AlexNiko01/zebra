@@ -1,5 +1,5 @@
 .zebras-story {
-  padding: 60px 0 80px;
+  padding: 66px 0 50px;
   font-family: 'gotham_bookitalic', sans-serif;
   font-size: 18px;
   position: relative;
@@ -7,24 +7,30 @@
     text-transform: uppercase;
     font-size: 20px;
     font-family: 'gotham_boldregular', sans-serif;
-    //position: absolute;
-    //right:25%;
-    //bottom:80px;
-    //-webkit-transform: translate(-50%, -50%);
-    //-ms-transform: translate(-50%, -50%);
-    //transform: translate(-50%, -50%);
-    margin-top: 100px;
+    margin-top: 64px;
+    &:before{
+      top: -24px;
+    }
+  }
+  .row{
+    max-width: 79.85714rem;
+  }
+  .column:last-child{
+    .point{
+      padding-left:23px;
+    }
   }
 }
 
 .career {
   font-family: 'gotham_bookregular', sans-serif;
-  padding-top: 70px;
+  padding-top: 76px;
+  font-size: 18px;
+  line-height: 1.65;
   &__item {
     border-top: 1px solid #12110c;
-
-    padding-bottom: 30px;
-    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-top: 27px;
     text-align: justify;
     &:last-child {
       border-bottom: 1px solid #12110c;
@@ -32,15 +38,21 @@
     }
   }
   &__titles {
-    padding-bottom: 30px;
+    padding-bottom: 27px;
   }
   &__title {
     font-family: 'gotham_mediumregular', sans-serif;
     font-size: 35px;
+    line-height: 1;
+    margin-bottom: 5px;
   }
   &__sub-title {
     font-family: 'gotham_bookregular', sans-serif;
     font-size: 25px;
+    line-height: 1;
+  }
+  .row {
+    max-width: 79.85714rem;
   }
 }
 
@@ -51,7 +63,7 @@
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    margin: 10px 5px;
+    margin: 12px 5px;
     overflow: hidden;
   }
   &__hover {
@@ -77,6 +89,8 @@
   }
 }
 
+
+
 .about-slider__img:hover .about-slider__hover {
   opacity: 1;
   -webkit-transform: translateY(0);
@@ -90,7 +104,8 @@
 }
 
 .point {
-  margin-bottom: 20px;
+  margin-bottom: 22px;
+  line-height: 1.2;
   &__header {
     font-family: 'gotham_mediumregular', sans-serif;
 
