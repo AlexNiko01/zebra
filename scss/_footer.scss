@@ -23,8 +23,6 @@ footer {
 .footer-menu {
   &__item {
     float: left;
-    padding-left: 15px;
-    padding-right: 15px;
     text-align: left;
   }
   &__link {
@@ -107,6 +105,8 @@ footer {
 .footer-menu .footer-sub-menu .footer-menu__link {
   font-size: 13px;
   font-family: 'gotham_lightregular', sans-serif;
+  line-height: 1.4;
+  padding-bottom: 0;
 }
 
 .footer-menu .footer-sub-menu {
@@ -118,7 +118,7 @@ footer {
   text-transform: uppercase;
   font-weight: bold;
   display: block;
-  padding-bottom: 10px;
+  padding-bottom: 4px;
   font-family: 'open_sansregular', sans-serif;
 }
 
@@ -129,9 +129,10 @@ footer {
 
 .footer-menu > .footer-menu__item {
   float: left;
-  padding-left: 15px;
-  padding-right: 15px;
   text-align: left;
+  &:not(:first-child){
+    padding-left:35px;
+  }
 }
 .footer-menu .footer-sub-menu .footer-menu__link {
   font-size: 13px;

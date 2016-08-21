@@ -179,7 +179,7 @@ cite {
 
 .slick-dots {
   position: absolute;
-  bottom: 30px;
+  bottom: 38px;
   display: block;
   width: 100%;
   padding: 0;
@@ -193,7 +193,7 @@ cite {
   display: inline-block;
   width: 12px;
   height: 12px;
-  margin: 0 6px;
+  margin: 0 5px;
   padding: 0;
 }
 
@@ -201,8 +201,8 @@ cite {
   font-size: 0;
   line-height: 0;
   display: block;
-  width: 14px;
-  height: 14px;
+  width: 12px;
+  height: 12px;
   padding: 5px;
   color: transparent;
   outline: none;
@@ -240,7 +240,8 @@ cite {
     text-align: center;
     font-weight: normal;
     font-family: 'gotham_mediumregular', sans-serif;
-    font-size: 25px;
+    font-size: 24px;
+    letter-spacing: 0.5px;
     -webkit-transform: translate(0, -50%);
     -moz-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
@@ -252,14 +253,14 @@ cite {
 .intro {
   text-align: center;
   font-size: 20px;
-  margin-bottom: 11px;
-  margin-top: 11px;
+  margin-top: 13px;
+  line-height:1.2;
   &-video {
     position: relative;
     &__prev {
       background: url(../img/video-prev.png) 50% 50% no-repeat;
       background-size: cover;
-      height: 343px;
+      height: 339px;
       iframe {
         height: 100%;
         width: 100%;
@@ -321,18 +322,23 @@ cite {
   }
   &__text {
     padding: 20px 75px;
-    line-height: 1.35;
     &-content {
       &-author {
         position: relative;
-        margin-top: 30px;
+        margin-top: 33px;
+        font-size: 26px;
         &:before {
           position: absolute;
           content: '--';
-          top: -20px;
+          top: -30px;
           left: 50%;
           display: block;
           font-weight: bold;
+          -webkit-transform: translate(-50%, 0);
+          -moz-transform: translate(-50%, 0);
+          -ms-transform: translate(-50%, 0);
+          -o-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
         }
       }
     }
@@ -342,7 +348,7 @@ cite {
 }
 
 .grid {
-  height: 343px;
+  height: 353px;
   margin-right: -5px;
   margin-left: -5px;
   &:before,
@@ -438,7 +444,7 @@ cite {
   }
   &__item {
     position: relative;
-    padding: 5px;
+    padding: 6.6245px;
     overflow: hidden;
 
     &:hover .tiles__hover {
@@ -506,7 +512,7 @@ cite {
 }
 
 .discover {
-  padding: 77px 0;
+  padding: 71px 0 77px;
   text-align: center;
   background-color: #fff;
 }
@@ -514,8 +520,9 @@ cite {
 .button {
   color: #000;
   text-transform: uppercase;
-  font-size: 14px;
-  border: 1px solid #000;
+  font-size: 15px;
+  border: 2px solid #000;
+  padding: 21px 66px;
   background-color: #fff;
   font-family: 'gotham_boldregular', sans-serif;
   &:hover, &:focus {

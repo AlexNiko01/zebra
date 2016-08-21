@@ -1,13 +1,12 @@
 .header {
   background-color: #000;
-  padding: 28px 0;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 99999;
   &__container {
-    max-width: 1280px;
+    max-width: 1333px;
     margin: 0 auto;
     padding: 0 20px;
   }
@@ -30,13 +29,6 @@
 }
 .main-menu {
   font-size: 0;
-  &-right {
-    text-align: right;
-    @include breakpoint(large down) {
-      text-align: left;
-    }
-
-  }
   &-left {
     @include breakpoint(large down) {
       text-align: right;
@@ -49,35 +41,49 @@
   &__item {
     display: inline-block;
     line-height: 1;
+    position: relative;
     &:not(:last-child) {
-      padding-right: 34.5px;
+      padding: 29px 0 26px;
+      margin-right: 34.5px;
+    }
+    &:before {
+      display: block;
+      content: '';
+      bottom: 0;
+      left: 0;
+      position: absolute;
+      width: 0;
+      height: 3px;
+      background-color: #fff;
+      transition: width 0.1s linear;
     }
     @include breakpoint(small down) {
       padding: 0 0 0 20px;
       display: block;
     }
   }
+  &-right {
+    text-align: right;
+    @include breakpoint(large down) {
+      text-align: left;
+    }
+    &__item{
+      &:not(:last-child) {
+        padding: 29px 0 26px;
+        margin-right: 31px;
+      }
+    }
+  }
   &__link {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1;
     color: #fff;
-    position: relative;
+
     font-family: 'gotham_mediumregular', sans-serif;
-    &:before {
-      display: block;
-      content: '';
-      top: 120%;
-      left: 0;
-      position: absolute;
-      width: 0;
-      height: 2px;
-      background-color: #fff;
-      transition: width 0.1s linear;
-    }
-    &:hover, &:focus {
-      color: #fff;
-      &:before {
-        width: 100%;
+        &:hover, &:focus {
+          color: #fff;
+          &:before {
+            width: 100%;
       }
     }
     @include breakpoint(small down) {
@@ -86,9 +92,12 @@
     &--search {
       position: relative;
       color: transparent;
+      width: 7px;
+      display: inline-block;
       &:after {
         position: absolute;
-        top: 9px;
+        top: 5px;
+        font-size: 20px;
         left: 0;
         font-family: FontAwesome, sans-serif;
         content: "\f002";
@@ -110,11 +119,14 @@
 
 
 
-  .current-menu-item a {
+  .current-menu-item {
     color: #fff;
     font-weight: bold;
     &:before {
       width: 100%;
+    }
+    a{
+      font-weight:bold;
     }
   }
 
@@ -154,7 +166,7 @@
       display: none;
       position: absolute;
       top: 100%;
-      right: 0;
+      right: 15px;
       width: 300px;
       z-index: 99;
     }
@@ -168,7 +180,11 @@
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
+    .small-4.columns{
+      text-align: left;
+    }
   }
+
 
   .header__search-form input[type='submit'] {
     outline: none;
@@ -179,10 +195,10 @@
     transition: all 0.3s ease;
     font-size: 17px;
     height: 39px;
-    line-height: 39px;
     font-family: 'gotham_mediumregular', sans-serif;
     background-color: #999;
     border: 1px solid #999;
+    width: 100%;
   }
 
   .header__search-form input[type="search"] {

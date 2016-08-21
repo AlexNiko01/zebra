@@ -6486,14 +6486,13 @@ table.hover tr:nth-of-type(even):hover {
 
 .header {
   background-color: #000;
-  padding: 28px 0;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 99999; }
   .header__container {
-    max-width: 1280px;
+    max-width: 1333px;
     margin: 0 auto;
     padding: 0 20px; }
 
@@ -6514,11 +6513,6 @@ table.hover tr:nth-of-type(even):hover {
 
 .main-menu {
   font-size: 0; }
-  .main-menu-right {
-    text-align: right; }
-    @media screen and (max-width: 74.9375em) {
-      .main-menu-right {
-        text-align: left; } }
   @media screen and (max-width: 74.9375em) {
     .main-menu-left {
       text-align: right; } }
@@ -6527,29 +6521,38 @@ table.hover tr:nth-of-type(even):hover {
       text-align: left; } }
   .main-menu__item {
     display: inline-block;
-    line-height: 1; }
+    line-height: 1;
+    position: relative; }
     .main-menu__item:not(:last-child) {
-      padding-right: 34.5px; }
+      padding: 29px 0 26px;
+      margin-right: 34.5px; }
+    .main-menu__item:before {
+      display: block;
+      content: '';
+      bottom: 0;
+      left: 0;
+      position: absolute;
+      width: 0;
+      height: 3px;
+      background-color: #fff;
+      transition: width 0.1s linear; }
     @media screen and (max-width: 39.9375em) {
       .main-menu__item {
         padding: 0 0 0 20px;
         display: block; } }
+  .main-menu-right {
+    text-align: right; }
+    @media screen and (max-width: 74.9375em) {
+      .main-menu-right {
+        text-align: left; } }
+    .main-menu-right__item:not(:last-child) {
+      padding: 29px 0 26px;
+      margin-right: 31px; }
   .main-menu__link {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1;
     color: #fff;
-    position: relative;
     font-family: 'gotham_mediumregular', sans-serif; }
-    .main-menu__link:before {
-      display: block;
-      content: '';
-      top: 120%;
-      left: 0;
-      position: absolute;
-      width: 0;
-      height: 2px;
-      background-color: #fff;
-      transition: width 0.1s linear; }
     .main-menu__link:hover, .main-menu__link:focus {
       color: #fff; }
       .main-menu__link:hover:before, .main-menu__link:focus:before {
@@ -6559,10 +6562,13 @@ table.hover tr:nth-of-type(even):hover {
         line-height: 3; } }
     .main-menu__link--search {
       position: relative;
-      color: transparent; }
+      color: transparent;
+      width: 7px;
+      display: inline-block; }
       .main-menu__link--search:after {
         position: absolute;
-        top: 9px;
+        top: 5px;
+        font-size: 20px;
         left: 0;
         font-family: FontAwesome, sans-serif;
         content: "\f002";
@@ -6573,11 +6579,13 @@ table.hover tr:nth-of-type(even):hover {
         .main-menu__link--search:hover:before, .main-menu__link--search:focus:before {
           display: none; }
 
-.current-menu-item a {
+.current-menu-item {
   color: #fff;
   font-weight: bold; }
-  .current-menu-item a:before {
+  .current-menu-item:before {
     width: 100%; }
+  .current-menu-item a {
+    font-weight: bold; }
 
 .top-bar .toggle-topbar {
   display: block;
@@ -6607,7 +6615,7 @@ table.hover tr:nth-of-type(even):hover {
   display: none;
   position: absolute;
   top: 100%;
-  right: 0;
+  right: 15px;
   width: 300px;
   z-index: 99; }
 
@@ -6617,6 +6625,8 @@ table.hover tr:nth-of-type(even):hover {
   top: 50%;
   height: 40px;
   transform: translate(0, -50%); }
+  .search-form .small-4.columns {
+    text-align: left; }
 
 .header__search-form input[type='submit'] {
   outline: none;
@@ -6624,10 +6634,10 @@ table.hover tr:nth-of-type(even):hover {
   transition: all 0.3s ease;
   font-size: 17px;
   height: 39px;
-  line-height: 39px;
   font-family: 'gotham_mediumregular', sans-serif;
   background-color: #999;
-  border: 1px solid #999; }
+  border: 1px solid #999;
+  width: 100%; }
 
 .header__search-form input[type="search"] {
   height: 39px;
@@ -6752,7 +6762,7 @@ cite {
 
 .slick-dots {
   position: absolute;
-  bottom: 30px;
+  bottom: 38px;
   display: block;
   width: 100%;
   padding: 0;
@@ -6765,15 +6775,15 @@ cite {
   display: inline-block;
   width: 12px;
   height: 12px;
-  margin: 0 6px;
+  margin: 0 5px;
   padding: 0; }
 
 .slick-dots li button {
   font-size: 0;
   line-height: 0;
   display: block;
-  width: 14px;
-  height: 14px;
+  width: 12px;
+  height: 12px;
   padding: 5px;
   color: transparent;
   outline: none;
@@ -6806,20 +6816,21 @@ cite {
     text-align: center;
     font-weight: normal;
     font-family: 'gotham_mediumregular', sans-serif;
-    font-size: 25px;
+    font-size: 24px;
+    letter-spacing: 0.5px;
     transform: translate(0, -50%); }
 
 .intro {
   text-align: center;
   font-size: 20px;
-  margin-bottom: 11px;
-  margin-top: 11px; }
+  margin-top: 13px;
+  line-height: 1.2; }
   .intro-video {
     position: relative; }
     .intro-video__prev {
       background: url(../img/video-prev.png) 50% 50% no-repeat;
       background-size: cover;
-      height: 343px; }
+      height: 339px; }
       .intro-video__prev iframe {
         height: 100%;
         width: 100%;
@@ -6873,21 +6884,22 @@ cite {
     justify-content: center;
     height: 343px; }
   .intro__text {
-    padding: 20px 75px;
-    line-height: 1.35; }
+    padding: 20px 75px; }
     .intro__text-content-author {
       position: relative;
-      margin-top: 30px; }
+      margin-top: 33px;
+      font-size: 26px; }
       .intro__text-content-author:before {
         position: absolute;
         content: '--';
-        top: -20px;
+        top: -30px;
         left: 50%;
         display: block;
-        font-weight: bold; }
+        font-weight: bold;
+        transform: translate(-50%, 0); }
 
 .grid {
-  height: 343px;
+  height: 353px;
   margin-right: -5px;
   margin-left: -5px; }
   .grid:before, .grid:after {
@@ -6961,7 +6973,7 @@ cite {
     text-align: center; }
   .tiles__item {
     position: relative;
-    padding: 5px;
+    padding: 6.6245px;
     overflow: hidden; }
     .tiles__item:hover .tiles__hover {
       top: 5px;
@@ -7016,15 +7028,16 @@ cite {
   height: 100%; }
 
 .discover {
-  padding: 77px 0;
+  padding: 71px 0 77px;
   text-align: center;
   background-color: #fff; }
 
 .button {
   color: #000;
   text-transform: uppercase;
-  font-size: 14px;
-  border: 1px solid #000;
+  font-size: 15px;
+  border: 2px solid #000;
+  padding: 21px 66px;
   background-color: #fff;
   font-family: 'gotham_boldregular', sans-serif; }
   .button:hover, .button:focus {
@@ -8002,8 +8015,6 @@ footer {
 
 .footer-menu__item {
   float: left;
-  padding-left: 15px;
-  padding-right: 15px;
   text-align: left; }
 
 .footer-menu__link {
@@ -8061,7 +8072,9 @@ footer {
 
 .footer-menu .footer-sub-menu .footer-menu__link {
   font-size: 13px;
-  font-family: 'gotham_lightregular', sans-serif; }
+  font-family: 'gotham_lightregular', sans-serif;
+  line-height: 1.4;
+  padding-bottom: 0; }
 
 .footer-menu .footer-sub-menu {
   text-align: left; }
@@ -8071,7 +8084,7 @@ footer {
   text-transform: uppercase;
   font-weight: bold;
   display: block;
-  padding-bottom: 10px;
+  padding-bottom: 4px;
   font-family: 'open_sansregular', sans-serif; }
 
 .footer-menu > .footer-menu__item > .footer-menu__link:hover,
@@ -8080,9 +8093,9 @@ footer {
 
 .footer-menu > .footer-menu__item {
   float: left;
-  padding-left: 15px;
-  padding-right: 15px;
   text-align: left; }
+  .footer-menu > .footer-menu__item:not(:first-child) {
+    padding-left: 35px; }
 
 .footer-menu .footer-sub-menu .footer-menu__link {
   font-size: 13px;
