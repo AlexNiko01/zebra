@@ -7418,8 +7418,8 @@ a {
     margin-left: -10px;
     margin-right: -10px; }
   .clients__column {
-    margin-bottom: 20px;
-    padding: 0 10px;
+    margin-bottom: 16px;
+    padding: 0 6px;
     cursor: pointer; }
   .clients__inner {
     padding-bottom: 100%;
