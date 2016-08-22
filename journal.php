@@ -43,7 +43,7 @@
                         <p class="article__nick-name">@ZebraWorldwide</p>
                     </div>
                 </div>
-                <div class="col-37 tiles__column tiles__item see-post-content"  data-id="post_2">
+                <div class="col-37 tiles__column tiles__item see-post-content" data-id="post_2">
 
                     <div class="tiles__img" style="background-image: url('img/j2.png')"></div>
 
@@ -136,63 +136,73 @@
             <div class="publication-slider">
                 <?php for ($i = 0; $i < 11; $i++) : ?>
                     <div class="publication-slider__slide" id="post_<?php echo $i ?>">
-                        <div class="row publication" id="publication">
-                            <div class="column large-6 medium-12 small-12">
-                                <div class="publication__soc-n"></div>
-                                <h3 class="publication__location">LONDON</h3>
-                                <h4 class="publication__name">STRIPEY HORSE PRODUCE FIRST PROJECT FOR ALL 4</h4>
-                                <p><span class="publication__date">April 6th 2016 </span>//<span
-                                        class="publication__author"> Nicola Martin</span>
-                                </p>
-                                <div class="publication__text">
-                                    <p> All 4, Channel 4's digital platform, has launched its new series Make Me a
-                                        Famous
-                                        Face which follows the stories of four daring individuals who through a series
-                                        of
-                                        plastic surgery procedures have reached celebrity-like perfection.</p>
-
-                                    <p>The series, produced by Zebra Worldwide's production company Stripey Horse, draws
-                                        its inspiration from the passions that turn into obsessions; individuals who end
-                                        up
-                                        building and changing their whole lives around what they love to the extent that
-                                        from an outsiders' point of view, and even friends and family, it appears
-                                        extreme.
+                        <div class="row publication-p" id="publication-p">
+                            <div class="row publication" id="publication">
+                                <div class="column large-6 medium-12 small-12">
+                                    <div class="publication__soc-n"></div>
+                                    <h3 class="publication__location">LONDON</h3>
+                                    <h4 class="publication__name">STRIPEY HORSE PRODUCE FIRST PROJECT FOR ALL 4</h4>
+                                    <p><span class="publication__date">April 6th 2016 </span>//<span
+                                            class="publication__author"> Nicola Martin</span>
                                     </p>
+                                    <div class="publication__text">
+                                        <p> All 4, Channel 4's digital platform, has launched its new series Make Me a
+                                            Famous
+                                            Face which follows the stories of four daring individuals who through a
+                                            series
+                                            of
+                                            plastic surgery procedures have reached celebrity-like perfection.</p>
 
-                                    <p>Filming for the series took place across the UK and followed a handful of
-                                        personalities determined to look like their idols. </p>
+                                        <p>The series, produced by Zebra Worldwide's production company Stripey Horse,
+                                            draws
+                                            its inspiration from the passions that turn into obsessions; individuals who
+                                            end
+                                            up
+                                            building and changing their whole lives around what they love to the extent
+                                            that
+                                            from an outsiders' point of view, and even friends and family, it appears
+                                            extreme.
+                                        </p>
 
-                                    <p>From Liverpool's answer to Pamela Anderson to the 'Human Ken Doll', the combined
-                                        four featured profiles have spent hundreds of thousands of pounds on plastic
-                                        surgery
-                                        as they follow in the footsteps of their celebrity idols. The series includes
-                                        Jordan
-                                        James Parke who, obsessed with Kim Kardashian, has spent over £110,000 to look
-                                        like
-                                        her. </p>
+                                        <p>Filming for the series took place across the UK and followed a handful of
+                                            personalities determined to look like their idols. </p>
 
-                                    <p>Nicola Martin of Stripey Horse said:
-                                        <em>This is our first project working with All 4 and it's been fantastic. I
-                                            think
-                                            they
-                                            saw our fascination with the different expressions of obsessions and fully
-                                            supported
-                                            how we wanted to tell their stories. Stripey also have few other things in
-                                            development and we're excited about our growing relationship with All
-                                            4.</em>
-                                    <p>
+                                        <p>From Liverpool's answer to Pamela Anderson to the 'Human Ken Doll', the
+                                            combined
+                                            four featured profiles have spent hundreds of thousands of pounds on plastic
+                                            surgery
+                                            as they follow in the footsteps of their celebrity idols. The series
+                                            includes
+                                            Jordan
+                                            James Parke who, obsessed with Kim Kardashian, has spent over £110,000 to
+                                            look
+                                            like
+                                            her. </p>
 
-                                    <p>Make Me a Famous Face is available to watch now on All 4 at:
-                                        www.channel4.com/programmes/make-me-a-famous-face
-                                    <p>
+                                        <p>Nicola Martin of Stripey Horse said:
+                                            <em>This is our first project working with All 4 and it's been fantastic. I
+                                                think
+                                                they
+                                                saw our fascination with the different expressions of obsessions and
+                                                fully
+                                                supported
+                                                how we wanted to tell their stories. Stripey also have few other things
+                                                in
+                                                development and we're excited about our growing relationship with All
+                                                4.</em>
+                                        <p>
+
+                                        <p>Make Me a Famous Face is available to watch now on All 4 at:
+                                            www.channel4.com/programmes/make-me-a-famous-face
+                                        <p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="column large-6 medium-12 small-12">
-                                <div class="publication__pictures">
-                                    <img class="publication__img" src='img/ps1.png'>
-                                    <img class="publication__img" src='img/ps2.png'>
+                                <div class="column large-6 medium-12 small-12">
+                                    <div class="publication__pictures">
+                                        <img class="publication__img" src='img/ps1.png'>
+                                        <img class="publication__img" src='img/ps2.png'>
+                                    </div>
                                 </div>
-                               
                             </div>
                         </div>
 

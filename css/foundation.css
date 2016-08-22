@@ -7311,6 +7311,9 @@ a {
     max-width: 79.85714rem; }
   .zebras-story .column:last-child .point, .zebras-story .columns:last-child .point {
     padding-left: 23px; }
+    @media screen and (max-width: 39.9375em) {
+      .zebras-story .column:last-child .point, .zebras-story .columns:last-child .point {
+        padding-left: 0; } }
 
 .career {
   font-family: 'gotham_bookregular', sans-serif;
@@ -7799,7 +7802,6 @@ address {
 
 @media all and (max-width: 1040px) {
   .publication {
-    overflow-y: auto;
     padding: 30px;
     font-size: 12px; }
   .publication__pictures {
@@ -7810,9 +7812,7 @@ address {
 
 @media all and (max-width: 640px) {
   .publication {
-    overflow-y: auto;
-    padding: 10px;
-    font-size: 12px; } }
+    padding: 10px; } }
 
 .publication__img + .publication__img {
   margin-top: 21px; }
@@ -7922,11 +7922,26 @@ address {
 .black-separator {
   background-color: #000;
   color: #fff; }
+  .black-separator .clients__click-title {
+    margin: 18px 0 15px;
+    line-height: 1; }
 
 .jobs-content {
   font-family: 'gotham_bookregular', sans-serif;
-  padding-top: 70px;
+  padding-top: 76px;
   font-size: 18px; }
+  .jobs-content .career__item {
+    padding-top: 34px;
+    padding-bottom: 40px; }
+
+.jobs-content.row {
+  max-width: 79.85714rem; }
+
+.career__item .office-name {
+  font-size: 19px; }
+
+.career__item .position {
+  font-size: 30px; }
 
 .position {
   font-family: 'gotham_mediumregular', sans-serif;
@@ -7937,15 +7952,21 @@ address {
 
 .position-description {
   padding-top: 30px;
-  line-height: 1.3; }
+  line-height: 1.3;
+  padding-left: 53px; }
   .position-description__full {
     display: none; }
+  @media screen and (max-width: 39.9375em) {
+    .position-description {
+      padding-left: 0; } }
+  .position-description p {
+    margin-bottom: 20px; }
   .position-description__view-more {
     position: relative;
     text-transform: uppercase;
     color: #000;
     font-family: 'gotham_boldregular', sans-serif;
-    font-size: 13px; }
+    font-size: 16px; }
     .position-description__view-more:hover, .position-description__view-more:focus {
       color: #232323; }
     .position-description__view-more:after {
@@ -7965,6 +7986,10 @@ address {
   font-size: 18px;
   line-height: 1;
   font-family: 'gotham_bookregular', sans-serif; }
+  @media screen and (max-width: 63.9375em) {
+    .contacts {
+      font-size: 14px;
+      padding: 13px 18px; } }
 
 .border-bottom {
   border-bottom: 1px solid #12110c;
@@ -8009,6 +8034,16 @@ address {
   -moz-appearance: none;
   height: 61px;
   line-height: 61px; }
+  @media screen and (max-width: 63.9375em) {
+    [type='text'], [type='password'],
+    [type='date'], [type='datetime'],
+    [type='datetime-local'], [type='month'],
+    [type='week'], [type='email'], [type='number'],
+    [type='tel'], [type='time'],
+    [type='url'], [type='color'], textarea,
+    .main-contact-form__attachment-input {
+      height: 45px;
+      line-height: 45px; } }
 
 .main-contact-form [type='submit'],
 .main-contact-form__file {
@@ -8027,6 +8062,11 @@ address {
     background-color: #fff;
     color: #2a2a2a;
     border: 1px solid #2a2a2a; }
+  @media screen and (max-width: 63.9375em) {
+    .main-contact-form [type='submit'],
+    .main-contact-form__file {
+      height: 45px;
+      line-height: 45px; } }
 
 input[type='file'] {
   display: none;

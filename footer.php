@@ -190,5 +190,6 @@
 <script TYPE="TEXT/JAVASCRIPT" src="js/wow.min.js"></script>
 <script src="https://f.vimeocdn.com/js/froogaloop2.min.js"></script>
 <script TYPE="TEXT/JAVASCRIPT" src="js/scripts.js"></script>
+<script src="js/jquery.nicescroll.js"></script>
 </html>
 

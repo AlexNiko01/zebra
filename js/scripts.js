@@ -51,11 +51,11 @@
         body.on('click', '.tiles__item', function () {
             $('.pop-up').addClass('pp-active');
             var id = $(this).data('id');
-            if(id && works_slider.length > 0){
-                works_slider.slick('slickGoTo', $('#'+id).index());
+            if (id && works_slider.length > 0) {
+                works_slider.slick('slickGoTo', $('#' + id).index());
             }
-            if(id && publication_slider.length > 0){
-                publication_slider.slick('slickGoTo', $('#'+id).index());
+            if (id && publication_slider.length > 0) {
+                publication_slider.slick('slickGoTo', $('#' + id).index());
             }
         });
         body.on('click', '.pop-up, .publication-pop-up, .testimonials', function (e) {
@@ -127,8 +127,8 @@
             $('.clients__column').on('click', function () {
                 $('.testimonials').addClass('shown');
                 var id = $(this).data('id');
-                if(id && testimonial_slider.length > 0){
-                    testimonial_slider.slick('slickGoTo', $('#'+id).index());
+                if (id && testimonial_slider.length > 0) {
+                    testimonial_slider.slick('slickGoTo', $('#' + id).index());
                 }
             });
         }
@@ -156,7 +156,7 @@
             }
         });
 
-        body.on('click','#see-contacts, #see-contact-form',function (e) {
+        body.on('click', '#see-contacts, #see-contact-form', function (e) {
             e.preventDefault();
             $('.pop-up').addClass('pp-active');
         });
@@ -164,18 +164,32 @@
         $('input[type=file]').on('change', function () {
             var val = $(this).val();
             var info_container = $('.main-contact-form__attachment-input');
-            if(info_container.length > 0) {
-                if(!info_container.data('placeholder')) {
+            if (info_container.length > 0) {
+                if (!info_container.data('placeholder')) {
                     info_container.data('placeholder', info_container.text());
                 }
-                if(val.length > 0) {
+                if (val.length > 0) {
                     var file_parts = val.split('\\');
-                    info_container.text(file_parts[file_parts.length-1]);
+                    info_container.text(file_parts[file_parts.length - 1]);
                 } else {
                     info_container.text(info_container.data('placeholder'));
                 }
             }
         });
+
+        //nicescroll
+        body.on('click', ".tiles__item", function () {
+            console.log('enot');
+            $("#publication").niceScroll({zindex: "9999999999999", cursorcolor: '#000'});
+        });
+        body.on('click', '.publication-pop-up__close,.publication-pop-up', function (e) {
+            if (!$(e.target).closest('.publication-pop-up__inner').length > 0){
+                $("#publication").getNiceScroll().hide()
+            }
+            ;
+
+        });
+
 
     });
     $(window).resize(function () {

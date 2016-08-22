@@ -120,7 +120,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="column small-12 medium-6">
+            <div class="column small-12 medium-12 large-6">
                 <p>To talk to us about any of our services or products, please
                     get in touch with your local office, or use the general
                     enquiry form to the right.</p>
@@ -185,7 +185,7 @@
                     </a>
                 </div>
             </div>
-            <div class="column small-12 medium-6">
+            <div class="column small-12 medium-12 large-6">
                 <div class="main-contact-form">
                     <form method="post" action="index.php">
                         <label>

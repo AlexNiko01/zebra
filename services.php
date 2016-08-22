@@ -29,14 +29,14 @@
         </section>
         <section class="services-content">
             <div class="row">
-                <div class="column small-6">
+                <div class="column small-12 medium-6">
                     <p>   Our business was founded in creativity - starting out as a TV production company we now produce
                         content for use in all media channels and all markets. We work closely with creative agencies,
                         understanding the importance of emotional connections and great storytelling. We also work directly
                         with brands to create powerful, cost-effective internal and customer-facing communications.</p>
 
                 </div>
-                <div class="column small-6">
+                <div class="column small-12 medium-6">
                     <p>
                         As an agile network we deliver creative production services through our owned and partner production
                         companies and our huge roster of individual directors, producers, photographers, retouchers,
