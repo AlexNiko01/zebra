@@ -1,7 +1,36 @@
 .single-office {
-  padding: 40px 0;
+  padding: 67px 0 70px;
   border-bottom: 2px solid #000;
-  &__content{
+  .column {
+
+  }
+  &__more {
+    text-align: right;
+    .show-more {
+      padding: 12px 5px;
+      font-size: 11px;
+      max-width: 390px;
+      width: 390px;
+      font-family: 'gotham_boldregular', sans-serif;
+      display: inline-block;
+
+    }
+  }
+  &:nth-child(odd) {
+
+    .single-office__more {
+      text-align: left;
+    }
+  }
+  &:nth-child(even) {
+    //.row{
+    //  margin-right:-50px;
+    //}
+    //.single-office__description {
+    //  padding-left: 50px;
+    //}
+  }
+  &__content {
     text-align: justify;
   }
   h3 {
@@ -10,6 +39,7 @@
   }
   h3, h4 {
     line-height: 1;
+    margin-bottom: 2px;
     text-transform: uppercase;
   }
   h4 {
@@ -18,6 +48,8 @@
   }
   > .row {
     @include flexbox;
+
+
   }
   &:nth-child(odd):not(#{&}-full) {
     > .row, .single-office__gallery {
@@ -58,26 +90,66 @@
     font-family: 'gotham_bookregular', sans-serif;
     font-size: 18px;
     ul {
-      margin: 25px 0;
+      margin: 31px 0 43px 12px;
       li {
-        padding-left: 30px;
+        padding-left: 46px;
         line-height: 1;
-        background-repeat: no-repeat;
-        background-position: left 3px;
+
         &:not(:last-child) {
-          margin-bottom: 20px;
+          margin-bottom: 10px;
         }
         &.address {
-          background-image: url("../img/icons/map-marker.png")
+          position: relative;
+          &:before {
+            position: absolute;
+            content: '';
+            display: block;
+            top: 0;
+            left: -15px;
+            width: 38px;
+            height: 38px;
+            background-image: url("../img/icons/map-marker.png");
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+          }
+
         }
         &.phone {
-          background-image: url("../img/icons/phone.png")
+          position: relative;
+          &:before {
+            position: absolute;
+            content: '';
+            display: block;
+            top: 0;
+            left: -15px;
+            width: 38px;
+            height: 38px;
+            background-image: url("../img/icons/phone.png");
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+          }
+
+          padding-top: 18px;
         }
         &.email {
-          background-image: url("../img/icons/email.png")
+          position: relative;
+          &:before {
+            position: absolute;
+            content: '';
+            display: block;
+            top: 0;
+            left: -15px;
+            width: 38px;
+            height: 38px;
+            background-image: url("../img/icons/email.png");
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+          }
+
+          padding-top: 16px;
         }
         p {
-          line-height: 1;
+          line-height: 1.2;
           margin: 0;
         }
         a {
@@ -85,7 +157,7 @@
         }
       }
     }
-    h4{
+    h4 {
       font-size: 18px;
     }
   }
@@ -148,7 +220,9 @@
 .offices {
   font-family: 'gotham_bookregular', sans-serif;
   font-size: 18px;
-
+  .row {
+    max-width: 79.85714rem;
+  }
   &__gallery {
     overflow: hidden;
     margin-bottom: 10px;
@@ -173,12 +247,12 @@
   padding: 50px 0 70px;
   border-bottom: 1px solid #000;
   font-size: 16px;
-  line-height:1;
+  line-height: 1;
   text-align: justify;
 
   &__title, &__sub-title {
     width: 100%;
-    line-height:1;
+    line-height: 1;
   }
   &__title {
     font-size: 30px;

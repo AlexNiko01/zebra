@@ -643,10 +643,10 @@ cite {
   line-height: 0;
   position: absolute;
   z-index: 9999999;
-  top: 50%;
   display: block;
   width: 20px;
   height: 30px;
+  top: 50%;
   margin-top: -10px;
   padding: 0;
   color: transparent;
@@ -654,13 +654,16 @@ cite {
   outline: none;
   background: transparent;
 }
+.works-slider .slick-prev, .works-slider .slick-next{
+  top: 50%;
 
+}
 .slick-next {
-  right: 47px;
+  right: 9px;
 }
 
 .slick-prev {
-  left: 47px;
+  left: 9px;
 }
 
 .slick-prev:before, .slick-next:before {

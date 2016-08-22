@@ -7158,10 +7158,10 @@ cite {
   line-height: 0;
   position: absolute;
   z-index: 9999999;
-  top: 50%;
   display: block;
   width: 20px;
   height: 30px;
+  top: 50%;
   margin-top: -10px;
   padding: 0;
   color: transparent;
@@ -7169,11 +7169,14 @@ cite {
   outline: none;
   background: transparent; }
 
+.works-slider .slick-prev, .works-slider .slick-next {
+  top: 50%; }
+
 .slick-next {
-  right: 47px; }
+  right: 9px; }
 
 .slick-prev {
-  left: 47px; }
+  left: 9px; }
 
 .slick-prev:before, .slick-next:before {
   font-family: FontAwesome, sans-serif;
@@ -7557,8 +7560,19 @@ h3.click-title {
     height: 100%; } }
 
 .single-office {
-  padding: 40px 0;
+  padding: 67px 0 70px;
   border-bottom: 2px solid #000; }
+  .single-office__more {
+    text-align: right; }
+    .single-office__more .show-more {
+      padding: 12px 5px;
+      font-size: 11px;
+      max-width: 390px;
+      width: 390px;
+      font-family: 'gotham_boldregular', sans-serif;
+      display: inline-block; }
+  .single-office:nth-child(odd) .single-office__more {
+    text-align: left; }
   .single-office__content {
     text-align: justify; }
   .single-office h3 {
@@ -7566,6 +7580,7 @@ h3.click-title {
     font-size: 30px; }
   .single-office h3, .single-office h4 {
     line-height: 1;
+    margin-bottom: 2px;
     text-transform: uppercase; }
   .single-office h4 {
     font-size: 0.8em;
@@ -7614,22 +7629,55 @@ h3.click-title {
     font-family: 'gotham_bookregular', sans-serif;
     font-size: 18px; }
     .single-office__description ul {
-      margin: 25px 0; }
+      margin: 31px 0 43px 12px; }
       .single-office__description ul li {
-        padding-left: 30px;
-        line-height: 1;
-        background-repeat: no-repeat;
-        background-position: left 3px; }
+        padding-left: 46px;
+        line-height: 1; }
         .single-office__description ul li:not(:last-child) {
-          margin-bottom: 20px; }
+          margin-bottom: 10px; }
         .single-office__description ul li.address {
-          background-image: url("../img/icons/map-marker.png"); }
+          position: relative; }
+          .single-office__description ul li.address:before {
+            position: absolute;
+            content: '';
+            display: block;
+            top: 0;
+            left: -15px;
+            width: 38px;
+            height: 38px;
+            background-image: url("../img/icons/map-marker.png");
+            background-repeat: no-repeat;
+            background-position: 50% 50%; }
         .single-office__description ul li.phone {
-          background-image: url("../img/icons/phone.png"); }
+          position: relative;
+          padding-top: 18px; }
+          .single-office__description ul li.phone:before {
+            position: absolute;
+            content: '';
+            display: block;
+            top: 0;
+            left: -15px;
+            width: 38px;
+            height: 38px;
+            background-image: url("../img/icons/phone.png");
+            background-repeat: no-repeat;
+            background-position: 50% 50%; }
         .single-office__description ul li.email {
-          background-image: url("../img/icons/email.png"); }
+          position: relative;
+          padding-top: 16px; }
+          .single-office__description ul li.email:before {
+            position: absolute;
+            content: '';
+            display: block;
+            top: 0;
+            left: -15px;
+            width: 38px;
+            height: 38px;
+            background-image: url("../img/icons/email.png");
+            background-repeat: no-repeat;
+            background-position: 50% 50%; }
         .single-office__description ul li p {
-          line-height: 1;
+          line-height: 1.2;
           margin: 0; }
         .single-office__description ul li a {
           color: inherit; }
@@ -7676,6 +7724,8 @@ h3.click-title {
 .offices {
   font-family: 'gotham_bookregular', sans-serif;
   font-size: 18px; }
+  .offices .row {
+    max-width: 79.85714rem; }
   .offices__gallery {
     overflow: hidden;
     margin-bottom: 10px; }
@@ -7802,6 +7852,7 @@ address {
 
 @media all and (max-width: 1040px) {
   .publication {
+    overflow-y: scroll;
     padding: 30px;
     font-size: 12px; }
   .publication__pictures {
@@ -7829,7 +7880,7 @@ address {
   left: 0;
   right: 0;
   background-color: rgba(0, 0, 0, 0.4);
-  transition: all 0.3s linear; }
+  transition: all 0.1s linear; }
   .publication-pop-up.pp-active {
     z-index: 99999999999;
     opacity: 1; }
@@ -7857,6 +7908,9 @@ address {
   padding: 77px 0;
   text-align: center;
   background-color: #fff; }
+
+.publication-slider .slick-prev, .publication-slider .slick-next {
+  top: 44%; }
 
 .services-content {
   padding: 66px 0 45px;

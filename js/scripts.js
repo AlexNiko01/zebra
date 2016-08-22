@@ -178,17 +178,17 @@
         });
 
         //nicescroll
-        body.on('click', ".tiles__item", function () {
-            console.log('enot');
-            $("#publication").niceScroll({zindex: "9999999999999", cursorcolor: '#000'});
-        });
-        body.on('click', '.publication-pop-up__close,.publication-pop-up', function (e) {
-            if (!$(e.target).closest('.publication-pop-up__inner').length > 0){
-                $("#publication").getNiceScroll().hide()
-            }
-            ;
+        // body.on('click', ".tiles__item", function () {
+        //     console.log('enot');
+        //     $("#publication").niceScroll({zindex: "9999999999999", cursorcolor: '#000'});
+        // });
+        // body.on('click', '.publication-pop-up__close,.publication-pop-up', function (e) {
+        //     if (!$(e.target).closest('.publication-pop-up__inner').length > 0){
+        //         $("#publication").getNiceScroll().hide()
+        //     }
+        //     ;
 
-        });
+        // });
 
 
     });

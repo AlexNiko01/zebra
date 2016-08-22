@@ -29,7 +29,7 @@
                     <?php for ( $i = 0; $i < 4; $i ++ ) : ?>
                         <article class="single-office">
                             <div class="row">
-                                <div class="column large-7 medium-7 small-12 single-office__gallery">
+                                <div class="column large-7 medium-12 small-12 single-office__gallery">
                                     <div class="single-office__gallery__small">
                                         <div class="single-office__gallery__item"
                                              style="background-image: url(img/1.png)"></div>
@@ -41,7 +41,7 @@
                                              style="background-image: url(img/1.png)"></div>
                                     </div>
                                 </div>
-                                <div class="column large-5 medium-5 small-12 end single-office__description">
+                                <div class="column large-5 medium-12 small-12 end single-office__description">
                                     <h3>London</h3>
                                     <h4>Head Office</h4>
                                     <ul>
