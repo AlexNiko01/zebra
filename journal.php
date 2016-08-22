@@ -136,8 +136,8 @@
             <div class="publication-slider">
                 <?php for ($i = 0; $i < 11; $i++) : ?>
                     <div class="publication-slider__slide" id="post_<?php echo $i ?>">
-                        <div class="row publication">
-                            <div class="column large-6 medium-6 small-12">
+                        <div class="row publication" id="publication">
+                            <div class="column large-6 medium-12 small-12">
                                 <div class="publication__soc-n"></div>
                                 <h3 class="publication__location">LONDON</h3>
                                 <h4 class="publication__name">STRIPEY HORSE PRODUCE FIRST PROJECT FOR ALL 4</h4>
@@ -187,7 +187,7 @@
                                     <p>
                                 </div>
                             </div>
-                            <div class="column large-6 medium-6 small-12">
+                            <div class="column large-6 medium-12 small-12">
                                 <div class="publication__pictures">
                                     <img class="publication__img" src='img/ps1.png'>
                                     <img class="publication__img" src='img/ps2.png'>

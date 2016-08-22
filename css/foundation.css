@@ -7163,7 +7163,6 @@ cite {
   width: 20px;
   height: 30px;
   margin-top: -10px;
-  transform: translate(0, -50%);
   padding: 0;
   color: transparent;
   border: none;
@@ -7171,10 +7170,10 @@ cite {
   background: transparent; }
 
 .slick-next {
-  right: 10px; }
+  right: 47px; }
 
 .slick-prev {
-  left: 10px; }
+  left: 47px; }
 
 .slick-prev:before, .slick-next:before {
   font-family: FontAwesome, sans-serif;
@@ -7351,6 +7350,7 @@ a {
     margin: 12px 5px;
     overflow: hidden; }
   .about-slider__hover {
+    font-size: 16px;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.8);
@@ -7375,6 +7375,12 @@ a {
   .about-slider .slick-list {
     margin-left: -5px;
     margin-right: -5px; }
+  .about-slider__name {
+    text-transform: uppercase;
+    font-family: 'gotham_boldregular', sans-serif;
+    margin-bottom: 20px; }
+  .about-slider__job-title {
+    padding: 0 30px; }
 
 .about-slider__img:hover .about-slider__hover {
   opacity: 1;
@@ -7532,10 +7538,6 @@ a {
 h3.click-title {
   text-transform: uppercase;
   font-weight: normal; }
-
-@media all and (max-width: 1024px) {
-  .testimonials__caption {
-    font-size: 13px; } }
 
 @media all and (max-width: 640px) {
   .testimonials__slide {
@@ -7794,6 +7796,23 @@ address {
     -moz-justify-content: center;
     justify-content: center;
     height: 100%; }
+
+@media all and (max-width: 1040px) {
+  .publication {
+    overflow-y: auto;
+    padding: 30px;
+    font-size: 12px; }
+  .publication__pictures {
+    display: block;
+    text-align: center; }
+  .publication .slick-slide img {
+    margin: 0 auto; } }
+
+@media all and (max-width: 640px) {
+  .publication {
+    overflow-y: auto;
+    padding: 10px;
+    font-size: 12px; } }
 
 .publication__img + .publication__img {
   margin-top: 21px; }
