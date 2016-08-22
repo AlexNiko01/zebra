@@ -2,7 +2,9 @@
 (function ($) {
 
     $(document).ready(function () {
-        new WOW().init();
+        if($(window).width() > 1024) {
+            new WOW().init();
+        }
         //header menu responsive
         var body = $('body');
         body.on('click', '.menu-icon', function () {

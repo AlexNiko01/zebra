@@ -87,7 +87,6 @@
   @include breakpoint(medium down) {
     font-size: 14px;
     padding: 13px 18px;
-
   }
 }
 
@@ -114,6 +113,17 @@
   }
   & + & {
     margin-top: 20px;
+  }
+
+  @include breakpoint(medium down){
+    float: left;
+    width: 46%;
+    margin-right: 2%;
+  }
+
+  @include breakpoint(small down){
+    width: 100%;
+    margin: 0;
   }
 }
 
@@ -147,27 +157,33 @@
   }
 }
 
-.main-contact-form [type='submit'],
-.main-contact-form__file {
-  background-color: #000;
-  color: #fff;
-  width: 100%;
-  padding: 0 20px;
-  border: none;
-  outline: none;
-  height: 61px;
-  line-height: 61px;
-  text-align: center;
-  &:hover, &:focus {
-    background-color: #fff;
-    color: #2a2a2a;
-    border: 1px solid #2a2a2a;
+.main-contact-form {
+  [type='submit'],
+  &__file {
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    padding: 0 20px;
+    border: none;
+    outline: none;
+    height: 61px;
+    line-height: 61px;
+    text-align: center;
+    &:hover, &:focus {
+      background-color: #fff;
+      color: #2a2a2a;
+      border: 1px solid #2a2a2a;
 
+    }
+    @include breakpoint(medium down) {
+      height: 45px;
+      line-height: 45px;
+    }
   }
-  @include breakpoint(medium down) {
-    height: 45px;
-    line-height: 45px;;
 
+
+  @include breakpoint(medium down) {
+    margin-top: 25px;
   }
 }
 
@@ -218,6 +234,18 @@ textarea {
   }
 }
 
-
-
+@media screen and (max-width: 1024px) {
+  .contacts {
+    p {
+      &:before, &:after {
+        content: '';
+        display: block;
+        clear: both;
+      }
+    }
+  }
+  .contact {
+    margin-top: 20px;
+  }
+}
 

@@ -251,6 +251,9 @@ cite {
       font-size:81px;
     }
   }
+  @include breakpoint(medium down){
+    margin-top: 0;
+  }
   @include breakpoint(small down){
     margin-top:0;
   }
@@ -782,6 +785,13 @@ cite {
 
     &-26 {
       width: 50%;
+    }
+  }
+
+  .pop-up, .publication-pop-up, .testimonials {
+    &__inner {
+      max-height: 95%;
+      overflow: auto;
     }
   }
 }

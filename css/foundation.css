@@ -6497,9 +6497,7 @@ table.hover tr:nth-of-type(even):hover {
     padding: 0 20px; }
   @media screen and (max-width: 63.9375em) {
     .header {
-      padding: 20px 0; } }
-  @media screen and (max-width: 39.9375em) {
-    .header {
+      padding: 20px 0;
       position: static; } }
 
 .logo {
@@ -6850,6 +6848,9 @@ cite {
     transform: translate(0, -50%); }
     .slider-parent__title--large {
       font-size: 81px; }
+  @media screen and (max-width: 63.9375em) {
+    .slider-parent {
+      margin-top: 0; } }
   @media screen and (max-width: 39.9375em) {
     .slider-parent {
       margin-top: 0; } }
@@ -7254,7 +7255,10 @@ cite {
   .col-37 {
     width: 50%; }
   .col-26 {
-    width: 50%; } }
+    width: 50%; }
+  .pop-up__inner, .publication-pop-up__inner, .testimonials__inner {
+    max-height: 95%;
+    overflow: auto; } }
 
 .works-slider__item {
   height: 670px; }
@@ -7562,15 +7566,13 @@ h3.click-title {
 .single-office {
   padding: 67px 0 70px;
   border-bottom: 2px solid #000; }
-  .single-office__more {
-    text-align: right; }
-    .single-office__more .show-more {
-      padding: 12px 5px;
-      font-size: 11px;
-      max-width: 390px;
-      width: 390px;
-      font-family: 'gotham_boldregular', sans-serif;
-      display: inline-block; }
+  .single-office__more .show-more {
+    padding: 12px 5px;
+    font-size: 11px;
+    max-width: 390px;
+    width: 390px;
+    font-family: 'gotham_boldregular', sans-serif;
+    display: inline-block; }
   .single-office:nth-child(odd) .single-office__more {
     text-align: left; }
   .single-office__content {
@@ -7778,6 +7780,27 @@ h3.click-title {
 
 address {
   font-style: normal; }
+
+@media screen and (max-width: 1024px) {
+  .single-office__gallery {
+    margin-bottom: 25px; }
+    .single-office__gallery__item {
+      padding-bottom: 60%; }
+  .single-office__more .show-more {
+    width: 100%;
+    max-width: none; } }
+
+@media screen and (max-width: 640px) {
+  .single-office__gallery {
+    padding: 0;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+    .single-office__gallery__small, .single-office__gallery__large {
+      width: 100%; }
+    .single-office__gallery__large {
+      margin: 0 !important; }
+    .single-office__gallery__item {
+      margin-bottom: 10px; } }
 
 .articles {
   overflow: hidden; }
@@ -8065,6 +8088,17 @@ address {
 .contact + .contact {
   margin-top: 20px; }
 
+@media screen and (max-width: 63.9375em) {
+  .contact {
+    float: left;
+    width: 46%;
+    margin-right: 2%; } }
+
+@media screen and (max-width: 39.9375em) {
+  .contact {
+    width: 100%;
+    margin: 0; } }
+
 [type='text'], [type='password'],
 [type='date'], [type='datetime'],
 [type='datetime-local'], [type='month'],
@@ -8099,8 +8133,7 @@ address {
       height: 45px;
       line-height: 45px; } }
 
-.main-contact-form [type='submit'],
-.main-contact-form__file {
+.main-contact-form [type='submit'], .main-contact-form__file {
   background-color: #000;
   color: #fff;
   width: 100%;
@@ -8110,17 +8143,18 @@ address {
   height: 61px;
   line-height: 61px;
   text-align: center; }
-  .main-contact-form [type='submit']:hover, .main-contact-form [type='submit']:focus,
-  .main-contact-form__file:hover,
-  .main-contact-form__file:focus {
+  .main-contact-form [type='submit']:hover, .main-contact-form [type='submit']:focus, .main-contact-form__file:hover, .main-contact-form__file:focus {
     background-color: #fff;
     color: #2a2a2a;
     border: 1px solid #2a2a2a; }
   @media screen and (max-width: 63.9375em) {
-    .main-contact-form [type='submit'],
-    .main-contact-form__file {
+    .main-contact-form [type='submit'], .main-contact-form__file {
       height: 45px;
       line-height: 45px; } }
+
+@media screen and (max-width: 63.9375em) {
+  .main-contact-form {
+    margin-top: 25px; } }
 
 input[type='file'] {
   display: none;
@@ -8173,6 +8207,14 @@ textarea:focus:-moz-placeholder {
 [type='email']:focus:-ms-input-placeholder,
 textarea:focus:-ms-input-placeholder {
   color: transparent; }
+
+@media screen and (max-width: 1024px) {
+  .contacts p:before, .contacts p:after {
+    content: '';
+    display: block;
+    clear: both; }
+  .contact {
+    margin-top: 20px; } }
 
 footer {
   background-color: #d4d4d4;
