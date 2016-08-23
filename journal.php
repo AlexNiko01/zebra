@@ -31,26 +31,24 @@
             </div>
             <div class="grid">
                 <div class="col-37 tiles__column tiles__item see-post-content" data-id="post_1">
-                    <div class="tiles__img" style="background-image: url('img/j1.png')"></div>
+                    <a class="tiles__img" style="background-image: url('img/j1.png')"></a>
                 </div>
                 <div class="col-26 tiles__column  tiles__item">
-                    <div class="article">
+                    <a href='twitter' class="article">
                         <p class="article__item">Zebra Studios #inhouse
                             #photostudio #oxfordcircus
                             #london @ Little Portland Street
                             W1 https://t.co/iword8nxPa</p>
                         <p class="article__name">ZEBRA WORLDWIDE</p>
                         <p class="article__nick-name">@ZebraWorldwide</p>
-                    </div>
+                    </a>
                 </div>
-                <div class="col-37 tiles__column tiles__item see-post-content" data-id="post_2">
-
-                    <div class="tiles__img" style="background-image: url('img/j2.png')"></div>
-
+                <div class="col-37 tiles__column tiles__item" data-id="post_2">
+                    <a href="instagram" class="tiles__img" style="background-image: url('img/j2.png')"></a>
                 </div>
             </div>
             <div class="grid">
-                <div class="col-26 tiles__column tiles__item see-post-content">
+                <div class="col-26 tiles__column tiles__item">
 
                     <div class="tiles__img" style="background-image: url('img/j3.png')"></div>
 
@@ -73,7 +71,7 @@
                 </div>
             </div>
             <div class="grid">
-                <div class="col-37 tiles__column tiles__item see-post-content">
+                <div class="col-37 tiles__column tiles__item">
                     <div class="tiles__img" style="background-image: url('img/j5.png')"></div>
                 </div>
                 <div class="col-26 tiles__column  tiles__item">
@@ -83,17 +81,17 @@
                         <p class="article__nick-name">@ZebraWorldwide</p>
                     </div>
                 </div>
-                <div class="col-37 tiles__column tiles__item see-post-content">
+                <div class="col-37 tiles__column tiles__item">
 
                     <div class="tiles__img" style="background-image: url('img/j6.png')"></div>
 
                 </div>
             </div>
             <div class="grid">
-                <div class="col-25 tiles__column tiles__item see-post-content">
+                <div class="col-25 tiles__column tiles__item">
                     <div class="tiles__img" style="background-image: url('img/j7.png')"></div>
                 </div>
-                <div class="col-25 tiles__column tiles__item see-post-content">
+                <div class="col-25 tiles__column tiles__item">
                     <div class="tiles__img" style="background-image: url('img/j8.png')"></div>
                 </div>
                 <div class="col-25 tiles__column tiles__item">
@@ -114,13 +112,13 @@
                 </div>
             </div>
             <div class="grid">
-                <div class="col-37 tiles__column tiles__item see-post-content">
+                <div class="col-37 tiles__column tiles__item ">
                     <div class="tiles__img" style="background-image: url('img/j9.png')"></div>
                 </div>
                 <div class="col-37 tiles__column tiles__item see-post-content">
                     <div class="tiles__img" style="background-image: url('img/j10.png')"></div>
                 </div>
-                <div class="col-26 tiles__column tiles__item see-post-content">
+                <div class="col-26 tiles__column tiles__item">
                     <div class="tiles__img" style="background-image: url('img/j11.png')"></div>
                 </div>
             </div>

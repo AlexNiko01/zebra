@@ -1,7 +1,9 @@
-.articles{
+.articles {
   overflow: hidden;
 }
-.article{
+
+.article {
+  position: relative;
   background-color: #000;
   color: #fff;
   font-size: 16px;
@@ -13,53 +15,68 @@
   @include flex-direction(column);
   @include align-items(center);
   @include justify-content(center);
-  &-large{
-    font-size:20px;
+  &-large {
+    font-size: 20px;
   }
-  &__item{
+  &__item {
     position: relative;
-    &:after{
+    &:after {
       content: '--';
       position: absolute;
       bottom: -24px;
-      left:50%;
+      left: 50%;
       display: block;
       -webkit-transform: translate(-50%, 0);
       -ms-transform: translate(-50%, 0);
       transform: translate(-50%, 0);
     }
   }
-  &__name{
-    font-family: 'gotham_mediumregular',sans-serif;
-    margin-bottom:0;
+  &__name {
+    font-family: 'gotham_mediumregular', sans-serif;
+    margin-bottom: 0;
+  }
+  &:hover, &:focus {
+    color: #fff;
   }
 }
 
-.publication{
+.publication {
   height: 100%;
   background-color: #fff;
   font-size: 14px;
-  font-family: 'gotham_bookregular',sans-serif;
+  font-family: 'gotham_bookregular', sans-serif;
   padding: 70px;
-  &__location{
-    font-size:27px;
-    font-family: 'gotham_mediumregular',sans-serif;
+  &__location {
+    font-size: 27px;
+    font-family: 'gotham_mediumregular', sans-serif;
     line-height: 1;
     margin-bottom: 0;
+    padding-left: 26px;
+    position: relative;
+    &:before {
+      position: absolute;
+      display: block;
+      top: 0;
+      left: 0;
+      content: '\f09e';
+      font-family: FontAwesome, sans-serif;
+      font-size: 26px;
+      color: #000;
+    }
   }
-  &__name, &__date,&__autor{
-    font-size:16px;
+  &__name, &__date, &__autor {
+    font-size: 16px;
   }
-  &__date,&__autor{
-    font-family: 'gotham_lightitalic',sans-serif;
+  &__date, &__autor {
+    font-family: 'gotham_lightitalic', sans-serif;
 
   }
-  p{
+  p {
     margin-bottom: 10px;
     text-align: justify;
-    line-height:1.3;
+    line-height: 1.3;
   }
-  &__pictures{
+  &__pictures {
     @include flexbox();
     @include flex-direction(column);
     @include justify-content(center);
@@ -67,39 +84,42 @@
   }
 
 }
-@media all and (max-width: 1040px){
-  .publication{
+
+@media all and (max-width: 1040px) {
+  .publication {
     overflow-y: scroll;
     padding: 30px;
     font-size: 12px;
   }
-  .publication__pictures{
+  .publication__pictures {
     display: block;
     text-align: center;
   }
-  .publication .slick-slide img{
+  .publication .slick-slide img {
     margin: 0 auto;
 
   }
 
 }
-@media all and (max-width: 640px){
-  .publication{
+
+@media all and (max-width: 640px) {
+  .publication {
     padding: 10px;
   }
 }
 
-
 .publication__img + .publication__img {
   margin-top: 21px;
 }
-.publication-slider{
-  &__slide{
+
+.publication-slider {
+  &__slide {
     height: 827px;
 
   }
 }
-.publication-pop-up{
+
+.publication-pop-up {
   z-index: -1;
   opacity: 0;
   position: fixed;
@@ -145,11 +165,65 @@
     }
   }
 }
-.in-touch{
+
+.in-touch {
   padding: 77px 0;
   text-align: center;
   background-color: #fff;
 }
-.publication-slider .slick-prev, .publication-slider .slick-next{
+
+.publication-slider .slick-prev, .publication-slider .slick-next {
   top: 44%;
+}
+
+.see-post-content {
+  &:before {
+    position: absolute;
+    display: block;
+    bottom: 20px;
+    right: 35px;
+    content: '\f09e';
+    font-family: FontAwesome, sans-serif;
+    font-size: 40px;
+    color: #fff;
+  }
+}
+
+.tiles__item {
+  [href*='twitter'] {
+    &:before {
+      position: absolute;
+      display: block;
+      bottom: 20px;
+      right: 40px;
+      content: '\f099';
+      font-family: FontAwesome, sans-serif;
+      font-size: 32px;
+      color: #fff;
+    }
+  }
+  [href*='instagram'] {
+    &:before {
+      position: absolute;
+      display: block;
+      bottom: 20px;
+      right: 35px;
+      content: '\f16d';
+      font-family: FontAwesome, sans-serif;
+      font-size: 40px;
+      color: #fff;
+    }
+  }
+  [href*='facebook'] {
+    &:before {
+      position: absolute;
+      display: block;
+      bottom: 20px;
+      right: 35px;
+      content: '\f09a';
+      font-family: FontAwesome, sans-serif;
+      font-size: 40px;
+      color: #fff;
+    }
+  }
 }

@@ -12,7 +12,7 @@
   }
   @include breakpoint(medium down){
     padding: 20px 0;
-    position: static;
+    position: relative;
   }
  }
 
@@ -100,11 +100,12 @@
     }
     @include breakpoint(small down) {
       line-height: 3;
-
+      display: block;
     }
     @include breakpoint(medium down) {
       line-height: 3;
       font-size: 13px;
+
     }
     &--search {
       position: relative;
@@ -140,7 +141,9 @@
     }
   }
 }
-
+.main-menu-right .main-menu__item:before{
+  display: none;
+}
 
 
 
@@ -239,6 +242,16 @@
   @media  all and (max-width: 640px) {
     .main-menu-right .main-menu__item:last-child:before{
       display: none;
+    }
+    .main-menu__link--search{
+      width: 100%;
+    }
+    .header__search-form{
+      top: 100%;
+      width: 100%;
+      right: 0;
+      left: 0;
+      padding: 0!important;
     }
   }
 

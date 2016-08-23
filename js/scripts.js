@@ -50,7 +50,7 @@
         }
 
         //home-tiles and journal pop-up
-        body.on('click', '.tiles__item', function () {
+        body.on('click', '.tiles .tiles__item, .call-pop-up', function () {
             $('.pop-up').addClass('pp-active');
             var id = $(this).data('id');
             if (id && works_slider.length > 0) {

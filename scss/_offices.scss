@@ -45,10 +45,10 @@
   h4 {
     font-size: 0.8em;
     font-weight: 300;
+
   }
   > .row {
     @include flexbox;
-
 
   }
   &:nth-child(odd):not(#{&}-full) {
@@ -159,6 +159,7 @@
     }
     h4 {
       font-size: 18px;
+      font-family: 'gotham_bookregular', sans-serif;
     }
   }
   &-full {
@@ -225,17 +226,19 @@
   }
   &__gallery {
     overflow: hidden;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+
     .row {
       max-width: none;
       margin-left: -15px;
       margin-right: -15px;
     }
     &__item {
-      margin-top: 30px;
+      margin-top: 10px;
+      padding: 0 5px;
     }
     &__img-holder {
-      padding-bottom: 70%;
+      padding-bottom: 65%;
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center;
@@ -244,24 +247,40 @@
 }
 
 .office-extra {
-  padding: 50px 0 70px;
+  .offices {
+    &__gallery {
+      &__img-holder {
+        padding-bottom: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+      }
+    }
+  }
+}
+
+.office-extra {
+  padding: 86px 0 72px;
   border-bottom: 1px solid #000;
   font-size: 16px;
   line-height: 1;
   text-align: justify;
+  font-family: 'gotham_bookregular', sans-serif;
 
   &__title, &__sub-title {
     width: 100%;
     line-height: 1;
+    text-transform: uppercase;
   }
   &__title {
     font-size: 30px;
-
+    font-family: 'gotham_mediumregular', sans-serif;
+    margin-bottom: 0;
   }
   &__sub-title {
-    margin-bottom: 40px;
+    margin-bottom: 44px;
     font-size: 18px;
-
+    font-family: 'gotham_bookregular', sans-serif;
   }
   .offices__gallery__item {
     margin-top: 0;
@@ -269,15 +288,16 @@
     padding: 0 5px;
   }
   p {
-    line-height: 1.15;
-    margin-bottom: 16px;
+    line-height: 1.25;
+    margin-bottom: 17px
   }
   &__contact {
     font-size: 18px;
-    padding-left: 40px;
+    padding-left: 55px;
     line-height: 1;
     background-repeat: no-repeat;
     background-position: left 3px;
+    margin-top: 43px;
     &.icon-photo {
       background-image: url("../img/icons/photo.png");
     }
@@ -289,14 +309,22 @@
       margin-bottom: 0;
     }
   }
+  .row {
+    max-width: 79.85714rem;
+  }
+}
 
+.office-extra .row .row {
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
 }
 
 address {
   font-style: normal;
 }
 
-@media screen and (max-width: 1024px) {
+@media all and (max-width: 1024px) {
   .single-office {
     &__gallery {
       margin-bottom: 25px;
@@ -313,7 +341,7 @@ address {
   }
 }
 
-@media screen and (max-width: 640px) {
+@media all and (max-width: 640px) {
   .single-office {
     &__gallery {
       padding: 0;
@@ -329,4 +357,15 @@ address {
       }
     }
   }
+  .offices__gallery {
+    margin-top: 20px;
+  }
+}
+
+.slider-parent__title--medium {
+  font-size: 50px;
+}
+
+.single-office-full {
+  padding: 67px 0 41px;
 }

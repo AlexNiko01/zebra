@@ -3,7 +3,7 @@
 
     <main role="main">
         <section class="slider-parent">
-            <h3 class="slider-parent__title">London</h3>
+            <h3 class="slider-parent__title slider-parent__title--medium">London</h3>
             <div class="slider-parent__thumbnail">
                 <div class="slider-parent__thumbnail__holder" style="background-image: url(img/london.png)"></div>
             </div>

@@ -122,10 +122,11 @@
   &__caption {
     position: relative;
     //width: 30%;
-    padding: 40px 50px;
+    padding: 40px 70px;
     font-size: 16px;
     line-height: 1.15;
     font-family: 'gotham_bookitalic', sans-serif;
+
     &__content {
       text-align: justify;
       position: relative;
@@ -145,6 +146,8 @@
       }
     }
     &__author {
+      text-transform: capitalize;
+      font-size: 16px;
       &:before {
         content: '';
         height: 2px;
