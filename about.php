@@ -217,7 +217,7 @@
         </div>
     </section>
     <section class="discover">
-        <a href="#" class="button" id="see-contacts">get in touch</a>
+        <a href="contact-form.php" class="button" id="see-contacts">get in touch</a>
     </section>
     <div class="pop-up">
         <div class="pop-up__inner contacts">

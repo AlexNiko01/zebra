@@ -7353,6 +7353,9 @@ a {
   .single-work__img {
     margin-bottom: 20px; } }
 
+.single-form {
+  padding: 20px 0; }
+
 .zebras-story {
   padding: 66px 0 50px;
   font-family: 'gotham_bookitalic', sans-serif;
