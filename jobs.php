@@ -108,7 +108,7 @@
             </div>
     </section>
     <section class="discover">
-        <a href="#" class="button" id="see-contacts">APPLY FOR A ROLE</a>
+        <a href="contact-form.php" class="button" id="see-contacts">APPLY FOR A ROLE</a>
     </section>
 </main>
 <div class="pop-up">

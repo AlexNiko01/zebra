@@ -222,4 +222,4 @@
             <button class="publication-pop-up__close">x</button>
         </div>
     </div>
-<?php include('footer.php');
+<?php include('footer.php'); 

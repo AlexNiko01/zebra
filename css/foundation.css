@@ -7195,20 +7195,41 @@ cite {
 .slick-prev {
   left: 9px; }
 
-.slick-prev:before, .slick-next:before {
+.slick-prev:before, .slick-next:before,
+.slick-prev:after, .slick-next:after {
   font-family: FontAwesome, sans-serif;
   font-size: 30px;
   line-height: 1;
   opacity: 1;
   color: #aeaeae;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  -moz-osx-font-smoothing: grayscale;
+  height: 3px;
+  width: 20px;
+  position: absolute;
+  background-color: #404040;
+  content: '';
+  display: block; }
 
 .slick-prev:before {
-  content: "\f053"; }
+  transform: rotateZ(-45deg);
+  bottom: 62%; }
+
+.slick-prev:after {
+  transform: rotateZ(45deg);
+  top: 73%; }
 
 .slick-next:before {
-  content: "\f054"; }
+  transform: rotateZ(135deg);
+  top: 73%; }
+
+.slick-next:after {
+  transform: rotateZ(-135deg);
+  bottom: 62%; }
+
+.works-slider .slick-next:before,
+.works-slider .slick-next:after {
+  background-color: #fff; }
 
 @media all and (max-width: 1124px) {
   .pp-post__info {
@@ -7349,7 +7370,7 @@ a {
   .single-work__client-container, .single-work__project-container {
     font-family: 'gotham_lightregular', sans-serif; }
 
-@media all and (max-width: 420px) {
+@media all and (max-width: 640px) {
   .single-work__img {
     margin-bottom: 20px; } }
 

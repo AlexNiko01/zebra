@@ -167,7 +167,7 @@
 
         <section class="see-our-story">
             <div class="text-center">
-                <a href="#" class="button" id="see-contact-form">GET IN TOUCH</a>
+                <a href="contact-form.php" class="button" id="see-contact-form">GET IN TOUCH</a>
 
             </div>
         </section>

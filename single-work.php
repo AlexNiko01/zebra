@@ -21,8 +21,6 @@
         </div>
         <div class="column large-4 medium-6 small-12 single-work__info-parent">
             <div class="single-work__info">
-
-
                 <div class="single-work__content">
                     <p>Stripey Horse have produced a new
                         brand TVC for the global power tools
