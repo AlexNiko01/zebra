@@ -118,7 +118,7 @@
                     </li>
                     <li id="menu-item-76" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-76 footer-menu__item"><a href="http://zwwk.zebra-worldwide.com/jobs/" class="footer-menu__link ">Jobs</a>
                         <ul class="footer-sub-menu">
-                            <li id="menu-item-77" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77 footer-menu__item"><a href="http://zwwk.zebra-worldwide.com/jobs/careesr/" class="footer-menu__link ">Careesr</a></li>
+                            <li id="menu-item-77" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77 footer-menu__item"><a href="http://zwwk.zebra-worldwide.com/jobs/careers/" class="footer-menu__link ">Careers</a></li>
                         </ul>
                     </li>
                     <li id="menu-item-78" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-12 current_page_item menu-item-has-children menu-item-78 footer-menu__item"><a href="http://zwwk.zebra-worldwide.com/journal/" class="footer-menu__link ">Journal</a>

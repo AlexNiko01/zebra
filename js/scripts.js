@@ -56,7 +56,7 @@
         }
 
         //home-tiles and journal pop-up
-        body.on('click', '.tiles .tiles__item, .call-pop-up', function (e) {
+        body.on('click', '.tiles-item-pop-up, .call-pop-up', function (e) {
             if ($(window).width() > 640) {
                 e.preventDefault();
                 $('.pop-up').addClass('pp-active');
@@ -102,33 +102,48 @@
 
 
         //about page members slider
-        $('.about-slider').slick({
+        var aboutSlider = $('.about-slider');
+        // aboutSlider.on('init', function () {
+        //     $('.slick-next').hover(function () {
+        //         console.log('enot');
+        //         aboutSlider.slick('slickSetOption', 'autoplay', true);
+        //         aboutSlider.slick('slickSetOption', 'autoplaySpeed', 0);
+        //         aboutSlider.slick('slickSetOption', 'speed', 1000);
+        //         aboutSlider.slick('slickSetOption', 'pauseOnHover', false);
+        //     }, function () {
+        //         console.log('outenot');
+        //         aboutSlider.slick('slickSetOption', 'autoplay', false);
+        //     });
+        // });
+        aboutSlider.slick({
             arrows: true,
             dots: false,
             slidesToShow: 5,
             slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 0,
+            speed: 2000,
             responsive: [
                 {
                     breakpoint: 1200,
                     settings: {
-                        slidesToShow: 3,
+                        slidesToShow: 3
                     }
                 },
                 {
                     breakpoint: 980,
                     settings: {
-                        slidesToShow: 2,
+                        slidesToShow: 2
                     }
                 },
                 {
                     breakpoint: 520,
                     settings: {
-                        slidesToShow: 1,
+                        slidesToShow: 1
                     }
-                },
+                }
             ]
         });
-
 
         //Clients page slider
         var testimonial_slider = $('.testimonials__slider');
@@ -142,7 +157,7 @@
                 cssEase: 'linear'
             });
 
-            $('.clients__column').on('click', function (e) {
+            $('.see-testimonial').on('click', function (e) {
                 if ($(window).width() > 640) {
                     e.preventDefault();
                     $('.testimonials').addClass('shown');
@@ -204,6 +219,12 @@
             }
         });
 
+
+        var isSafari = !!navigator.userAgent.match(/Version\/[\d\.]+.*Safari/);
+        if (isSafari) {
+            body.addClass('safari')
+        }
+        console.log(isSafari);
 
     });
     $(window).resize(function () {

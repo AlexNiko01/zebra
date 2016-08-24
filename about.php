@@ -20,7 +20,7 @@
             </div>
         </div>
     </section>
-    <section class="zebras-story">
+    <section class="zebras-story wow fadeInUp">
         <div class="row">
             <div class="column small-12 medium-6">
                 <div class="point">
@@ -181,7 +181,7 @@
         </div>
 
     </section>
-    <section class="career">
+    <section class="career wow fadeInUp">
         <div class="row">
             <div class="column">
                 <div class="career__titles">
@@ -213,7 +213,7 @@
             </div>
         </div>
     </section>
-    <section class="discover">
+    <section class="discover wow fadeInUp">
         <a href="contact-form.php" class="button" id="see-contacts">get in touch</a>
     </section>
     <div class="pop-up">

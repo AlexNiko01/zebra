@@ -32,7 +32,7 @@
 
             <div class="clients__list clearfix">
                 <?php for ($i = 0; $i < 36; $i++) : ?>
-                    <div class="column large-2 medium-4 small-6 clients__column" data-id="post_<?php echo $i ?>">
+                    <div class="column large-2 medium-4 small-6 clients__column see-testimonial" data-id="post_<?php echo $i ?>">
                         <div class="clients__inner">
                             <img src="img/client_logo.png" alt="" class="clients__logo">
                             <div class="clients__hover">

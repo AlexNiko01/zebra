@@ -46,7 +46,7 @@
     </section>
     <section class="tiles">
         <div class="grid wow fadeInUp">
-            <a href="single-work.php" class="col-37 tiles__column tiles__item"  data-id="post_1">
+            <a href="single-work.php" class="col-37  tiles-item-pop-up tiles__column tiles__item"  data-id="post_1">
                 <div class="tiles__img red" style="background-image: url('img/1.png')">
                 </div>
 
@@ -65,10 +65,10 @@
                     </div>
 
                 </div>
-                <div class="col-50 tiles__column tiles__item height-small"  data-id="post_2">
+                <a href='journal.php' class="col-50 tiles__column tiles__item height-small"  data-id="post_2">
                     <div class="tiles__img d-blue" style="background-image: url('img/2.png')"></div>
 
-                </div>
+                </a>
                 <div class="col-50 tiles__column tiles__item height-small"  data-id="post_3">
                     <div class="tiles__img l-blue" style="background-image: url('img/3.png')"></div>
 
