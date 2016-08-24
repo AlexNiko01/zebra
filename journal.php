@@ -1,23 +1,36 @@
 <?php include('header.php'); ?>
-    <main>
+    <main class="page-template-journal">
         <section class="slider-parent">
-            <h3 class="slider-parent__title">
-                #WEAREZEBRA</h3>
+
             <div class="main-slider">
                 <div class="main-slider__slide">
-                    <div class="main-slider__img" style="background-image: url(img/_MG_0356.jpg)"></div>
+                    <h3 class="slider-parent__title">
+                        #ZEBRALIFE</h3>
+                    <div class="main-slider__img" style="background-image: url(img/_MG_0356.jpg)">
+
+                    </div>
                 </div>
                 <div class="main-slider__slide">
-                    <div class="main-slider__img" style="background-image: url(img/_MG_0356.jpg)"></div>
+                    <h3 class="slider-parent__title">
+                        #WEAREZEBRA</h3>
+                    <div class="main-slider__img" style="background-image: url(img/_MG_0356.jpg)">
+
+                    </div>
                 </div>
                 <div class="main-slider__slide">
-                    <div class="main-slider__img" style="background-image: url(img/_MG_0356.jpg)"></div>
+                    <div class="main-slider__img" style="background-image: url(img/_MG_0356.jpg)">
+
+                    </div>
                 </div>
                 <div class="main-slider__slide">
-                    <div class="main-slider__img" style="background-image: url(img/_MG_0356.jpg)"></div>
+                    <div class="main-slider__img" style="background-image: url(img/_MG_0356.jpg)">
+
+                    </div>
                 </div>
                 <div class="main-slider__slide">
-                    <div class="main-slider__img" style="background-image: url(img/_MG_0356.jpg)"></div>
+                    <div class="main-slider__img" style="background-image: url(img/_MG_0356.jpg)">
+
+                    </div>
                 </div>
             </div>
         </section>

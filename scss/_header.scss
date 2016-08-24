@@ -10,11 +10,11 @@
     margin: 0 auto;
     padding: 0 20px;
   }
-  @include breakpoint(medium down){
+  @include breakpoint(medium down) {
     padding: 20px 0;
     position: relative;
   }
- }
+}
 
 .logo {
   position: absolute;
@@ -30,8 +30,14 @@
     text-align: left;
     display: inline-block;
   }
-
+  a {
+    display: block;
+  }
+  img{
+    height: 19px;
+  }
 }
+
 .main-menu {
   font-size: 0;
   &-left {
@@ -50,7 +56,7 @@
     padding: 29px 0 26px;
     &:not(:last-child) {
       margin-right: 34.5px;
-      @include breakpoint(medium down){
+      @include breakpoint(medium down) {
         margin-right: 24.5px;
       }
     }
@@ -70,7 +76,7 @@
       display: block;
 
     }
-    &:hover:before, &:hover:focus{
+    &:hover:before, &:hover:focus {
       width: 100%;
     }
   }
@@ -79,7 +85,7 @@
     @include breakpoint(large down) {
       text-align: left;
     }
-    &__item{
+    &__item {
       &:not(:last-child) {
         padding: 29px 0 26px;
         margin-right: 31px;
@@ -92,10 +98,10 @@
     color: #fff;
 
     font-family: 'gotham_mediumregular', sans-serif;
-        &:hover, &:focus {
-          color: #fff;
-          &:before {
-            width: 100%;
+    &:hover, &:focus {
+      color: #fff;
+      &:before {
+        width: 100%;
       }
     }
     @include breakpoint(small down) {
@@ -123,140 +129,140 @@
         -webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
-        @include breakpoint(medium down){
+        @include breakpoint(medium down) {
           top: 25px;
 
         }
-        @include breakpoint(small down){
+        @include breakpoint(small down) {
           top: 25px;
 
         }
       }
-      &:hover,&:focus{
-        color:transparent;
-        &:before{
+      &:hover, &:focus {
+        color: transparent;
+        &:before {
           display: none;
         }
       }
     }
   }
 }
-.main-menu-right .main-menu__item:before{
+
+.main-menu-right .main-menu__item:last-child:before {
   display: none;
 }
 
-
-
-  .current-menu-item {
-    color: #fff;
-    font-weight: bold;
-    &:before {
-      width: 100%;
-    }
-    a{
-      font-weight:bold;
-    }
-  }
-
-  .top-bar {
-    .toggle-topbar {
-      display: block;
-      position: absolute;
-      right: 20px;
-      top: 36px;
-      -webkit-transform: translate(-50%, -50%);
-      -moz-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      -o-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-
-      @include breakpoint(medium) {
-        display: none;
-      }
-    }
-  }
-
-  .navigation {
-
-    @include breakpoint(small down) {
-      display: none;
-      margin-top: 20px;
-    }
-    @include breakpoint(large down) {
-      margin-top: 20px;
-    }
-  }
-
-  .top-bar input {
-    max-width: 200px;
-    margin-right: 0;
-    margin-bottom: 0;
-  }
-
-  .header {
-    &__search-form {
-      display: none;
-      position: absolute;
-      top: 100%;
-      right: 15px;
-      width: 300px;
-      z-index: 99;
-    }
-  }
-
-  .search-form {
-    position: absolute;
-    right: -10px;
-    top: 50%;
-    height: 40px;
-    -webkit-transform: translate(0, -50%);
-    -ms-transform: translate(0, -50%);
-    transform: translate(0, -50%);
-    .small-4.columns{
-      text-align: left;
-    }
-  }
-
-
-  .header__search-form input[type='submit'] {
-    outline: none;
-    color: #000;
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-    font-size: 17px;
-    height: 39px;
-    font-family: 'gotham_mediumregular', sans-serif;
-    background-color: #999;
-    border: 1px solid #999;
+.current-menu-item {
+  color: #fff;
+  font-weight: bold;
+  &:before {
     width: 100%;
   }
-
-  .header__search-form input[type="search"] {
-    height: 39px;
-    line-height: 39px;
-    border: 1px solid #999;
-
+  a {
+    font-weight: bold;
   }
-  @media  all and (max-width: 640px) {
-    .main-menu-right .main-menu__item:last-child:before{
+}
+
+.top-bar {
+  .toggle-topbar {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 36px;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    @include breakpoint(medium) {
       display: none;
     }
-    .main-menu__link--search{
-      width: 100%;
-    }
-    .header__search-form{
-      top: 100%;
-      width: 100%;
-      right: 0;
-      left: 0;
-      padding: 0!important;
-    }
   }
+}
 
-  @media  all and (max-width: 380px) {
-    .logo img{
-      width: 219px;
-    }
+.navigation {
+
+  @include breakpoint(small down) {
+    display: none;
+    margin-top: 20px;
   }
+  @include breakpoint(large down) {
+    margin-top: 20px;
+  }
+}
+
+.top-bar input {
+  max-width: 200px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.header {
+  &__search-form {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 15px;
+    width: 300px;
+    z-index: 99;
+  }
+}
+
+.search-form {
+  position: absolute;
+  right: -10px;
+  top: 50%;
+  height: 40px;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  .small-4.columns {
+    text-align: left;
+  }
+}
+
+.header__search-form input[type='submit'] {
+  outline: none;
+  color: #000;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  font-size: 17px;
+  height: 39px;
+  font-family: 'gotham_mediumregular', sans-serif;
+  background-color: #999;
+  border: 1px solid #999;
+  width: 100%;
+}
+
+.header__search-form input[type="search"] {
+  height: 39px;
+  line-height: 39px;
+  border: 1px solid #999;
+
+}
+
+@media all and (max-width: 640px) {
+  .main-menu-right .main-menu__item:last-child:before {
+    //display: none;
+  }
+  .main-menu__link--search {
+    width: 100%;
+  }
+  .header__search-form {
+    top: 100%;
+    width: 100%;
+    right: 0;
+    left: 0;
+    padding: 0 !important;
+  }
+}
+
+@media all and (max-width: 380px) {
+  .logo img {
+    width: 219px;
+    height: auto;
+  }
+}

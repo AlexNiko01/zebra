@@ -46,17 +46,17 @@
     </section>
     <section class="tiles">
         <div class="grid wow fadeInUp">
-            <div class="col-37 tiles__column tiles__item"  data-id="post_1">
+            <a href="single-work.php" class="col-37 tiles__column tiles__item"  data-id="post_1">
                 <div class="tiles__img red" style="background-image: url('img/1.png')">
                 </div>
-                <div class="tiles__caption">work</div>
+
                 <div class="tiles__hover">
                     <div class="tiles__hover-content">
                         <h4 class="tiles__post-title">WALLS</h4>
                         <span>Cornetto</span>
                     </div>
                 </div>
-            </div>
+            </a>
             <div class="col-26 tiles__column">
                 <div class="col-100 tiles__column height-small">
                     <div class="tiles__content">
@@ -76,7 +76,7 @@
             </div>
             <div class="col-37 tiles__column tiles__item">
                 <div class="tiles__img green" style="background-image: url('img/4.png')"></div>
-                <div class="tiles__caption">clients</div>
+
             </div>
         </div>
         <div class="grid wow fadeInUp">
@@ -97,7 +97,7 @@
             </div>
             <div class="col-25 tiles__column tiles__item">
                 <div class="tiles__img" style="background-image: url('img/7.png')"></div>
-                <div class="tiles__caption">CULTURE</div>
+
 
             </div>
 
@@ -157,7 +157,7 @@
             </div>
             <div class="col-26 tiles__column tiles__item">
                 <div class="tiles__img" style="background-image: url('img/15.png')"></div>
-                <div class="tiles__caption">ABOUT</div>
+
 
             </div>
             <div class="col-37 tiles__column tiles__item">
@@ -212,7 +212,7 @@
             </div>
             <div class="col-37 tiles__column tiles__item">
                 <div class="tiles__img" style="background-image: url('img/24.png')"></div>
-                <div class="tiles__caption">contact</div>
+
             </div>
             <div class="col-26 tiles__column">
                 <div class="col-100 tiles__column height-small">

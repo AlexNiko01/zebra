@@ -6514,6 +6514,10 @@ table.hover tr:nth-of-type(even):hover {
     .logo {
       text-align: left;
       display: inline-block; } }
+  .logo a {
+    display: block; }
+  .logo img {
+    height: 19px; }
 
 .main-menu {
   font-size: 0; }
@@ -6599,7 +6603,7 @@ table.hover tr:nth-of-type(even):hover {
         .main-menu__link--search:hover:before, .main-menu__link--search:focus:before {
           display: none; }
 
-.main-menu-right .main-menu__item:before {
+.main-menu-right .main-menu__item:last-child:before {
   display: none; }
 
 .current-menu-item {
@@ -6668,8 +6672,6 @@ table.hover tr:nth-of-type(even):hover {
   border: 1px solid #999; }
 
 @media all and (max-width: 640px) {
-  .main-menu-right .main-menu__item:last-child:before {
-    display: none; }
   .main-menu__link--search {
     width: 100%; }
   .header__search-form {
@@ -6681,7 +6683,8 @@ table.hover tr:nth-of-type(even):hover {
 
 @media all and (max-width: 380px) {
   .logo img {
-    width: 219px; } }
+    width: 219px;
+    height: auto; } }
 
 body {
   color: #000;
@@ -7314,6 +7317,41 @@ a {
   color: #000; }
   a:hover, a:focus {
     color: #303030; }
+
+.single-work {
+  text-align: justify;
+  font-size: 16px;
+  font-family: 'gotham_lightregular', sans-serif;
+  padding: 30px 0; }
+  .single-work__info {
+    font-family: 'gotham_lightitalic', sans-serif; }
+  .single-work__title-group {
+    margin-bottom: 10px;
+    text-align: center;
+    position: relative;
+    border-bottom: 1px solid #000;
+    display: inline-block;
+    font-size: 26px; }
+  .single-work__title {
+    font-family: 'gotham_mediumregular', sans-serif; }
+  .single-work__client, .single-work__project {
+    font-family: 'gotham_mediumregular', sans-serif; }
+  .single-work__img {
+    padding-bottom: 60%;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%; }
+  .single-work__logo {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 59px; }
+  .single-work__client-container, .single-work__project-container {
+    font-family: 'gotham_lightregular', sans-serif; }
+
+@media all and (max-width: 420px) {
+  .single-work__img {
+    margin-bottom: 20px; } }
 
 .zebras-story {
   padding: 66px 0 50px;
@@ -8034,6 +8072,9 @@ address {
   font-size: 40px;
   color: #fff; }
 
+.slick-slide {
+  position: relative !important; }
+
 .services-content {
   padding: 66px 0 45px;
   text-align: justify;
@@ -8435,7 +8476,12 @@ footer .column.small-12.large-4.medium-12, footer .small-12.large-4.medium-12.co
   .socials__item:not(:last-child) {
     padding-right: 15px; }
   footer .column.small-12.large-4.medium-12, footer .small-12.large-4.medium-12.columns {
-    padding-right: 15px; } }
+    padding-right: 15px; }
+  .footer-nav__item {
+    padding-right: 5px;
+    padding-left: 5px; }
+  .footer-menu .footer-sub-menu .footer-menu__link {
+    line-height: 2; } }
 
 @media screen and (max-width: 430px) {
   .footer-menu__item {
