@@ -27,7 +27,7 @@
                         webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
                 <div class="intro-video__play">
-                    <i class="fa fa-play" aria-hidden="true"></i>
+                    SHOW REEL
                 </div>
                 <button class="intro-video__close">close</button>
             </div>

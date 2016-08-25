@@ -180,9 +180,9 @@
 
         // search form
         $('.main-menu__link--search').on('click', function (e) {
-
             e.preventDefault();
             $('.header__search-form').slideToggle();
+            $('.header__search-form input[type="search"]').focus();
 
         });
 

@@ -5,14 +5,14 @@
             <div class="main-slider">
                 <div class="main-slider__slide">
                     <h3 class="slider-parent__title">
-                        #ZEBRALIFE</h3>
+                        # ZEBRALIFE</h3>
                     <div class="main-slider__img" style="background-image: url(img/_MG_0356.jpg)">
 
                     </div>
                 </div>
                 <div class="main-slider__slide">
                     <h3 class="slider-parent__title">
-                        #WEAREZEBRA</h3>
+                        # WEAREZEBRA</h3>
                     <div class="main-slider__img" style="background-image: url(img/_MG_0356.jpg)">
 
                     </div>

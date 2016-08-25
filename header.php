@@ -18,55 +18,97 @@
 <header class="header">
     <div class="header__container">
         <div class="logo">
-            <a href="#"><img src="img/logo.png" alt="logo"></a>
+            <a href="http://zwwk.zebra-worldwide.com"><img
+                    src="http://zwwk.zebra-worldwide.com/wp-content/uploads/2016/08/logo_new.png" alt="logo"></a>
         </div>
         <nav class="top-bar">
             <div class="row navigation">
-                <div class="column small-12 medium-6 large-6">
-                    <ul class="main-menu main-menu-left clearfix">
+                <div class="column small-12 medium-6 large-7">
+                    <ul id="menu-top-left-menu" class="main-menu main-menu-left clearfix">
+                        <li id="menu-item-27"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27 main-menu__item">
+                            <a href="index.php" class="main-menu__link ">Home</a></li>
+                        <li id="menu-item-28"
+                            class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-20 current_page_item menu-item-28 main-menu__item">
+                            <a href="about.php" class="main-menu__link ">About</a></li>
+                        <li id="menu-item-284"
+                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-284 main-menu__item">
+                            <a href="/" class="main-menu__link">Services</a>
+
+
+                            <ul class="sub-menu">
+                                <li id="menu-item-288"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-288 main-menu__item">
+                                    <a href="http://zwwk.zebra-worldwide.com/services/strategy/"
+                                       class="main-menu__link ">Strategy</a></li>
+                                <li id="menu-item-285"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-285 main-menu__item">
+                                    <a href="http://zwwk.zebra-worldwide.com/services/creative/"
+                                       class="main-menu__link ">Creative</a></li>
+                                <li id="menu-item-287"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-287 main-menu__item">
+                                    <a href="http://zwwk.zebra-worldwide.com/services/production/"
+                                       class="main-menu__link ">Production</a></li>
+                                <li id="menu-item-286"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-286 main-menu__item">
+                                    <a href="http://zwwk.zebra-worldwide.com/services/localisation/"
+                                       class="main-menu__link ">Localisation</a></li>
+                                <li id="menu-item-290"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-290 main-menu__item">
+                                    <a href="http://zwwk.zebra-worldwide.com/services/technology/"
+                                       class="main-menu__link ">Technology</a></li>
+                                <li id="menu-item-289"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-289 main-menu__item">
+                                    <a href="http://zwwk.zebra-worldwide.com/services/support/"
+                                       class="main-menu__link ">Support</a></li>
+                            </ul>
+
+
+                        </li>
+                        <li id="menu-item-30"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30 main-menu__item">
+                            <a href="clients.php" class="main-menu__link ">Clients</a></li>
+                    </ul>
+                    <!--<ul class="main-menu main-menu-left clearfix">
                         <li class="main-menu__item current-menu-item"><a href="index.php" class="main-menu__link">
                                 Home
-                            </a>
-                        </li>
+                            </a></li>
                         <li class="main-menu__item"><a href="about.php" class="main-menu__link">
                                 About
-                            </a>
-                        </li>
+                            </a></li>
                         <li class="main-menu__item"><a href="services.php" class="main-menu__link">
                                 Services
-                            </a>
-                        </li>
+                            </a></li>
                         <li class="main-menu__item"><a href="clients.php" class="main-menu__link">
                                 Clients
-                            </a>
-                        </li>
-                    </ul>
+                            </a></li>
+                    </ul>-->
+
                 </div>
-                <div class="column small-12 medium-6 large-6">
+
+                <div class="column small-12 medium-6 large-5">
                     <ul class="main-menu main-menu-right clearfix">
-                        <li class="main-menu__item"><a href="jobs.php" class="main-menu__link">
-                                Jobs
-                            </a>
-                        </li>
-                        <li class="main-menu__item"><a href="journal.php" class="main-menu__link">
-                                Journal
-                            </a>
-                        </li>
-                        <li class="main-menu__item"><a href="offices.php" class="main-menu__link">
-                                Offices
-                            </a>
-                        </li>
+                        <li id="menu-item-26"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26 main-menu__item">
+                            <a href="jobs.php" class="main-menu__link ">Jobs</a></li>
+                        <li id="menu-item-25"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25 main-menu__item">
+                            <a href="journal.php" class="main-menu__link ">Journal</a></li>
+                        <li id="menu-item-24"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24 main-menu__item">
+                            <a href="offices.php" class="main-menu__link ">Offices</a></li>
                         <li class="main-menu__item">
                             <a href="#" id="show-search" class="main-menu__link main-menu__link--search">
-                               search
+                                search
                             </a>
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="toggle-topbar menu-icon"><a href="#"><span></span></a></div>
-        </nav>
 
+
+        </nav>
         <div class="header__search-form">
             <form method="get" id="searchform" action="">
                 <div class="row collapse">

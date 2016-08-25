@@ -1,0 +1,115 @@
+.search {
+  margin-top: 70px;
+  font-family: 'gotham_lightregular', sans-serif;
+  min-height: 100vh;
+  font-size: 16px;
+  &__header-title {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'gotham_boldregular', sans-serif;
+    border-bottom: 1px solid #000;
+    margin-top: 20px;
+  }
+  &-results {
+    margin-top: 40px;
+  }
+}
+
+.search-results {
+  counter-reset: result-item;
+  margin-top: 60px;
+}
+
+.search-result {
+  position: relative;
+  & + & {
+    margin-top: 30px;
+  }
+  &__text {
+
+  }
+
+  &__img {
+    padding-bottom: 65%;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  &__title {
+    position: relative;
+    counter-increment: result-item;
+    font-size: 20px;
+    font-family: 'gotham_mediumregular', sans-serif;
+    padding-left: 30px;
+    margin-bottom: 15px;
+    display: inline-block;
+    &:before {
+      content: counter(result-item) '.';
+      position: absolute;
+      left: 15px;
+      top: 0;
+      min-width: 22px;
+      padding-right: 5px;
+      font-size: 12px;
+      line-height: 25px;
+      color: #000;
+    }
+  }
+  &:after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    display: block;
+    content: '';
+  }
+}
+
+.search-form-parent {
+  margin-top: 20px;
+  input[type='submit'] {
+    outline: none;
+    color: #fff;
+    transition: all 0.3s ease;
+    font-size: 17px;
+    height: 39px;
+    font-family: 'gotham_mediumregular', sans-serif;
+    font-weight: normal;
+    background-color: #000;
+    border: 1px solid #000;
+    width: 100%;
+
+  }
+  input[type='search'] {
+    width: 90%;
+    &::-webkit-input-placeholder {
+      color: transparent;
+    }
+    &::-moz-placeholder {
+      color: transparent;
+    }
+    &:-moz-placeholder {
+      color: transparent;
+    }
+    &:-ms-input-placeholder {
+      color: transparent;
+    }
+    &:focus {
+      &::-webkit-input-placeholder {
+        color: transparent;
+      }
+      &::-moz-placeholder {
+        color: transparent;
+      }
+      &:-moz-placeholder {
+        color: transparent;
+      }
+      &:-ms-input-placeholder {
+        color: transparent;
+      }
+    }
+  }
+}
