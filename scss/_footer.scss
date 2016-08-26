@@ -145,6 +145,7 @@ footer {
   font-size: 13px;
   //font-family: 'gotham_lightregular', sans-serif;
   font-family: 'gotham_bookregular', sans-serif;
+  font-weight: normal;
   text-transform: none;
 }
 .footer-sub-menu > .footer-menu__item {
@@ -176,8 +177,8 @@ footer .column.small-12.large-4.medium-12{
   }
 }
 
-@media screen and (max-width: 640px){
-  .footer-menu > .footer-menu__item:not(:first-child){
+@media screen and (max-width: 430px){
+    .footer-menu > .footer-menu__item:not(:first-child){
     padding-left: 0;
   }
   .footer-menu > .footer-menu__item {

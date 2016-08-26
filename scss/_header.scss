@@ -10,7 +10,7 @@
     margin: 0 auto;
     padding: 0 20px;
   }
-  @include breakpoint(medium down) {
+  @include breakpoint(small down) {
     padding: 20px 0;
     position: relative;
   }
@@ -100,13 +100,13 @@
       font-weight: bold;
       color: #e3e3e3;
     }
+    @include breakpoint(medium down) {
+      font-size: 13px;
+
+    }
     @include breakpoint(small down) {
       line-height: 3;
       display: block;
-    }
-    @include breakpoint(medium down) {
-      line-height: 3;
-      font-size: 13px;
 
     }
     &--search {
@@ -125,10 +125,7 @@
         -webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
-        @include breakpoint(medium down) {
-          top: 25px;
 
-        }
         @include breakpoint(small down) {
           top: 25px;
 
@@ -267,10 +264,6 @@
   }
 }
 
-
-
-
-
 @media all and (max-width: 640px) {
   .main-menu-right .main-menu__item:last-child:before {
     //display: none;
@@ -299,6 +292,9 @@
   position: absolute;
   top: 100%;
   background-color: rgba(0, 0, 0, .7);
+  @include breakpoint(small down) {
+    position: static;
+  }
   .main-menu__item {
     display: block;
     padding: 0 0;
@@ -309,10 +305,12 @@
   .main-menu__link {
     display: block;
     padding: 10px 20px;
+    text-align: left;
     -webkit-transition: transform .6s linear;
     -moz-transition: transform .6s linear;
     -o-transition: transform .6s linear;
     transition: transform .6s linear;
+    white-space: nowrap;
     &:hover {
       -webkit-transform: translateX(5px);
       -moz-transform: translateX(5px);
@@ -325,13 +323,44 @@
       transition: transform .6s linear;
       font-weight: normal;
     }
+    @include breakpoint(small down) {
+      padding: 0 20px;
+      line-height: 2;
+      font-size: 12px;
+    }
   }
 }
 
-.menu-item-has-children:hover .sub-menu {
-  display: block;
+@media all and (max-width: 640px){
+  .menu-item-has-children {
+    &:after {
+      position: absolute;
+      display: block;
+      right: 0;
+      top: 20px;
+      -webkit-transform: translate(0, -50%);
+      -moz-transform: translate(0, -50%);
+      -ms-transform: translate(0, -50%);
+      -o-transform: translate(0, -50%);
+      transform: translate(0, -50%);
+      content: '\f0d7';
+      font-family: FontAwesome, sans-serif;
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  }
 }
 
-.sub-menu .main-menu__item:hover {
-  font-weight: normal;
+@media all and (min-width: 640px) {
+  .menu-item-has-children {
+    &:hover .sub-menu {
+      display: block;
+    }
+
+  }
+
+  .sub-menu .main-menu__item:hover {
+    font-weight: normal;
+  }
 }

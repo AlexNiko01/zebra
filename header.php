@@ -23,7 +23,7 @@
         </div>
         <nav class="top-bar">
             <div class="row navigation">
-                <div class="column small-12 medium-6 large-7">
+                <div class="column small-12 medium-6 large-6">
                     <ul id="menu-top-left-menu" class="main-menu main-menu-left clearfix">
                         <li id="menu-item-27"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27 main-menu__item">
@@ -86,7 +86,7 @@
 
                 </div>
 
-                <div class="column small-12 medium-6 large-5">
+                <div class="column small-12 medium-6 large-6">
                     <ul class="main-menu main-menu-right clearfix">
                         <li id="menu-item-26"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26 main-menu__item">
@@ -125,4 +125,10 @@
 
 
 </header>
+<div id="loader-wrapper">
+    <div id="loader"></div>
 
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+
+</div>

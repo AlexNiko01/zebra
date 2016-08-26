@@ -106,11 +106,12 @@
             display: block;
             top: 0;
             left: -15px;
-            width: 38px;
-            height: 38px;
+            width: 47.5px;
+            height: 47.5px;
             background-image: url("../img/icons/map-marker.png");
             background-repeat: no-repeat;
             background-position: 50% 50%;
+            background-size: cover;
           }
 
         }
@@ -122,11 +123,13 @@
             display: block;
             top: 0;
             left: -15px;
-            width: 38px;
-            height: 38px;
+            width: 47.5px;
+            height: 47.5px;
             background-image: url("../img/icons/phone.png");
             background-repeat: no-repeat;
             background-position: 50% 50%;
+            background-size: cover;
+
           }
 
           padding-top: 18px;
@@ -139,11 +142,12 @@
             display: block;
             top: 0;
             left: -15px;
-            width: 38px;
-            height: 38px;
+            width: 47.5px;
+            height: 47.5px;
             background-image: url("../img/icons/email.png");
             background-repeat: no-repeat;
             background-position: 50% 50%;
+            background-size: cover;
           }
 
           padding-top: 16px;

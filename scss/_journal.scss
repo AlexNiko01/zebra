@@ -87,7 +87,7 @@
 
 @media all and (max-width: 1040px) {
   .publication {
-    overflow-y: scroll;
+    //overflow-y: scroll;
     padding: 30px;
     font-size: 12px;
   }
@@ -152,8 +152,8 @@
   }
   &__close {
     position: absolute;
-    right: 0;
-    top: 0;
+    right: -2px;
+    top: -1px;
     font-size: 42px;
     background-color: #000;
     color: #fff;

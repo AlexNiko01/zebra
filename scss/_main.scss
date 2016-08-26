@@ -171,7 +171,7 @@ cite {
     height: 413px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background-position: 50% 0;
 
   }
 
@@ -431,7 +431,7 @@ cite {
 }
 
 .tiles {
-  overflow-x: hidden;
+  overflow: hidden;
   &__content-holder {
     display: none;
   }
@@ -479,7 +479,7 @@ cite {
     left: 5px;
     bottom: 5px;
     right: 5px;
-    background-color: rgba(92, 201, 236, .7);
+    background-color: rgba(92, 201, 236, .95);
     opacity: 0;
     content: '';
     -webkit-transition: all 0.3s linear;
@@ -611,7 +611,7 @@ cite {
 
   }
   &__info {
-    padding: 60px 40px;
+    padding: 60px 60px;
     background-color: #fff;
     font-family: 'gotham_lightitalic', sans-serif;
     text-align: justify;
@@ -658,8 +658,8 @@ cite {
   position: absolute;
   z-index: 9999999;
   display: block;
-  width: 20px;
-  height: 30px;
+  width: 40px;
+  height: 60px;
   top: 50%;
   margin-top: -10px;
   padding: 0;
@@ -667,6 +667,17 @@ cite {
   border: none;
   outline: none;
   background: transparent;
+
+}
+
+.slick-prev {
+  background: url("../img/prew.png") 50% 50% no-repeat;
+  background-size: cover;
+}
+
+.slick-next {
+  background: url("../img/next.png") 50% 50% no-repeat;
+  background-size: cover;
 }
 
 .works-slider .slick-prev, .works-slider .slick-next {
@@ -675,66 +686,11 @@ cite {
 }
 
 .slick-next {
-  right: 9px;
+  right: 0;
 }
 
 .slick-prev {
-  left: 9px;
-}
-
-.slick-prev:before, .slick-next:before,
-.slick-prev:after, .slick-next:after {
-  font-family: FontAwesome, sans-serif;
-  font-size: 30px;
-  line-height: 1;
-  opacity: 1;
-  color: #aeaeae;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  height: 3px;
-  width: 20px;
-  position: absolute;
-  background-color: #404040;
-  content: '';
-  display: block;
-}
-
-.slick-prev:before {
-  //content: "\f053";
-  transform: rotateZ(-45deg);
-  bottom: 62%;
-}
-
-//.slick-prev:hover:before{
-//  background-color: #232323;
-//}
-.slick-prev:after {
-  //content: "\f053";
-  transform: rotateZ(45deg);
-  top: 73%;
-}
-
-//.slick-prev:hover:after{
-//  background-color: #2e2e2e;
-//
-//}
-.slick-next:before {
-  //content: "\f054";
-  transform: rotateZ(135deg);
-  top: 73%;
-}
-
-.slick-next:after {
-  //content: "\f054";
-  transform: rotateZ(-135deg);
-  bottom: 62%;
-}
-
-.works-slider {
-  .slick-next:before,
-  .slick-next:after {
-    background-color: #fff;
-  }
+  left: 0;
 }
 
 @media all and (max-width: 1124px) {
@@ -747,12 +703,14 @@ cite {
     line-height: 1.5;
     padding: 20px 45px;
   }
-
+  .slick-prev, .slick-next {
+    width: 30px;
+    height: 45px;
+  }
 }
 
 @media all and (max-width: 640px) {
   .pp-post__info {
-    padding: 20px 30px;
     font-size: 13px;
     background-color: rgba(0, 0, 0, 0);
   }
@@ -771,6 +729,7 @@ cite {
   .slick-prev:before, .slick-next:before {
     color: #000;
   }
+
 }
 
 @media all and (max-width: 1024px) {
@@ -865,9 +824,6 @@ cite {
     &__item {
       height: auto;
     }
-  }
-  .pp-post__info {
-    padding: 60px 30px;
   }
 }
 
@@ -996,9 +952,52 @@ a {
   }
 }
 
-.column:last-child:not(:first-child), .columns:last-child:not(:first-child) {
+.column:last-child:not(:first-child),
+.columns:last-child:not(:first-child) {
   float: left;
 }
 
 
 
+
+.black-hover{
+  background-color: rgba(0, 0, 0, 0.95);
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  color: #fff;
+  -webkit-transform: translate(0, 100%);
+  -moz-transform: translate(0, 100%);
+  -ms-transform: translate(0, 100%);
+  -o-transform: translate(0, 100%);
+  transform: translate(0, 100%);
+  transition: all 0.3s linear;
+  overflow: hidden;
+  text-align: center;
+
+  &:before{
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%
+  }
+  h5{
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+
+.has-black-hover{
+  overflow: hidden;
+  padding: 6.245px;
+}
+.has-black-hover:hover {
+  .black-hover{
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+}

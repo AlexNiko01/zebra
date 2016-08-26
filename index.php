@@ -23,7 +23,8 @@
     <section class="intro clearfix small-collapse">
         <div class="column medium-6 intro-video">
             <div class="intro-video__prev">
-                <iframe id="player1" src="https://player.vimeo.com/video/172321141" width="640" height="360" frameborder="0"
+                <iframe id="player1" src="https://player.vimeo.com/video/172321141" width="640" height="360"
+                        frameborder="0"
                         webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
                 <div class="intro-video__play">
@@ -40,13 +41,14 @@
                     dolore magna aliqua. Ut enim ad minim veniam, quis
                     nostrud exercitation minum labore tempor.
                 </div>
-                <div class="intro__text-content-author"><strong>WE ARE</strong> ZEBRA</div></div>
+                <div class="intro__text-content-author"><strong>WE ARE</strong> ZEBRA</div>
+            </div>
         </div>
 
     </section>
     <section class="tiles">
-        <div class="grid wow fadeInUp">
-            <a href="single-work.php" class="col-37  tiles-item-pop-up tiles__column tiles__item"  data-id="post_1">
+        <div class="grid">
+            <a href="single-work.php" class="col-37  tiles-item-pop-up tiles__column tiles__item" data-id="post_1">
                 <div class="tiles__img red" style="background-image: url('img/1.png')">
                 </div>
 
@@ -58,18 +60,20 @@
                 </div>
             </a>
             <div class="col-26 tiles__column">
-                <div class="col-100 tiles__column height-small">
+                <div class="col-100 tiles__column height-small has-black-hover">
                     <div class="tiles__content">
                         <span class="tiles__pre">content</span>
                         <h3 class="tiles__title">strategy</h3>
                     </div>
-
+                    <div class="black-hover">
+                        <h5>Lorem ipsum</h5>
+                    </div>
                 </div>
-                <a href='journal.php' class="col-50 tiles__column tiles__item height-small"  data-id="post_2">
+                <a href='journal.php' class="col-50 tiles__column tiles__item height-small" data-id="post_2">
                     <div class="tiles__img d-blue" style="background-image: url('img/2.png')"></div>
 
                 </a>
-                <div class="col-50 tiles__column tiles__item height-small"  data-id="post_3">
+                <div class="col-50 tiles__column tiles__item height-small" data-id="post_3">
                     <div class="tiles__img l-blue" style="background-image: url('img/3.png')"></div>
 
                 </div>
@@ -79,7 +83,7 @@
 
             </div>
         </div>
-        <div class="grid wow fadeInUp">
+        <div class="grid">
             <div class="col-25 tiles__column">
                 <div class="col-100 tiles__column height-small">
                     <div class="tiles__content">
@@ -132,9 +136,9 @@
 
             </div>
         </div>
-        <div class="grid wow fadeInUp">
+        <div class="grid">
             <div class="col-37 tiles__column">
-                <div class="col-33 tiles__column tiles__item ">
+                <div class="col-33 tiles__column tiles__item">
                     <div class="tiles__img" style="background-image: url('img/12.png')"></div>
                 </div>
                 <div class="col-66 tiles__column">
@@ -145,7 +149,7 @@
                         </div>
 
                     </div>
-                    <div class="col-50 tiles__column tiles__item height-small ">
+                    <div class="col-50 tiles__column tiles__item height-small">
                         <div class="tiles__img" style="background-image: url('img/13.png')"></div>
 
                     </div>
@@ -170,7 +174,7 @@
                 </div>
             </div>
         </div>
-        <div class="grid wow fadeInUp">
+        <div class="grid">
             <div class="col-37 tiles__column">
                 <div class="col-66 tiles__column tiles__item">
                     <div class="tiles__img" style="background-image: url('img/17.png')"></div>
@@ -206,7 +210,7 @@
                 <div class="tiles__img" style="background-image: url('img/22.png')"></div>
             </div>
         </div>
-        <div class="grid wow fadeInUp">
+        <div class="grid">
             <div class="col-37 tiles__column tiles__item">
                 <div class="tiles__img" style="background-image: url('img/23.png')"></div>
             </div>
@@ -236,50 +240,50 @@
     <div class="pop-up__inner">
         <div class="works-slider">
             <?php for ($i = 0; $i < 25; $i++) : ?>
-            <div class="works-slider__item" id="post_<?php echo $i ?>">
-                <div class="row small-collapse pp-post">
-                    <div class="column large-4 medium-6 small-12 pp-post__info-parent">
-                        <div class="pp-post__info">
-                            <div class="text-center">
-                                <h4 class="pp-post__title-group">
-                                    <span class="pp-post__title">WALLS </span>//<span
-                                        class="pp-post__category"> Cornetto</span>
-                                </h4>
-                            </div>
+                <div class="works-slider__item" id="post_<?php echo $i ?>">
+                    <div class="row small-collapse pp-post">
+                        <div class="column large-4 medium-6 small-12 pp-post__info-parent">
+                            <div class="pp-post__info">
+                                <div class="text-center">
+                                    <h4 class="pp-post__title-group">
+                                        <span class="pp-post__title">WALLS </span>//<span
+                                            class="pp-post__category"> Cornetto</span>
+                                    </h4>
+                                </div>
 
-                            <div class="pp-post__content">
-                                <p>Stripey Horse have produced a new
-                                    brand TVC for the global power tools
-                                    company, Ryobi. Created and adapted
-                                    for use across Europe we produced
-                                    two language versions of the spot
-                                    simultaneously - working with separate
-                                    Finnish and American casts.</p>
-                                <p>Edited and finished by Zebra Post the
-                                    TVC has run across Europe extensively,
-                                    performing brilliantly for Ryobi we
-                                    are now back in production with ...our
-                                    loveable DIY characters for a seque...
-                                    watch this space.</p>
+                                <div class="pp-post__content">
+                                    <p>Stripey Horse have produced a new
+                                        brand TVC for the global power tools
+                                        company, Ryobi. Created and adapted
+                                        for use across Europe we produced
+                                        two language versions of the spot
+                                        simultaneously - working with separate
+                                        Finnish and American casts.</p>
+                                    <p>Edited and finished by Zebra Post the
+                                        TVC has run across Europe extensively,
+                                        performing brilliantly for Ryobi we
+                                        are now back in production with ...our
+                                        loveable DIY characters for a seque...
+                                        watch this space.</p>
+                                </div>
+                                <div class="pp-post__client">
+                                    Client:
+                                    <span class="pp-post__client-container">Walls</span>
+                                </div>
+                                <div class="pp-post__project">
+                                    Project:
+                                    <span class="pp-post__project-container">TVC</span>
+                                </div>
                             </div>
-                            <div class="pp-post__client">
-                                Client:
-                                <span class="pp-post__client-container">Walls</span>
-                            </div>
-                            <div class="pp-post__project">
-                                Project:
-                                <span class="pp-post__project-container">TVC</span>
+                        </div>
+                        <div class="column large-8 medium-6 small-12 pp-post__img-parent">
+                            <div class="pp-post__img" style="background-image: url('img/1.png')">
+                                <img class="pp-post__logo" src="img/walls-logo.png">
                             </div>
                         </div>
                     </div>
-                    <div class="column large-8 medium-6 small-12 pp-post__img-parent">
-                        <div class="pp-post__img" style="background-image: url('img/1.png')" >
-                            <img class="pp-post__logo" src="img/walls-logo.png">
-                        </div>
-                    </div>
+
                 </div>
-
-            </div>
             <?php endfor; ?>
         </div>
         <button class="pop-up__close">x</button>
