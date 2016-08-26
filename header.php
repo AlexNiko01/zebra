@@ -33,7 +33,7 @@
                             <a href="about.php" class="main-menu__link ">About</a></li>
                         <li id="menu-item-284"
                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-284 main-menu__item">
-                            <a href="/" class="main-menu__link">Services</a>
+                            <a href="#" class="main-menu__link">Services</a>
 
 
                             <ul class="sub-menu">
@@ -94,9 +94,14 @@
                         <li id="menu-item-25"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25 main-menu__item">
                             <a href="journal.php" class="main-menu__link ">Journal</a></li>
-                        <li id="menu-item-24"
-                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24 main-menu__item">
-                            <a href="offices.php" class="main-menu__link ">Offices</a></li>
+                        <li id="menu-item-364" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-364 main-menu__item"><a href="offices.php" class="main-menu__link ">Offices</a>
+                            <ul class="sub-menu">
+                                <li id="menu-item-361" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-361 main-menu__item"><a href="http://zwwk.zebra-worldwide.com/offices/london/" class="main-menu__link ">London</a></li>
+                                <li id="menu-item-359" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-359 main-menu__item"><a href="http://zwwk.zebra-worldwide.com/offices/cape-town/" class="main-menu__link ">Cape Town</a></li>
+                                <li id="menu-item-360" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-360 main-menu__item"><a href="http://zwwk.zebra-worldwide.com/offices/kiev/" class="main-menu__link ">Kiev</a></li>
+                                <li id="menu-item-362" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-362 main-menu__item"><a href="http://zwwk.zebra-worldwide.com/offices/sydney/" class="main-menu__link ">Sydney</a></li>
+                            </ul>
+                        </li>
                         <li class="main-menu__item">
                             <a href="#" id="show-search" class="main-menu__link main-menu__link--search">
                                 search

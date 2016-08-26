@@ -6727,17 +6727,19 @@ table.hover tr:nth-of-type(even):hover {
         font-size: 12px; } }
 
 @media all and (max-width: 640px) {
-  .menu-item-has-children:after {
+  .menu-item-has-children .main-menu__link .fa {
     position: absolute;
-    display: block;
-    right: 0;
-    top: 20px;
-    transform: translate(0, -50%);
-    content: '\f0d7';
-    font-family: FontAwesome, sans-serif;
-    color: #fff;
-    font-size: 16px;
-    cursor: pointer; } }
+    top: 0;
+    right: 10px;
+    height: 100%;
+    width: 32px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 10px; } }
+
+@media all and (min-width: 640px) {
+  .menu-item-has-children .main-menu__link .fa {
+    display: none; } }
 
 @media all and (min-width: 640px) {
   .menu-item-has-children:hover .sub-menu {

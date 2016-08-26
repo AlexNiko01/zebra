@@ -223,20 +223,45 @@
             body.addClass('safari')
         }
 
-        var hasChild = $('li.menu-item-has-children > a');
+//////////////////////////////////////////////////////////
+        body.on('click', 'header .menu-item-has-children > a', (function (e) {
+            var hasChildHref = $(this).attr('href');
+            if (hasChildHref === '/' || hasChildHref === '#') {
+                e.preventDefault();
+            }
+        }));
 
-        if ($(window).width() < 640){
-            var content = hasChild.html();
-            hasChild.html(content+'<i class="fa fa-caret-down" aria-hidden="true"></i>');
-            // $('.sub-menu').slideToggle();
+
+        if ($(window).width() < 640) {
+            var hasChild = $('header .menu-item-has-children > a');
+            $.each(hasChild, function () {
+                var content = $(this).html();
+                $(this).html(content + '<i class="fa fa-caret-down" aria-hidden="true"></i>');
+            });
         }
 
-        hasChild.click(function (e) {
-            e.preventDefault();
 
-        });
+        body.on('click', 'header .menu-item-has-children > a > .fa', (function (e) {
+                e.preventDefault();
+                $(this).parent().next('.sub-menu').slideToggle();
+        }));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     });
-
 
 
     //loading animation
