@@ -2,7 +2,7 @@
 (function ($) {
 
     $(document).ready(function () {
-
+        new WOW().init();
         //header menu responsive
         var body = $('body');
         body.on('click', '.menu-icon', function () {
@@ -224,11 +224,14 @@
         }
 
 //////////////////////////////////////////////////////////
-        body.on('click', 'header .menu-item-has-children > a', (function (e) {
+        body.on('click', 'header .menu-item-has-children > a, .footer-menu > .footer-menu__item > .footer-menu__link', (function (e) {
             var hasChildHref = $(this).attr('href');
             if (hasChildHref === '/' || hasChildHref === '#') {
                 e.preventDefault();
             }
+        }));
+        body.on('click', 'footer a[href=#]', (function (e) {
+            e.preventDefault();
         }));
 
 
@@ -242,22 +245,9 @@
 
 
         body.on('click', 'header .menu-item-has-children > a > .fa', (function (e) {
-                e.preventDefault();
-                $(this).parent().next('.sub-menu').slideToggle();
+            e.preventDefault();
+            $(this).parent().next('.sub-menu').slideToggle();
         }));
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

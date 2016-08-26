@@ -1,4 +1,12 @@
 <?php include('header.php'); ?>
+
+<?php
+function get_rand_class() {
+    $animate_classes = array('fadeInUp', 'fadeInLeft', 'fadeInRight', 'flipInX');
+    return $animate_classes[rand(0, count($animate_classes) -1)];
+}
+?>
+
     <main class="page-template-journal">
         <section class="slider-parent">
 
@@ -43,10 +51,10 @@
                 </div>
             </div>
             <div class="grid">
-                <div class="col-37 tiles__column tiles__item see-post-content" data-id="post_1">
+                <div class="col-37 tiles__column tiles__item wow <?php echo get_rand_class()  ?> see-post-content" data-id="post_1">
                     <a class="tiles__img" style="background-image: url('img/j1.png')"></a>
                 </div>
-                <div class="col-26 tiles__column  tiles__item">
+                <div class="col-26 tiles__column  tiles__item wow <?php echo get_rand_class()  ?>">
                     <a href='twitter' class="article">
                         <p class="article__item">Zebra Studios #inhouse
                             #photostudio #oxfordcircus
@@ -56,23 +64,23 @@
                         <p class="article__nick-name">@ZebraWorldwide</p>
                     </a>
                 </div>
-                <div class="col-37 tiles__column tiles__item" data-id="post_2">
+                <div class="col-37 tiles__column tiles__item wow <?php echo get_rand_class()  ?>" data-id="post_2">
                     <a href="instagram" class="tiles__img" style="background-image: url('img/j2.png')"></a>
                 </div>
             </div>
             <div class="grid">
-                <div class="col-26 tiles__column tiles__item">
+                <div class="col-26 tiles__column tiles__item wow <?php echo get_rand_class()  ?>">
 
                     <div class="tiles__img" style="background-image: url('img/j3.png')"></div>
 
                 </div>
-                <div class="col-37 tiles__column tiles__item see-post-content">
+                <div class="col-37 tiles__column tiles__item wow <?php echo get_rand_class()  ?> see-post-content">
 
                     <div class="tiles__img" style="background-image: url('img/j4.png')"></div>
 
 
                 </div>
-                <div class="col-37 tiles__column tiles__item">
+                <div class="col-37 tiles__column tiles__item wow <?php echo get_rand_class()  ?>">
                     <div class="article article-large">
                         <p class="article__item">One of the best opening titles to a documentary ever - thanks
                             @WallsOfFour
@@ -84,30 +92,30 @@
                 </div>
             </div>
             <div class="grid">
-                <div class="col-37 tiles__column tiles__item">
+                <div class="col-37 tiles__column tiles__item wow <?php echo get_rand_class()  ?>">
                     <div class="tiles__img" style="background-image: url('img/j5.png')"></div>
                 </div>
-                <div class="col-26 tiles__column  tiles__item">
+                <div class="col-26 tiles__column  tiles__item wow <?php echo get_rand_class()  ?>">
                     <div class="article">
                         <p class="article__item">Stripey Horse goes on the road with Wolf Alice | LBBOnline</p>
                         <p class="article__name">ZEBRA WORLDWIDE</p>
                         <p class="article__nick-name">@ZebraWorldwide</p>
                     </div>
                 </div>
-                <div class="col-37 tiles__column tiles__item">
+                <div class="col-37 tiles__column tiles__item wow <?php echo get_rand_class()  ?>">
 
                     <div class="tiles__img" style="background-image: url('img/j6.png')"></div>
 
                 </div>
             </div>
             <div class="grid">
-                <div class="col-25 tiles__column tiles__item">
+                <div class="col-25 tiles__column tiles__item wow <?php echo get_rand_class()  ?>">
                     <div class="tiles__img" style="background-image: url('img/j7.png')"></div>
                 </div>
-                <div class="col-25 tiles__column tiles__item">
+                <div class="col-25 tiles__column tiles__item wow <?php echo get_rand_class()  ?>">
                     <div class="tiles__img" style="background-image: url('img/j8.png')"></div>
                 </div>
-                <div class="col-25 tiles__column tiles__item">
+                <div class="col-25 tiles__column tiles__item wow <?php echo get_rand_class()  ?>">
                     <div class="article">
                         <p class="article__item">Dive into the world of ‘Supercars’ with Rapper & Musician Example |
                             LBBOnline”</p>
@@ -115,7 +123,7 @@
                         <p class="article__nick-name">@ZebraWorldwide</p>
                     </div>
                 </div>
-                <div class="col-25 tiles__column  tiles__item">
+                <div class="col-25 tiles__column  tiles__item wow <?php echo get_rand_class()  ?>">
                     <div class="article">
                         <p class="article__item">Spotted on Archer street #soho #TheDrums bus #AWEurope
                             #wannajumponboard</p>
@@ -125,13 +133,13 @@
                 </div>
             </div>
             <div class="grid">
-                <div class="col-37 tiles__column tiles__item ">
+                <div class="col-37 tiles__column tiles__item wow <?php echo get_rand_class()  ?> ">
                     <div class="tiles__img" style="background-image: url('img/j9.png')"></div>
                 </div>
-                <div class="col-37 tiles__column tiles__item see-post-content">
+                <div class="col-37 tiles__column tiles__item wow <?php echo get_rand_class()  ?> see-post-content">
                     <div class="tiles__img" style="background-image: url('img/j10.png')"></div>
                 </div>
-                <div class="col-26 tiles__column tiles__item">
+                <div class="col-26 tiles__column tiles__item wow <?php echo get_rand_class()  ?>">
                     <div class="tiles__img" style="background-image: url('img/j11.png')"></div>
                 </div>
             </div>
