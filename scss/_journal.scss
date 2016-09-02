@@ -1,3 +1,4 @@
+
 .articles {
   overflow: hidden;
 }
@@ -34,11 +35,13 @@
   &__name {
     font-family: 'gotham_mediumregular', sans-serif;
     margin-bottom: 0;
+    padding-top: 18px;
   }
   &:hover, &:focus {
     color: #fff;
   }
 }
+
 
 .publication {
   height: 100%;
@@ -230,3 +233,5 @@
 .slick-slide{
   position: relative!important;
 }
+
+@include animateDelay('.articles .tiles__item');

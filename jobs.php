@@ -205,10 +205,14 @@
                                 </label>
                             </div>
                         </div>
+                        <label for="subject"></label>
+                        <select id="subject" name="">
+                            <option disabled>SUBJECT*</option>
+                            <option value="lorem">lorem</option>
+                            <option value="Lorem ipsum">Lorem ipsum</option>
+                            <option value="lorem2">lorem2</option>
 
-                        <label>
-                            <input name="text" type="text" placeholder="Subject">
-                        </label>
+                        </select>
                         <label>
                             <textarea name="message" placeholder="Type Here"></textarea>
                         </label>

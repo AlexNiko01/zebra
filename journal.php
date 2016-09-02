@@ -2,7 +2,7 @@
 
 <?php
 function get_rand_class() {
-    $animate_classes = array('fadeInUp', 'fadeInLeft', 'fadeInRight', 'flipInX');
+    $animate_classes = array('fadeInUp', 'bounceOutDown', 'fadeUpBig', 'flipInX');
     return $animate_classes[rand(0, count($animate_classes) -1)];
 }
 ?>

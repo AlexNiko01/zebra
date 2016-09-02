@@ -137,6 +137,16 @@ ul {
 
 }
 
+
+@mixin animateDelay($selector, $a : 3) {
+  @for $i from 1 to 5 {
+    #{$selector}:nth-child(#{$i}) {
+      -webkit-animation-delay: #{$i/$a}s;
+      animation-delay: #{$i/$a}s;
+    }
+  }
+}
+
 blockquote, blockquote p {
   line-height: 1.3;
   color: inherit;
@@ -267,7 +277,7 @@ cite {
   &-video {
     position: relative;
     &__prev {
-      background: url(../img/video-prev.png) 50% 50% no-repeat;
+      background: url(../img/rell.jpg) 50% 50% no-repeat;
       background-size: cover;
       height: 339px;
       iframe {
@@ -277,39 +287,36 @@ cite {
         position: relative;
         z-index: 20;
       }
+
     }
     &__play {
-      font-size: 18px;
+      font-size: 40px;
       font-family: 'gotham_boldregular', sans-serif;
       position: absolute;
       z-index: 10;
       top: 50%;
       left: 50%;
+      color: #fff;
+      border: 2px solid #fff;
+      padding: 23px;
+      height: 94px;
+      width: 94px;
+      text-transform: uppercase;
+      border-radius: 50%;
+      transition: all .01s linear;
       -webkit-transform: translate(-50%, -50%);
       -moz-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
       -o-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
-      color: #000;
-      border: 2px solid #000;
-      background-color: #fff;
-      padding: 25px 36px 25px 53px;
-      text-transform: uppercase;
-      &:before {
-        color: #000;
-        content: '\f04b';
-        font-family: FontAwesome, sans-serif;
-        position: absolute;
-        left: 29px;
-        top: 50%;
-        -webkit-transform: translate(0, -50%);
-        -moz-transform: translate(0, -50%);
-        -ms-transform: translate(0, -50%);
-        -o-transform: translate(0, -50%);
-        transform: translate(0, -50%);
-      }
+      -webkit-transition: all .01s linear;
+      -moz-transition: all .01s linear;
+      -o-transition: all .01s linear;
+      transition: all .01s linear;
+      cursor: pointer;
       &:hover {
-        top: 51%;
+        background-color: #fff;
+        color: rgba(0, 0, 0, .2)
       }
     }
     &__close {
@@ -482,6 +489,7 @@ cite {
     background-color: rgba(92, 201, 236, .95);
     opacity: 0;
     content: '';
+    z-index: 9;
     -webkit-transition: all 0.3s linear;
     -moz-transition: all 0.3s linear;
     -ms-transition: all 0.3s linear;
@@ -957,10 +965,7 @@ a {
   float: left;
 }
 
-
-
-
-.black-hover{
+.black-hover {
   background-color: rgba(0, 0, 0, 0.95);
   height: 100%;
   width: 100%;
@@ -975,24 +980,25 @@ a {
   overflow: hidden;
   text-align: center;
 
-  &:before{
+  &:before {
     content: '';
     display: inline-block;
     vertical-align: middle;
     height: 100%
   }
-  h5{
+  h5 {
     display: inline-block;
     vertical-align: middle;
   }
 }
 
-.has-black-hover{
+.has-black-hover {
   overflow: hidden;
   padding: 6.245px;
 }
+
 .has-black-hover:hover {
-  .black-hover{
+  .black-hover {
     opacity: 1;
     -webkit-transform: translate(0, 0);
     -moz-transform: translate(0, 0);
@@ -1001,3 +1007,5 @@ a {
     transform: translate(0, 0);
   }
 }
+
+@include animateDelay('.tiles .tiles__item', 4);

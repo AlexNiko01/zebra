@@ -94,11 +94,14 @@
     font-size: 15px;
     line-height: 1;
     color: #fff;
-    font-family: 'gotham_mediumregular', sans-serif;
+    font-family: 'gotham_bookregular', sans-serif;
     font-weight: normal;
     &:hover, &:focus {
-      font-weight: bold;
+
       color: #e3e3e3;
+      //font-family: 'gotham_mediumregular', sans-serif;
+      text-shadow: 0px 0px 2px #fff;
+
     }
     @include breakpoint(medium down) {
       font-size: 13px;
@@ -133,6 +136,7 @@
       }
       &:hover, &:focus {
         color: transparent;
+        text-shadow: none;
         &:before {
           display: none;
         }
@@ -147,12 +151,12 @@
 
 .current-menu-item {
   color: #fff;
-  font-weight: bold;
   &:before {
     width: 100%;
   }
   a {
-    font-weight: bold;
+    //font-family: 'gotham_mediumregular', sans-serif;
+    text-shadow: 0px 0px 2px #fff;
   }
 }
 
@@ -287,6 +291,7 @@
   }
 }
 
+
 .menu-item-has-children .sub-menu {
   display: none;
   position: absolute;
@@ -297,20 +302,44 @@
   }
   .main-menu__item {
     display: block;
-    padding: 0 0;
+    padding: 10px 20px;
+    text-align: left;
+    @include breakpoint(small down){
+      padding: 0 0;
+
+    }
     &:not(:last-child) {
       margin-right: 0;
     }
+
   }
+
+
   .main-menu__link {
-    display: block;
-    padding: 10px 20px;
+    font-family: 'gotham_lightregular', sans-serif;
+    display: inline-block;
+    @include breakpoint(small down){
+      padding: 10px 20px;
+      display: block;
+
+    }
     text-align: left;
     -webkit-transition: transform .6s linear;
     -moz-transition: transform .6s linear;
     -o-transition: transform .6s linear;
     transition: transform .6s linear;
     white-space: nowrap;
+    text-shadow: none;
+    position: relative;
+    :before {
+      position: absolute;
+      width: 71%;
+      height: 1px;
+      background-color: #fff;
+      content: '';
+      top: 95%;
+      display: none;
+    }
     &:hover {
       -webkit-transform: translateX(5px);
       -moz-transform: translateX(5px);
@@ -328,9 +357,27 @@
       line-height: 2;
       font-size: 12px;
     }
+
+  }
+  .current-menu-item .main-menu__link:before{
+    display: block;
   }
 }
-
+.sub-menu .current-menu-item .main-menu__link:after{
+  display: block;
+  height: 1px;
+  width: 100%;
+  background-color: #fff;
+  top: 0;
+  left: 0;
+  content: '';
+  @include breakpoint(small down){
+    width: 68px;
+  }
+}
+.sub-menu .current-menu-item:before{
+  display: none;
+}
 @media all and (max-width: 640px){
   .menu-item-has-children {
     .main-menu__link .fa{

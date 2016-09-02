@@ -107,7 +107,7 @@
 
   &__title {
     text-transform: uppercase;
-    font-family: 'gotham_mediumregular',sans-serif;
+    font-family: 'gotham_mediumregular', sans-serif;
   }
   &__tel, &__email {
     display: block;
@@ -116,24 +116,44 @@
     margin-top: 20px;
   }
 
-  @include breakpoint(medium down){
+  @include breakpoint(medium down) {
     float: left;
     width: 46%;
     margin-right: 2%;
   }
 
-  @include breakpoint(small down){
+  @include breakpoint(small down) {
     width: 100%;
     margin: 0;
   }
 }
 
+.select-replacement-value {
+  position: relative;
+  cursor: pointer;
+  &:after {
+    position: absolute;
+    display: block;
+    content: '';
+    border: 6px solid transparent;
+    border-top: 10px solid #000;
+    right: 30px;
+    top: 24px;
+    @include breakpoint(medium down){
+      top: 18px;
+    }
+  }
+}
+
+
+
+.select-replacement-value,
 [type='text'], [type='password'],
 [type='date'], [type='datetime'],
 [type='datetime-local'], [type='month'],
 [type='week'], [type='email'], [type='number'],
 [type='tel'], [type='time'],
-[type='url'], [type='color'], textarea,
+[type='url'], [type='color'], textarea, select,
 .main-contact-form__attachment-input {
   display: block;
   box-sizing: border-box;
@@ -143,7 +163,7 @@
   margin: 0 0 1.14286rem;
   font-family: inherit;
   font-size: 1.14286rem;
-  color: #2a2a2a;
+  color: #606162;
   background-color: #fff;
   box-shadow: none;
   border-radius: 0;
@@ -151,14 +171,85 @@
   -moz-appearance: none;
   height: 61px;
   line-height: 61px;
+  text-transform: uppercase;
   @include breakpoint(medium down) {
     height: 45px;
-    line-height: 45px;;
+    line-height: 45px;
 
   }
 }
 
+.select-replacement-value {
+  margin: 0 0 0;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 20px;
+  font-family: inherit;
+  font-size: 1.14286rem;
+  color: #606162;
+  background-color: #fff;
+}
+
+
+.select-replacement {
+  position: relative;
+  margin: 0 0 1.14286rem;
+
+  & ul {
+    position: absolute;
+    width: 100%;
+    display: none;
+    left: 0;
+    z-index: 999;
+
+    & li {
+      display: block;
+      box-sizing: border-box;
+      width: 100%;
+      padding: 0 20px;
+      margin: 0 0 0;
+      font-family: inherit;
+      font-size: 1.14286rem;
+      color: #606162;
+      background-color: #fff;
+      height: 41px;
+      line-height: 41px;
+      border-left: 1px solid #606162;
+      border-right: 1px solid #606162;
+      &:not(:first-child) {
+        border-top: 1px solid #606162;
+      }
+
+    }
+  }
+}
+
+.select-replacement.add-border {
+
+
+  ul {
+
+  }
+  li {
+    cursor: pointer;
+    &:last-child {
+      border-bottom: 1px solid #606162;
+    }
+  }
+}
+
 .main-contact-form {
+  font-size: 14px;
+  select, option {
+    outline: none;
+    &:focus {
+      outline: none;
+      option {
+        outline: none;
+      }
+    }
+  }
   [type='submit'],
   &__file {
     background-color: #000;
@@ -170,9 +261,10 @@
     height: 61px;
     line-height: 61px;
     text-align: center;
+    font-family: 'gotham_mediumregular', sans-serif;
     &:hover, &:focus {
       background-color: #fff;
-      color: #2a2a2a;
+      color: #606162;
       border: 1px solid #2a2a2a;
 
     }
@@ -181,7 +273,6 @@
       line-height: 45px;
     }
   }
-
 
   @include breakpoint(medium down) {
     margin-top: 25px;
@@ -208,16 +299,16 @@ textarea {
 [type='email'],
 textarea {
   &::-webkit-input-placeholder {
-    color: #2a2a2a;
+    color: #606162;
   }
   &::-moz-placeholder {
-    color: #2a2a2a;
+    color: #606162;
   }
   &:-moz-placeholder {
-    color: #2a2a2a;
+    color: #606162;
   }
   &:-ms-input-placeholder {
-    color: #2a2a2a;
+    color: #606162;
   }
   &:focus {
     &::-webkit-input-placeholder {
@@ -250,3 +341,34 @@ textarea {
   }
 }
 
+div.wpcf7-mail-sent-ok {
+  position: absolute;
+  border: none;
+  margin: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  background: #fff;
+  @include flexbox;
+  @include align-items(center);
+  @include justify-content(center);
+  @include flex-direction(column);
+}
+
+#subject, label[for='subject'] {
+  display: none;
+}
+.main-contact-form select{
+  display: none;
+}
+div.wpcf7-mail-sent-ok {
+  font-size: 30px;
+  font-family: 'gotham_lightregular', sans-serif;
+  h4 {
+    display: block;
+    font-size: 80px;
+    font-family: 'gotham_boldregular', sans-serif;
+  }
+}
