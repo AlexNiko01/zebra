@@ -123,8 +123,8 @@ footer {
   text-transform: uppercase;
   display: block;
   padding-bottom: 4px;
-  font-family: 'gotham_mediumregular', sans-serif;
-  font-weight: normal;
+  font-family: 'open_sansregular', sans-serif;
+  font-weight: bold;
 }
 
 .footer-menu > .footer-menu__item > .footer-menu__link:hover,
@@ -141,10 +141,11 @@ footer {
     padding-left:35px;
   }
 }
+
 .footer-menu .footer-sub-menu .footer-menu__link {
   font-size: 13px;
   //font-family: 'gotham_lightregular', sans-serif;
-  font-family: 'gotham_bookregular', sans-serif;
+  font-family: 'gotham_lightregular', sans-serif;
   font-weight: normal;
   text-transform: none;
 }

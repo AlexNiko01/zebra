@@ -3,21 +3,52 @@
   font-family: 'gotham_lightregular', sans-serif;
   min-height: 100vh;
   font-size: 16px;
+  padding-top: 72px;
   &__header-title {
     text-transform: uppercase;
-    font-size: 30px;
-    font-family: 'gotham_boldregular', sans-serif;
-    border-bottom: 1px solid #000;
+    font-size: 35px;
+    font-family: 'gotham_mediumgular', sans-serif;
+    line-height: 1;
     margin-top: 20px;
   }
+
   &-results {
     margin-top: 40px;
   }
+  .row {
+    max-width: 79.85714rem;
+  }
+  &__result-title{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: 'gotham_bookregular', sans-serif;
+    line-height: 1;
+    margin-bottom: 35px;
+  }
+  &__content{
+    border-top: 1px solid #000;
+    padding-top: 20px;
+  }
+  .search-form-parent input[type='search'] {
+    width: 97%;
+  }
+  .search-form-parent input[type='submit'],
+  .search-form-parent input[type='search']{
+    font-size: 17px;
+    height: 54px;
+  }
+  .search-form-parent input[type='submit']{
+    text-transform: uppercase;
+    font-family: 'gotham_boldregular', sans-serif;
+  }
+
+
 }
 
+
 .search-results {
-  counter-reset: result-item;
   margin-top: 60px;
+  overflow: hidden;
 }
 
 .search-result {
