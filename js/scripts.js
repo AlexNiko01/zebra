@@ -275,7 +275,10 @@
 
         //loading animation
 
-        $('body').addClass('loaded');
+
+        $('#loader').fadeOut(600,function () {
+            body.addClass('loaded');
+        });
 
 
         $(window).resize(function () {

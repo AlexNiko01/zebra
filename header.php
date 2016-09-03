@@ -132,7 +132,7 @@
 </header>
 <div id="loader-wrapper">
     <div id="loader"></div>
-
+<!--    <div class="mk-spinner-ring"></div>-->
     <div class="loader-section section-left"></div>
     <div class="loader-section section-right"></div>
 

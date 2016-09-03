@@ -6,54 +6,58 @@
   height: 100%;
   z-index: 99999999999;
 }
+
+
 #loader {
   display: block;
-  position: relative;
+  position: absolute;
   left: 50%;
-  top: 50%;
-  width: 150px;
-  height: 150px;
-  margin: -75px 0 0 -75px;
+  top: 45%;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
-  border: 3px solid transparent;
-  border-top-color: #303030;
-
-  -webkit-animation: spin 2s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
-  animation: spin 2s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
-
+  border: 5px solid #24c1e0;
+  border-top-color: #fff;
+  border-left-color: #fff;
+  border-right-color: #fff;
+  animation: spin 2s linear infinite;
   z-index: 1001;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
 }
-
-
-#loader:before {
-  content: "";
-  position: absolute;
-  top: 5px;
-  left: 5px;
-  right: 5px;
-  bottom: 5px;
-  border-radius: 50%;
-  border: 3px solid transparent;
-  border-top-color: #ffffff;
-
-  -webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
-  animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
-}
-
-#loader:after {
-  content: "";
-  position: absolute;
-  top: 15px;
-  left: 15px;
-  right: 15px;
-  bottom: 15px;
-  border-radius: 50%;
-  border: 3px solid transparent;
-  border-top-color: #6f6f6f;
-
-  -webkit-animation: spin 1.5s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
-  animation: spin 1.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
-}
+//
+//#loader:before {
+//  content: "";
+//  position: absolute;
+//  top: 5px;
+//  left: 5px;
+//  right: 5px;
+//  bottom: 5px;
+//  border-radius: 50%;
+//  border: 3px solid transparent;
+//  border-top-color: #ffffff;
+//  -webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+//  animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+//}
+//
+//#loader:after {
+//  content: "";
+//  position: absolute;
+//  top: 15px;
+//  left: 15px;
+//  right: 15px;
+//  bottom: 15px;
+//  border-radius: 50%;
+//  border: 3px solid transparent;
+//  border-top-color: #6f6f6f;
+//
+//  -webkit-animation: spin 1.5s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+//  animation: spin 1.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+//}
 
 @-webkit-keyframes spin {
   0%   {
@@ -223,4 +227,25 @@
 
 .invisible {
   visibility: hidden;
+}
+@-moz-keyframes rotate {
+  0% {
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
 }
